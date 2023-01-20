@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Long/Lat Input Form</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+
+</head>
+<body>
+
+  <img src="grid.png" alt="grid" id="grid_img"><br><br>
+
+  <form class="long_lat" action="formphp.php" method="post">
+    <label for="long">End 1: Longitude:</label><br>
+    <input type="text" id="long" name="long"><br>
+    <label for="lat">End 1: Latitude:</label><br>
+    <input type="text" id="lat" name="lat"><br>
+    <label for="lat">End 2: Longitude:</label><br>
+    <input type="text" id="lat" name="lat"><br>
+    <label for="lat">End 2: Latitude:</label><br>
+    <input type="text" id="lat" name="lat"><br>
+     <label for="lat">End 3: Longitude:</label><br>
+    <input type="text" id="lat" name="lat"><br>
+    <label for="lat">End 3: Latitude:</label><br>
+    <input type="text" id="lat" name="lat"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <a href = "index.html" class="button">
+    <button type="button" id="back">Back</button><br>
+  </a>
+</body>
+</html>
