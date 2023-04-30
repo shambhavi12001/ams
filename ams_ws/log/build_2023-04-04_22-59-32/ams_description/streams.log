@@ -1,0 +1,71 @@
+[0.114s] Invoking command in '/home/pi/ams_ws/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/ams_description
+[1.182s] -- The C compiler identification is GNU 11.3.0
+[1.918s] -- The CXX compiler identification is GNU 11.3.0
+[1.963s] -- Detecting C compiler ABI info
+[2.307s] -- Detecting C compiler ABI info - done
+[2.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.335s] -- Detecting C compile features
+[2.337s] -- Detecting C compile features - done
+[2.353s] -- Detecting CXX compiler ABI info
+[2.697s] -- Detecting CXX compiler ABI info - done
+[2.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.727s] -- Detecting CXX compile features
+[2.728s] -- Detecting CXX compile features - done
+[2.762s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.628s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.354s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.856s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.862s] -- Added test 'lint_cmake' to check CMake code style
+[4.866s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.886s] -- Added test 'xmllint' to check XML markup files
+[4.893s] -- Configuring done
+[4.912s] -- Generating done
+[4.916s] -- Build files have been written to: /home/pi/ams_ws/build/ams_description
+[4.931s] Invoked command in '/home/pi/ams_ws/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/ams_description
+[4.939s] Invoking command in '/home/pi/ams_ws/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_description -- -j4 -l4
+[5.079s] Invoked command in '/home/pi/ams_ws/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_description -- -j4 -l4
+[5.223s] Invoking command in '/home/pi/ams_ws/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_description
+[5.250s] -- Install configuration: ""
+[5.250s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src
+[5.251s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description
+[5.251s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description/ams_description.urdf
+[5.254s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/launch
+[5.255s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/launch/display.launch.py
+[5.256s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz
+[5.257s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz/urdf_config.rviz
+[5.258s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes
+[5.259s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_6.STL
+[5.261s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_5.STL
+[5.263s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_2.STL
+[5.265s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_3.STL
+[5.266s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_4.STL
+[5.268s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_3.STL
+[5.269s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_4.STL
+[5.271s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_4.STL
+[5.273s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_6.STL
+[5.274s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_5.STL
+[5.275s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_2.STL
+[5.276s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_1.STL
+[5.277s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_1.STL
+[5.279s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_6.STL
+[5.280s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_5.STL
+[5.282s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_1.STL
+[5.284s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/base_link_ams_body.STL
+[5.285s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_3.STL
+[5.287s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_2.STL
+[5.289s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/package_run_dependencies/ams_description
+[5.291s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/parent_prefix_path/ams_description
+[5.292s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.sh
+[5.293s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.dsv
+[5.294s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.sh
+[5.295s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.dsv
+[5.296s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.bash
+[5.297s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.sh
+[5.298s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.zsh
+[5.300s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.dsv
+[5.301s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.dsv
+[5.302s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/packages/ams_description
+[5.303s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig.cmake
+[5.304s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig-version.cmake
+[5.305s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.xml
+[5.315s] Invoked command in '/home/pi/ams_ws/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_description

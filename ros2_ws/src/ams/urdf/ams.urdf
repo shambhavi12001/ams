@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ams">
+  <link
+    name="Center">
+    <inertial>
+      <origin
+        xyz="-0.00366963087156158 0.000701995667722999 0.0763001812799514"
+        rpy="0 0 0" />
+      <mass
+        value="7.03949041087589" />
+      <inertia
+        ixx="0.056282384843147"
+        ixy="6.52350823961155E-05"
+        ixz="0.00127272178126108"
+        iyy="0.0543806208699608"
+        iyz="-4.75517511617764E-05"
+        izz="0.0764997084464421" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Center.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.909803921568627 0.450980392156863 0.0274509803921569 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Center.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Leg_1">
+    <inertial>
+      <origin
+        xyz="0.067287120431619 -0.0133985270707381 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601159" />
+      <inertia
+        ixx="0.000291282704912581"
+        ixy="0.000425005813630094"
+        ixz="0.000247496052485109"
+        iyy="0.00218749637915196"
+        iyz="-5.29346806801476E-05"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro1"
+    type="continuous">
+    <origin
+      xyz="0.153626283849091 -0.0759724321484437 -0.0770000000000001"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_1" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_1">
+    <inertial>
+      <origin
+        xyz="0.0803995159634851 -0.0186499322491301 -0.00760570443460268"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000142513309886189"
+        ixy="0.000195295614976378"
+        ixz="8.23780046372971E-05"
+        iyy="0.0010138477805236"
+        iyz="-1.76190825136711E-05"
+        izz="0.00100699658348211" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_1"
+    type="continuous">
+    <origin
+      xyz="0.12775 -0.027323 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_1" />
+    <child
+      link="LegUP_1" />
+    <axis
+      xyz="0.20915 0.97788 0" />
+  </joint>
+  <link
+    name="LegLO_1">
+    <inertial>
+      <origin
+        xyz="0.0147721681537606 -0.00389828224764294 -0.144272946358854"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186737863924" />
+      <inertia
+        ixx="0.000330243897527898"
+        ixy="1.95843139770645E-06"
+        ixz="2.66721873451381E-05"
+        iyy="0.000338955750034985"
+        iyz="-5.75628207771381E-06"
+        izz="7.07050851423158E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_1"
+    type="continuous">
+    <origin
+      xyz="0.167486098438044 -0.0358220789792799 -0.0157856101435428"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_1" />
+    <child
+      link="LegLO_1" />
+    <axis
+      xyz="0.209150599536805 0.977883442294323 0" />
+  </joint>
+  <link
+    name="Leg_2">
+    <inertial>
+      <origin
+        xyz="0.0686064774577679 -0.000477864500943725 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.000201308641237545"
+        ixy="4.38698030276972E-05"
+        ixz="0.000253037179712463"
+        iyy="0.002277470442827"
+        iyz="-5.34435193296478E-06"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro_2"
+    type="continuous">
+    <origin
+      xyz="0.15363 0.072028 -0.077"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_2">
+    <inertial>
+      <origin
+        xyz="0.21275451372113 -0.005915719202855 0.0144073833733606"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075524" />
+      <inertia
+        ixx="0.000108461552314353"
+        ixy="2.00047133165872E-05"
+        ixz="0.000116829066406804"
+        iyy="0.00105519526829262"
+        iyz="-2.46752531618936E-06"
+        izz="0.000999700853284934" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_2"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_2" />
+    <child
+      link="LegUP_2" />
+    <axis
+      xyz="0.0211161075603594 0.999777030142971 0" />
+  </joint>
+  <link
+    name="LegLO_2">
+    <inertial>
+      <origin
+        xyz="0.0156756296182849 -0.00105370099502744 -0.14422642284404"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186738603961" />
+      <inertia
+        ixx="0.000329662081038078"
+        ixy="2.10614001070871E-07"
+        ixz="2.80572674187766E-05"
+        iyy="0.000339371190847684"
+        iyz="-6.43056735552045E-07"
+        izz="7.08714603950469E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_2"
+    type="continuous">
+    <origin
+      xyz="0.301161998289226 -0.00636078741282808 0.00301506515196831"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_2" />
+    <child
+      link="LegLO_2" />
+    <axis
+      xyz="0.0211161075603594 0.999777030142971 0" />
+  </joint>
+  <link
+    name="Leg_3">
+    <inertial>
+      <origin
+        xyz="-0.0361239385133426 0.0583278507226928 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.00172845059203097"
+        ixy="0.000916709226301699"
+        ixz="-0.000130201815515214"
+        iyy="0.00075032849203358"
+        iyz="0.00021703424534152"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro_3"
+    type="continuous">
+    <origin
+      xyz="-0.013053 0.17041 -0.077"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_3" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_3">
+    <inertial>
+      <origin
+        xyz="-0.0404187843117325 0.0701382098321081 -0.0177961309366721"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000812105201325557"
+        ixy="0.000405912693625945"
+        ixz="-9.9456016774767E-05"
+        iyy="0.000378999299351864"
+        iyz="0.000165783875286001"
+        izz="0.000972253173214485" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_3"
+    type="continuous">
+    <origin
+      xyz="-0.067206615952311 0.112027141230322 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_3" />
+    <child
+      link="LegUP_3" />
+    <axis
+      xyz="-0.857525575859785 -0.514441334601278 0" />
+  </joint>
+  <link
+    name="LegLO_3">
+    <inertial>
+      <origin
+        xyz="-0.00361505562157596 0.00743031335332914 -0.144844119636871"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186739476512" />
+      <inertia
+        ixx="0.000337389471968355"
+        ixy="3.31382033029527E-06"
+        ixz="-7.45691072929482E-06"
+        iyy="0.000333847205922021"
+        iyz="1.25284608960353E-05"
+        izz="6.86680347121754E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_3"
+    type="continuous">
+    <origin
+      xyz="-0.0864196317048255 0.144053441002575 -0.0369358009432565"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_3" />
+    <child
+      link="LegLO_3" />
+    <axis
+      xyz="-0.857525575859785 -0.514441334601278 0" />
+  </joint>
+  <link
+    name="Leg_4">
+    <inertial>
+      <origin
+        xyz="-0.0464688320943032 0.0504749913069427 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601159" />
+      <inertia
+        ixx="0.00135438672831599"
+        ixy="0.00103262392155098"
+        ixz="-0.000168770001105544"
+        iyy="0.00112439235574856"
+        iyz="0.000188608226600155"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro_4"
+    type="continuous">
+    <origin
+      xyz="-0.14122 0.096409 -0.077"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_4" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_4">
+    <inertial>
+      <origin
+        xyz="-0.0532808536404538 0.0616760630152958 -0.0150652834783904"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075524" />
+      <inertia
+        ixx="0.000641116402266698"
+        ixy="0.00046322432928651"
+        ixz="-0.000109879178070011"
+        iyy="0.000537943323715311"
+        iyz="0.000122795027435634"
+        izz="0.0009842979479099" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_4"
+    type="continuous">
+    <origin
+      xyz="-0.0871144584558125 0.0973544078506491 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_4" />
+    <child
+      link="LegUP_4" />
+    <axis
+      xyz="-0.745211327699396 -0.666828371523366 0" />
+  </joint>
+  <link
+    name="LegLO_4">
+    <inertial>
+      <origin
+        xyz="-0.00819425538455662 0.0102408805801315 -0.144485554032667"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186738346379" />
+      <inertia
+        ixx="0.000335470856452941"
+        ixy="4.36845365228266E-06"
+        ixz="-1.5558816980611E-05"
+        iyy="0.000334488734617102"
+        iyz="1.74634880343201E-05"
+        izz="6.99451354538179E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_4"
+    type="continuous">
+    <origin
+      xyz="-0.11278336185759 0.126040586186052 -0.0312679376034983"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_4" />
+    <child
+      link="LegLO_4" />
+    <axis
+      xyz="-0.745211327699395 -0.666828371523366 0" />
+  </joint>
+  <link
+    name="Leg_5">
+    <inertial>
+      <origin
+        xyz="-0.0407373301449174 -0.055204592529141 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.79222092160116" />
+      <inertia
+        ixx="0.00151755037740707"
+        ixy="-0.00100108094871298"
+        ixz="-0.000153145913503285"
+        iyy="0.000961228706657481"
+        iyz="-0.000201501130497239"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro_5"
+    type="continuous">
+    <origin
+      xyz="-0.14069 -0.095137 -0.077"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_5" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_5">
+    <inertial>
+      <origin
+        xyz="-0.0491028265179714 -0.0622570523069683 0.0241396094831706"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075524" />
+      <inertia
+        ixx="0.000731793000805285"
+        ixy="-0.000426071179048695"
+        ixz="0.000155425516821448"
+        iyy="0.000495016314073455"
+        iyz="0.000204500509554685"
+        izz="0.000936548359013169" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_5"
+    type="continuous">
+    <origin
+      xyz="-0.0790497317779605 -0.104009372201896 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_5" />
+    <child
+      link="LegUP_5" />
+    <axis
+      xyz="0.796152573498897 -0.605095926040726 0" />
+  </joint>
+  <link
+    name="LegLO_5">
+    <inertial>
+      <origin
+        xyz="0.0118631867106019 0.0168028962908218 -0.143614150654697"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186741993168" />
+      <inertia
+        ixx="0.000334935822562394"
+        ixy="-5.84902447163582E-06"
+        ixz="2.26798099149587E-05"
+        iyy="0.000331670397822399"
+        iyz="2.99238817265597E-05"
+        izz="7.32985251431596E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_5"
+    type="continuous">
+    <origin
+      xyz="-0.0995632402222071 -0.13099993987311 0.0501016661369348"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_5" />
+    <child
+      link="LegLO_5" />
+    <axis
+      xyz="0.796152573498897 -0.605095926040726 0" />
+  </joint>
+  <link
+    name="Leg_6">
+    <inertial>
+      <origin
+        xyz="-0.0296038180746527 -0.0618925767685217 0.0542683606357068"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.00186834882140934"
+        ixy="-0.000827010726108166"
+        ixz="-0.000112427952082734"
+        iyy="0.0006104302626552"
+        iyz="-0.000226751696807109"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/Leg_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ro_6"
+    type="continuous">
+    <origin
+      xyz="-0.0125228738735831 -0.169137332475949 -0.0770000000000001"
+      rpy="0 0 0" />
+    <parent
+      link="Center" />
+    <child
+      link="Leg_6" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LegUP_6">
+    <inertial>
+      <origin
+        xyz="-0.0331534494401462 -0.0636651195414986 -0.0414409245069764"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000911147465429208"
+        ixy="-0.00029137673779453"
+        ixz="-0.000177319724505567"
+        iyy="0.000467951029772533"
+        iyz="-0.000357629465485757"
+        izz="0.000784259178690163" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegUP_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Up_6"
+    type="continuous">
+    <origin
+      xyz="-0.0580322337905208 -0.11704302388986 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="Leg_6" />
+    <child
+      link="LegUP_6" />
+    <axis
+      xyz="0.895920268599663 -0.444214894293637 0" />
+  </joint>
+  <link
+    name="LegLO_6">
+    <inertial>
+      <origin
+        xyz="0.0220560756898651 0.0461104369072307 -0.135777215874789"
+        rpy="0 0 0" />
+      <mass
+        value="0.24718674137234" />
+      <inertia
+        ixx="0.00033152588581869"
+        ixy="-1.58498304699179E-05"
+        ixz="3.88812561529985E-05"
+        iyy="0.00030737261284685"
+        iyz="7.85250310643979E-05"
+        izz="0.000101006327201176" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams/meshes/LegLO_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lo_6"
+    type="continuous">
+    <origin
+      xyz="-0.0661659502790324 -0.133447609946544 -0.0860104785664386"
+      rpy="0 0 0" />
+    <parent
+      link="LegUP_6" />
+    <child
+      link="LegLO_6" />
+    <axis
+      xyz="0.895920268599663 -0.444214894293637 0" />
+  </joint>
+</robot>

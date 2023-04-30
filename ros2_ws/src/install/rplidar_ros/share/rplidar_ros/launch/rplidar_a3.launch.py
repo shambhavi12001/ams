@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/src/rplidar_ros/launch/rplidar_a3.launch.py

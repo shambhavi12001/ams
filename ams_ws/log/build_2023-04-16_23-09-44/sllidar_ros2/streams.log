@@ -1,0 +1,42 @@
+[0.363s] Invoking command in '/home/pi/ams_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/sllidar_ros2 -- -j4 -l4
+[0.768s] [ 14%] Built target sllidar_client
+[0.803s] [100%] Built target sllidar_node
+[0.912s] Invoked command in '/home/pi/ams_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/sllidar_ros2 -- -j4 -l4
+[1.308s] Invoking command in '/home/pi/ams_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/sllidar_ros2
+[1.356s] -- Install configuration: ""
+[1.358s] -- Execute custom install script
+[1.361s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.363s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[1.364s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.365s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.367s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.368s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.369s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.371s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.372s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[1.373s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.375s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.377s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.378s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.381s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.386s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.390s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.393s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.397s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.400s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.404s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.408s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.411s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.414s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.416s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.419s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.421s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.423s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.426s] -- Symlinking: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.474s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.477s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.480s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.483s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.487s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.490s] -- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.500s] Invoked command in '/home/pi/ams_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/sllidar_ros2

@@ -1,0 +1,386 @@
+[3.022s] DEBUG:colcon:Command line arguments: ['/home/pi/.local/bin/colcon', 'build']
+[3.023s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffabaa7550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffabaa6fe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffabaa6fe0>>)
+[3.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ams_ws'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extensions ['ignore', 'ignore_ament_install']
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extension 'ignore'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extension 'ignore_ament_install'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extensions ['colcon_pkg']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extension 'colcon_pkg'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extensions ['colcon_meta']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extension 'colcon_meta'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extensions ['ros']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_description) by extension 'ros'
+[3.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ams_description' with type 'ros.ament_cmake' and name 'ros2_control_ams'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extensions ['ignore', 'ignore_ament_install']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extension 'ignore'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extension 'ignore_ament_install'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extensions ['colcon_pkg']
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extension 'colcon_pkg'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extensions ['colcon_meta']
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extension 'colcon_meta'
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extensions ['ros']
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ams_hardware) by extension 'ros'
+[3.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ams_hardware' with type 'ros.ament_cmake' and name 'ams_hardware'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[3.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extension 'ignore'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extension 'ignore_ament_install'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extensions ['colcon_pkg']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extension 'colcon_pkg'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extensions ['colcon_meta']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extension 'colcon_meta'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extensions ['ros']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_navsat_driver) by extension 'ros'
+[3.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nmea_navsat_driver' with type 'ros.ament_python' and name 'nmea_navsat_driver'
+[3.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[3.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.520s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/ams_ws/install
+[3.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[3.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_args' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_target' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'ams_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.035s] DEBUG:colcon.colcon_core.verb:Building package 'ams_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ams_ws/build/ams_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ams_ws/install/ams_hardware', 'merge_install': False, 'path': '/home/pi/ams_ws/src/ams_hardware', 'symlink_install': False, 'test_result_base': None}
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[4.064s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[4.065s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.065s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ams_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ams_ws/install/bno055', 'merge_install': False, 'path': '/home/pi/ams_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[4.099s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_args' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_first' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_force_configure' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'ament_cmake_args' from command line to 'None'
+[4.101s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.101s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.101s] DEBUG:colcon.colcon_core.verb:Building package 'nmea_navsat_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ams_ws/build/nmea_navsat_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ams_ws/install/nmea_navsat_driver', 'merge_install': False, 'path': '/home/pi/ams_ws/src/nmea_navsat_driver', 'symlink_install': False, 'test_result_base': None}
+[4.134s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_args' from command line to 'None'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_target' from command line to 'None'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_clean_cache' from command line to 'False'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_clean_first' from command line to 'False'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'cmake_force_configure' from command line to 'False'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'ament_cmake_args' from command line to 'None'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'catkin_cmake_args' from command line to 'None'
+[4.135s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_ams' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.136s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_ams' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ams_ws/build/ros2_control_ams', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ams_ws/install/ros2_control_ams', 'merge_install': False, 'path': '/home/pi/ams_ws/src/ams_description', 'symlink_install': False, 'test_result_base': None}
+[4.164s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[4.164s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[4.164s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.164s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[4.165s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[4.165s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[4.165s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[4.165s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[4.165s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.165s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ams_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ams_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/pi/ams_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[4.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ams_ws/src/ams_hardware' with build type 'ament_cmake'
+[4.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ams_ws/src/ams_hardware'
+[4.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.341s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ams_ws/src/bno055' with build type 'ament_python'
+[4.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[4.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[4.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[4.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ams_ws/src/nmea_navsat_driver' with build type 'ament_python'
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmea_navsat_driver', 'ament_prefix_path')
+[4.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.ps1'
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.dsv'
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.sh'
+[4.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ams_ws/src/ams_description' with build type 'ament_cmake'
+[4.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ams_ws/src/ams_description'
+[4.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/ams_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_hardware -- -j4 -l4
+[6.631s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ams_ws/src/bno055'
+[6.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.543s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ams_ws/src/nmea_navsat_driver'
+[8.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[8.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/ams_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_hardware -- -j4 -l4
+[8.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/ams_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_hardware
+[9.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ams_hardware)
+[9.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/ams_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_hardware
+[9.087s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware' for CMake module files
+[9.090s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware' for CMake config files
+[9.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('ams_hardware', 'cmake_prefix_path')
+[9.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.ps1'
+[9.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.dsv'
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.sh'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/bin'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/lib/pkgconfig/ams_hardware.pc'
+[9.178s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/lib/python3.10/site-packages'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/bin'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.ps1'
+[9.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.dsv'
+[9.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.sh'
+[9.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.bash'
+[9.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.zsh'
+[9.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/ams_hardware/share/colcon-core/packages/ams_hardware)
+[9.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[9.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ams_hardware)
+[9.496s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware' for CMake module files
+[9.499s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware' for CMake config files
+[9.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('ams_hardware', 'cmake_prefix_path')
+[9.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.ps1'
+[9.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.dsv'
+[9.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/hook/cmake_prefix_path.sh'
+[9.545s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/bin'
+[9.546s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/lib/pkgconfig/ams_hardware.pc'
+[9.547s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/lib/python3.10/site-packages'
+[9.548s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ams_hardware/bin'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.ps1'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.dsv'
+[9.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.sh'
+[9.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.bash'
+[9.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.zsh'
+[9.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/ams_hardware/share/colcon-core/packages/ams_hardware)
+[9.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ams_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[9.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ams_ws/src/sllidar_ros2'
+[9.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ros2_control_ams
+[9.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/sllidar_ros2 -- -j4 -l4
+[9.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_ams)
+[9.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ros2_control_ams
+[9.967s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams' for CMake module files
+[9.971s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams' for CMake config files
+[9.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_ams', 'cmake_prefix_path')
+[10.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.ps1'
+[10.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.dsv'
+[10.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.sh'
+[10.013s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib'
+[10.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_ams', 'ld_library_path_lib')
+[10.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.ps1'
+[10.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.dsv'
+[10.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.sh'
+[10.052s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/bin'
+[10.052s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib/pkgconfig/ros2_control_ams.pc'
+[10.054s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib/python3.10/site-packages'
+[10.055s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/bin'
+[10.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.ps1'
+[10.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.dsv'
+[10.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.sh'
+[10.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.bash'
+[10.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.zsh'
+[10.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/ros2_control_ams/share/colcon-core/packages/ros2_control_ams)
+[10.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/sllidar_ros2 -- -j4 -l4
+[10.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_ams)
+[10.586s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams' for CMake module files
+[10.590s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams' for CMake config files
+[10.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_ams', 'cmake_prefix_path')
+[10.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.ps1'
+[10.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.dsv'
+[10.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/cmake_prefix_path.sh'
+[10.634s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib'
+[10.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_ams', 'ld_library_path_lib')
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.ps1'
+[10.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.dsv'
+[10.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/hook/ld_library_path_lib.sh'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/bin'
+[10.669s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib/pkgconfig/ros2_control_ams.pc'
+[10.670s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/lib/python3.10/site-packages'
+[10.671s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/ros2_control_ams/bin'
+[10.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.ps1'
+[10.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.dsv'
+[10.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.sh'
+[10.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.bash'
+[10.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.zsh'
+[10.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/ros2_control_ams/share/colcon-core/packages/ros2_control_ams)
+[10.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/sllidar_ros2
+[11.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[11.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/sllidar_ros2
+[11.184s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2' for CMake module files
+[11.188s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2' for CMake config files
+[11.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[11.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[11.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[11.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[11.232s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib'
+[11.233s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/bin'
+[11.234s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[11.236s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/bin'
+[11.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[11.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[11.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[11.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[11.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[11.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[11.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[11.762s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2' for CMake module files
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2' for CMake config files
+[11.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[11.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[11.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[11.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[11.875s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/bin'
+[11.877s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[11.879s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/sllidar_ros2/bin'
+[11.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[11.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[11.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[11.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[11.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[12.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/src/bno055': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed
+[12.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ams_ws/src/nmea_navsat_driver': PYTHONPATH=/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/pi/ams_ws/build/nmea_navsat_driver/build install --record /home/pi/ams_ws/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[14.347s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055' for CMake module files
+[14.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/src/bno055' returned '0': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed
+[14.358s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055' for CMake config files
+[14.367s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055/lib'
+[14.368s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055/bin'
+[14.369s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[14.371s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages'
+[14.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[14.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[14.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[14.428s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/bno055/bin'
+[14.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[14.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/bno055/share/bno055/package.ps1'
+[14.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/bno055/share/bno055/package.dsv'
+[14.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/bno055/share/bno055/package.sh'
+[14.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/bno055/share/bno055/package.bash'
+[14.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/bno055/share/bno055/package.zsh'
+[14.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/bno055/share/colcon-core/packages/bno055)
+[14.505s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver' for CMake module files
+[14.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ams_ws/src/nmea_navsat_driver' returned '0': PYTHONPATH=/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/pi/ams_ws/build/nmea_navsat_driver/build install --record /home/pi/ams_ws/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[14.509s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver' for CMake config files
+[14.514s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver/lib'
+[14.515s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver/bin'
+[14.515s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver/lib/pkgconfig/nmea_navsat_driver.pc'
+[14.517s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages'
+[14.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmea_navsat_driver', 'pythonpath')
+[14.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.ps1'
+[14.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.dsv'
+[14.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.sh'
+[14.549s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ams_ws/install/nmea_navsat_driver/bin'
+[14.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmea_navsat_driver)
+[14.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/package.ps1'
+[14.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/package.dsv'
+[14.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/package.sh'
+[14.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/package.bash'
+[14.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/package.zsh'
+[14.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ams_ws/install/nmea_navsat_driver/share/colcon-core/packages/nmea_navsat_driver)
+[14.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.588s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.639s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[14.639s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ams_ws/install/local_setup.ps1'
+[14.662s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ams_ws/install/_local_setup_util_ps1.py'
+[14.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ams_ws/install/setup.ps1'
+[14.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ams_ws/install/local_setup.sh'
+[14.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ams_ws/install/_local_setup_util_sh.py'
+[14.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ams_ws/install/setup.sh'
+[14.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ams_ws/install/local_setup.bash'
+[14.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ams_ws/install/setup.bash'
+[14.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ams_ws/install/local_setup.zsh'
+[14.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ams_ws/install/setup.zsh'

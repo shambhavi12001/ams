@@ -1,0 +1,86 @@
+[3.616s] Invoking command in '/home/pi/ams_ws/src/bno055': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed
+[4.881s] running egg_info
+[4.882s] creating ../../build/bno055/bno055.egg-info
+[4.883s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[4.884s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[4.885s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[4.885s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[4.886s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[4.887s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.896s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.897s] adding license file 'LICENSE'
+[4.897s] adding license file 'AUTHORS'
+[4.899s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.900s] running build
+[4.901s] running build_py
+[4.901s] creating /home/pi/ams_ws/build/bno055/build
+[4.902s] creating /home/pi/ams_ws/build/bno055/build/lib
+[4.902s] creating /home/pi/ams_ws/build/bno055/build/lib/bno055
+[4.902s] copying bno055/__init__.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055
+[4.903s] copying bno055/bno055.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055
+[4.903s] copying bno055/registers.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055
+[4.905s] creating /home/pi/ams_ws/build/bno055/build/lib/bno055/params
+[4.905s] copying bno055/params/NodeParameters.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/params
+[4.906s] copying bno055/params/__init__.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/params
+[4.907s] creating /home/pi/ams_ws/build/bno055/build/lib/bno055/error_handling
+[4.908s] copying bno055/error_handling/exceptions.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/error_handling
+[4.908s] copying bno055/error_handling/__init__.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/error_handling
+[4.909s] creating /home/pi/ams_ws/build/bno055/build/lib/bno055/sensor
+[4.910s] copying bno055/sensor/SensorService.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/sensor
+[4.910s] copying bno055/sensor/__init__.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/sensor
+[4.912s] creating /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors
+[4.912s] copying bno055/connectors/uart.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors
+[4.913s] copying bno055/connectors/i2c.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors
+[4.913s] copying bno055/connectors/Connector.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors
+[4.914s] copying bno055/connectors/__init__.py -> /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors
+[4.916s] running install
+[4.917s] running install_lib
+[4.920s] creating /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055
+[4.921s] creating /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/params
+[4.921s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/params
+[4.922s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/params
+[4.923s] creating /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[4.924s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[4.924s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[4.925s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/bno055.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055
+[4.926s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/registers.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055
+[4.927s] creating /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[4.927s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[4.928s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[4.928s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/__init__.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055
+[4.929s] creating /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[4.930s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[4.930s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[4.931s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[4.932s] copying /home/pi/ams_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[4.934s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-310.pyc
+[4.939s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/params/__init__.py to __init__.cpython-310.pyc
+[4.940s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-310.pyc
+[4.941s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/error_handling/__init__.py to __init__.cpython-310.pyc
+[4.942s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/bno055.py to bno055.cpython-310.pyc
+[4.945s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/registers.py to registers.cpython-310.pyc
+[4.948s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-310.pyc
+[4.958s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor/__init__.py to __init__.cpython-310.pyc
+[4.959s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/__init__.py to __init__.cpython-310.pyc
+[4.960s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors/uart.py to uart.cpython-310.pyc
+[4.963s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors/i2c.py to i2c.cpython-310.pyc
+[4.965s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors/Connector.py to Connector.cpython-310.pyc
+[4.967s] byte-compiling /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055/connectors/__init__.py to __init__.cpython-310.pyc
+[4.968s] running install_data
+[4.970s] creating /home/pi/ams_ws/install/bno055/share/ament_index
+[4.971s] creating /home/pi/ams_ws/install/bno055/share/ament_index/resource_index
+[4.971s] creating /home/pi/ams_ws/install/bno055/share/ament_index/resource_index/packages
+[4.972s] copying resource/bno055 -> /home/pi/ams_ws/install/bno055/share/ament_index/resource_index/packages
+[4.972s] copying package.xml -> /home/pi/ams_ws/install/bno055/share/bno055
+[4.972s] creating /home/pi/ams_ws/install/bno055/share/bno055/launch
+[4.973s] copying launch/bno055.launch.py -> /home/pi/ams_ws/install/bno055/share/bno055/launch
+[4.973s] creating /home/pi/ams_ws/install/bno055/share/bno055/config
+[4.974s] copying bno055/params/bno055_params_test.yaml -> /home/pi/ams_ws/install/bno055/share/bno055/config
+[4.974s] copying bno055/params/bno055_params.yaml -> /home/pi/ams_ws/install/bno055/share/bno055/config
+[4.975s] copying bno055/params/bno055_params_i2c.yaml -> /home/pi/ams_ws/install/bno055/share/bno055/config
+[4.979s] running install_egg_info
+[4.982s] Copying ../../build/bno055/bno055.egg-info to /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info
+[4.987s] running install_scripts
+[5.059s] Installing bno055 script to /home/pi/ams_ws/install/bno055/lib/bno055
+[5.062s] writing list of installed files to '/home/pi/ams_ws/build/bno055/install.log'
+[5.201s] Invoked command in '/home/pi/ams_ws/src/bno055' returned '0': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed

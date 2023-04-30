@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.001660] (diffbot_description) JobQueued: {'identifier': 'diffbot_description', 'dependencies': OrderedDict()}
+[0.002206] (ros2_control_demo_hardware) JobQueued: {'identifier': 'ros2_control_demo_hardware', 'dependencies': OrderedDict()}
+[0.002298] (ros2_control_test_nodes) JobQueued: {'identifier': 'ros2_control_test_nodes', 'dependencies': OrderedDict()}
+[0.003713] (rrbot_description) JobQueued: {'identifier': 'rrbot_description', 'dependencies': OrderedDict()}
+[0.003842] (ros2_control_demo_bringup) JobQueued: {'identifier': 'ros2_control_demo_bringup', 'dependencies': OrderedDict([('diffbot_description', '/home/pi/ros2_ws/install/diffbot_description'), ('ros2_control_demo_hardware', '/home/pi/ros2_ws/install/ros2_control_demo_hardware'), ('ros2_control_test_nodes', '/home/pi/ros2_ws/install/ros2_control_test_nodes'), ('rrbot_description', '/home/pi/ros2_ws/install/rrbot_description')])}
+[0.003997] (ros2_control_demos) JobQueued: {'identifier': 'ros2_control_demos', 'dependencies': OrderedDict([('diffbot_description', '/home/pi/ros2_ws/install/diffbot_description'), ('ros2_control_demo_hardware', '/home/pi/ros2_ws/install/ros2_control_demo_hardware'), ('ros2_control_test_nodes', '/home/pi/ros2_ws/install/ros2_control_test_nodes'), ('rrbot_description', '/home/pi/ros2_ws/install/rrbot_description'), ('ros2_control_demo_bringup', '/home/pi/ros2_ws/install/ros2_control_demo_bringup')])}
+[0.004138] (diffbot_description) JobStarted: {'identifier': 'diffbot_description'}
+[0.089004] (ros2_control_demo_hardware) JobStarted: {'identifier': 'ros2_control_demo_hardware'}
+[0.100274] (-) TimerEvent: {}
+[0.162671] (ros2_control_test_nodes) JobStarted: {'identifier': 'ros2_control_test_nodes'}
+[0.205539] (-) TimerEvent: {}
+[0.262684] (rrbot_description) JobStarted: {'identifier': 'rrbot_description'}
+[0.307472] (-) TimerEvent: {}
+[0.343148] (diffbot_description) JobProgress: {'identifier': 'diffbot_description', 'progress': 'cmake'}
+[0.344027] (diffbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_description/diffbot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/diffbot_description'], 'cwd': '/home/pi/ros2_ws/build/diffbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/diffbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.361313] (ros2_control_demo_hardware) JobProgress: {'identifier': 'ros2_control_demo_hardware', 'progress': 'cmake'}
+[0.362200] (ros2_control_demo_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_hardware', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/ros2_control_demo_hardware'], 'cwd': '/home/pi/ros2_ws/build/ros2_control_demo_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/ros2_control_demo_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.407651] (-) TimerEvent: {}
+[0.508441] (-) TimerEvent: {}
+[0.609170] (-) TimerEvent: {}
+[0.710041] (-) TimerEvent: {}
+[0.810780] (-) TimerEvent: {}
+[0.911496] (-) TimerEvent: {}
+[1.012310] (-) TimerEvent: {}
+[1.112995] (-) TimerEvent: {}
+[1.213787] (-) TimerEvent: {}
+[1.314972] (-) TimerEvent: {}
+[1.415896] (-) TimerEvent: {}
+[1.518381] (-) TimerEvent: {}
+[1.619767] (-) TimerEvent: {}
+[1.720864] (-) TimerEvent: {}
+[1.821643] (-) TimerEvent: {}
+[1.922537] (-) TimerEvent: {}
+[2.024188] (-) TimerEvent: {}
+[2.033958] (diffbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.039295] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.045338] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'cmake'}
+[2.046352] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_description/rrbot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rrbot_description'], 'cwd': '/home/pi/ros2_ws/build/rrbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/rrbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.124525] (-) TimerEvent: {}
+[2.222838] (diffbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.224713] (-) TimerEvent: {}
+[2.227142] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.280075] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.280721] (diffbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.325000] (-) TimerEvent: {}
+[2.380981] (rrbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.425166] (-) TimerEvent: {}
+[2.526113] (-) TimerEvent: {}
+[2.627429] (-) TimerEvent: {}
+[2.712531] (rrbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.727597] (-) TimerEvent: {}
+[2.732070] (diffbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.737454] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.750408] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.759918] (diffbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.762075] (diffbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.764951] (diffbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.770445] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.772648] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.775106] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.781548] (diffbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.790788] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.827850] (-) TimerEvent: {}
+[2.929381] (-) TimerEvent: {}
+[3.031059] (-) TimerEvent: {}
+[3.118800] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.131484] (-) TimerEvent: {}
+[3.156279] (rrbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.159593] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.164286] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.187633] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.231698] (-) TimerEvent: {}
+[3.233120] (diffbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.239999] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.262595] (diffbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.263976] (diffbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.265946] (diffbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.268964] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.270406] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.272599] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.303823] (diffbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.304517] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.331851] (-) TimerEvent: {}
+[3.432790] (-) TimerEvent: {}
+[3.534727] (-) TimerEvent: {}
+[3.636500] (-) TimerEvent: {}
+[3.670327] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.702300] (rrbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.703534] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.705775] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.736891] (-) TimerEvent: {}
+[3.740104] (rrbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.837075] (-) TimerEvent: {}
+[3.938470] (-) TimerEvent: {}
+[4.040318] (-) TimerEvent: {}
+[4.142168] (-) TimerEvent: {}
+[4.243637] (-) TimerEvent: {}
+[4.345538] (-) TimerEvent: {}
+[4.447662] (-) TimerEvent: {}
+[4.550012] (-) TimerEvent: {}
+[4.582741] (diffbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.632991] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.650266] (-) TimerEvent: {}
+[4.752518] (-) TimerEvent: {}
+[4.854384] (-) TimerEvent: {}
+[4.957260] (-) TimerEvent: {}
+[4.975431] (rrbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.057639] (-) TimerEvent: {}
+[5.073206] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.074867] (diffbot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.157924] (-) TimerEvent: {}
+[5.260543] (-) TimerEvent: {}
+[5.334729] (ros2_control_test_nodes) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2_ws/build/ros2_control_test_nodes/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/ros2_ws/build/ros2_control_test_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': 'fe80::18bf:be20:a80:809c%wlan0 63177 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.4.15', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/home/pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXpys4ab/agent.1379', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'PWD': '/home/pi/ros2_ws/build/ros2_control_test_nodes', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/ros2_control_test_nodes/prefix_override:/home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.360691] (-) TimerEvent: {}
+[5.420626] (rrbot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.460899] (-) TimerEvent: {}
+[5.526572] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[5.561081] (-) TimerEvent: {}
+[5.661928] (-) TimerEvent: {}
+[5.762899] (-) TimerEvent: {}
+[5.863844] (-) TimerEvent: {}
+[5.877915] (diffbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.902012] (diffbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[5.907234] (diffbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ros2_ws/build/diffbot_description\n'}
+[5.931429] (diffbot_description) CommandEnded: {'returncode': 0}
+[5.933934] (diffbot_description) JobProgress: {'identifier': 'diffbot_description', 'progress': 'build'}
+[5.936820] (diffbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/diffbot_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/diffbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/diffbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.964169] (-) TimerEvent: {}
+[6.040649] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.064313] (-) TimerEvent: {}
+[6.109610] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.120255] (diffbot_description) CommandEnded: {'returncode': 0}
+[6.164536] (-) TimerEvent: {}
+[6.195823] (rrbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.214646] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.218562] (rrbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[6.225089] (rrbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ros2_ws/build/rrbot_description\n'}
+[6.255403] (rrbot_description) CommandEnded: {'returncode': 0}
+[6.256886] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'build'}
+[6.257031] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/rrbot_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/rrbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/rrbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.264738] (-) TimerEvent: {}
+[6.293684] (diffbot_description) JobProgress: {'identifier': 'diffbot_description', 'progress': 'install'}
+[6.334744] (diffbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/diffbot_description'], 'cwd': '/home/pi/ros2_ws/build/diffbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/diffbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.345421] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.364946] (-) TimerEvent: {}
+[6.367563] (diffbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.369476] (diffbot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.372227] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz\n'}
+[6.414399] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/config/diffbot_view.rviz\n'}
+[6.445907] (rrbot_description) CommandEnded: {'returncode': 0}
+[6.465551] (-) TimerEvent: {}
+[6.466371] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro\n'}
+[6.512340] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro\n'}
+[6.522182] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.548866] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/launch/view_robot.launch.py\n'}
+[6.565854] (-) TimerEvent: {}
+[6.592220] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'install'}
+[6.592463] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/rrbot_description'], 'cwd': '/home/pi/ros2_ws/build/rrbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::18bf:be20:a80:809c%wlan0 63177 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXpys4ab/agent.1379'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/build/rrbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::18bf:be20:a80:809c%wlan0 63177 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.594406] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot.ros2_control.xacro\n'}
+[6.626846] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro\n'}
+[6.628086] (rrbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.630763] (rrbot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.634283] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz\n'}
+[6.665428] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro\n'}
+[6.666081] (-) TimerEvent: {}
+[6.684939] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro\n'}
+[6.703604] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_description.urdf.xacro\n'}
+[6.732573] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro\n'}
+[6.745008] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro\n'}
+[6.766420] (-) TimerEvent: {}
+[6.771518] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae\n'}
+[6.788629] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description\n'}
+[6.811216] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py\n'}
+[6.832122] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description\n'}
+[6.852084] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/external_rrbot_force_torque_sensor.ros2_control.xacro\n'}
+[6.866660] (-) TimerEvent: {}
+[6.875570] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh\n'}
+[6.892044] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro\n'}
+[6.917816] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv\n'}
+[6.931426] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_modular_actuators.ros2_control.xacro\n'}
+[6.958810] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.sh\n'}
+[6.966899] (-) TimerEvent: {}
+[6.971546] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro\n'}
+[7.000777] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv\n'}
+[7.012389] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro\n'}
+[7.045621] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.bash\n'}
+[7.050652] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro\n'}
+[7.067125] (-) TimerEvent: {}
+[7.084576] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_transmissions_system_position_only.ros2_control.xacro\n'}
+[7.085853] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.sh\n'}
+[7.121451] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro\n'}
+[7.123105] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh\n'}
+[7.157876] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro\n'}
+[7.163935] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv\n'}
+[7.167185] (ros2_control_test_nodes) StderrLine: {'line': b"/home/pi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.168330] (-) TimerEvent: {}
+[7.168855] (ros2_control_test_nodes) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.200418] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_modular_actuators.urdf.xacro\n'}
+[7.206107] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/package.dsv\n'}
+[7.239639] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro\n'}
+[7.244367] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description\n'}
+[7.268596] (-) TimerEvent: {}
+[7.279922] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro\n'}
+[7.283097] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake\n'}
+[7.317195] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_external_sensor.urdf.xacro\n'}
+[7.321708] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake\n'}
+[7.353849] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro\n'}
+[7.360616] (diffbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/package.xml\n'}
+[7.368868] (-) TimerEvent: {}
+[7.392278] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_transmissions_system_position_only.urdf.xacro\n'}
+[7.413434] (diffbot_description) CommandEnded: {'returncode': 0}
+[7.434716] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv\n'}
+[7.460471] (ros2_control_test_nodes) StdoutLine: {'line': b'running develop\n'}
+[7.470378] (-) TimerEvent: {}
+[7.478621] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description\n'}
+[7.528826] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description\n'}
+[7.560783] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh\n'}
+[7.585992] (-) TimerEvent: {}
+[7.596866] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv\n'}
+[7.633088] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.sh\n'}
+[7.670221] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv\n'}
+[7.686207] (-) TimerEvent: {}
+[7.705195] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.bash\n'}
+[7.745370] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.sh\n'}
+[7.779734] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh\n'}
+[7.791666] (-) TimerEvent: {}
+[7.820896] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv\n'}
+[7.859099] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.dsv\n'}
+[7.863989] (diffbot_description) JobEnded: {'identifier': 'diffbot_description', 'rc': 0}
+[7.893904] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description\n'}
+[7.894519] (-) TimerEvent: {}
+[7.929525] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake\n'}
+[7.963229] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake\n'}
+[7.994790] (-) TimerEvent: {}
+[7.998304] (rrbot_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.xml\n'}
+[8.037399] (rrbot_description) CommandEnded: {'returncode': 0}
+[8.095021] (-) TimerEvent: {}
+[8.196791] (-) TimerEvent: {}
+[8.302542] (-) TimerEvent: {}
+[8.349497] (rrbot_description) JobEnded: {'identifier': 'rrbot_description', 'rc': 0}
+[8.402715] (-) TimerEvent: {}
+[8.503558] (-) TimerEvent: {}
+[8.604572] (-) TimerEvent: {}
+[8.705343] (-) TimerEvent: {}
+[8.731034] (ros2_control_test_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[8.731992] (ros2_control_test_nodes) StdoutLine: {'line': b'creating ros2_control_test_nodes.egg-info\n'}
+[8.732707] (ros2_control_test_nodes) StdoutLine: {'line': b'writing ros2_control_test_nodes.egg-info/PKG-INFO\n'}
+[8.733496] (ros2_control_test_nodes) StdoutLine: {'line': b'writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt\n'}
+[8.734185] (ros2_control_test_nodes) StdoutLine: {'line': b'writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt\n'}
+[8.734822] (ros2_control_test_nodes) StdoutLine: {'line': b'writing requirements to ros2_control_test_nodes.egg-info/requires.txt\n'}
+[8.735433] (ros2_control_test_nodes) StdoutLine: {'line': b'writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt\n'}
+[8.736418] (ros2_control_test_nodes) StdoutLine: {'line': b"writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'\n"}
+[8.743763] (ros2_control_test_nodes) StdoutLine: {'line': b"reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'\n"}
+[8.746595] (ros2_control_test_nodes) StdoutLine: {'line': b"writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'\n"}
+[8.752716] (ros2_control_test_nodes) StdoutLine: {'line': b'running build_ext\n'}
+[8.753555] (ros2_control_test_nodes) StdoutLine: {'line': b'Creating /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages/ros2-control-test-nodes.egg-link (link to .)\n'}
+[8.756930] (ros2_control_test_nodes) StdoutLine: {'line': b'Installing publisher_forward_position_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes\n'}
+[8.757843] (ros2_control_test_nodes) StdoutLine: {'line': b'Installing publisher_joint_trajectory_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes\n'}
+[8.759093] (ros2_control_test_nodes) StdoutLine: {'line': b'\n'}
+[8.759793] (ros2_control_test_nodes) StdoutLine: {'line': b'Installed /home/pi/ros2_ws/build/ros2_control_test_nodes\n'}
+[8.760661] (ros2_control_test_nodes) StdoutLine: {'line': b'running install_data\n'}
+[8.761273] (ros2_control_test_nodes) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index\n'}
+[8.761657] (ros2_control_test_nodes) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index\n'}
+[8.762211] (ros2_control_test_nodes) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages\n'}
+[8.762644] (ros2_control_test_nodes) StdoutLine: {'line': b'copying resource/ros2_control_test_nodes -> /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages\n'}
+[8.763540] (ros2_control_test_nodes) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes\n'}
+[8.764675] (ros2_control_test_nodes) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs\n'}
+[8.805619] (-) TimerEvent: {}
+[8.908026] (-) TimerEvent: {}
+[8.925485] (ros2_control_test_nodes) CommandEnded: {'returncode': 0}
+[9.013291] (-) TimerEvent: {}
+[9.031028] (ros2_control_test_nodes) JobEnded: {'identifier': 'ros2_control_test_nodes', 'rc': 0}
+[9.113478] (-) TimerEvent: {}
+[9.214210] (-) TimerEvent: {}
+[9.314962] (-) TimerEvent: {}
+[9.415625] (-) TimerEvent: {}
+[9.516283] (-) TimerEvent: {}
+[9.616911] (-) TimerEvent: {}
+[9.717538] (-) TimerEvent: {}
+[9.818167] (-) TimerEvent: {}
+[9.918800] (-) TimerEvent: {}
+[10.019462] (-) TimerEvent: {}
+[10.120115] (-) TimerEvent: {}
+[10.220752] (-) TimerEvent: {}
+[10.242148] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.275727] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.320919] (-) TimerEvent: {}
+[10.421587] (-) TimerEvent: {}
+[10.522251] (-) TimerEvent: {}
+[10.622970] (-) TimerEvent: {}
+[10.723607] (-) TimerEvent: {}
+[10.824282] (-) TimerEvent: {}
+[10.925070] (-) TimerEvent: {}
+[11.004440] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.025234] (-) TimerEvent: {}
+[11.125902] (-) TimerEvent: {}
+[11.226591] (-) TimerEvent: {}
+[11.278783] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.326792] (-) TimerEvent: {}
+[11.427467] (-) TimerEvent: {}
+[11.528120] (-) TimerEvent: {}
+[11.628779] (-) TimerEvent: {}
+[11.729454] (-) TimerEvent: {}
+[11.746135] (ros2_control_demo_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.829654] (-) TimerEvent: {}
+[11.860903] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.929875] (-) TimerEvent: {}
+[12.030729] (-) TimerEvent: {}
+[12.131534] (-) TimerEvent: {}
+[12.215599] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.216795] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.231697] (-) TimerEvent: {}
+[12.332382] (-) TimerEvent: {}
+[12.433124] (-) TimerEvent: {}
+[12.533928] (-) TimerEvent: {}
+[12.548146] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.552777] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.634102] (-) TimerEvent: {}
+[12.734788] (-) TimerEvent: {}
+[12.835582] (-) TimerEvent: {}
+[12.936274] (-) TimerEvent: {}
+[13.036951] (-) TimerEvent: {}
+[13.137622] (-) TimerEvent: {}
+[13.238334] (-) TimerEvent: {}
+[13.339004] (-) TimerEvent: {}
+[13.439669] (-) TimerEvent: {}
+[13.454003] (ros2_control_demo_hardware) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[13.454865] (ros2_control_demo_hardware) StderrLine: {'line': b'  By not providing "Findtransmission_interface.cmake" in CMAKE_MODULE_PATH\n'}
+[13.455220] (ros2_control_demo_hardware) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[13.455575] (ros2_control_demo_hardware) StderrLine: {'line': b'  by "transmission_interface", but CMake did not find one.\n'}
+[13.455892] (ros2_control_demo_hardware) StderrLine: {'line': b'\n'}
+[13.456179] (ros2_control_demo_hardware) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[13.456454] (ros2_control_demo_hardware) StderrLine: {'line': b'  "transmission_interface" with any of the following names:\n'}
+[13.456730] (ros2_control_demo_hardware) StderrLine: {'line': b'\n'}
+[13.457047] (ros2_control_demo_hardware) StderrLine: {'line': b'    transmission_interfaceConfig.cmake\n'}
+[13.457419] (ros2_control_demo_hardware) StderrLine: {'line': b'    transmission_interface-config.cmake\n'}
+[13.457806] (ros2_control_demo_hardware) StderrLine: {'line': b'\n'}
+[13.458124] (ros2_control_demo_hardware) StderrLine: {'line': b'  Add the installation prefix of "transmission_interface" to\n'}
+[13.458573] (ros2_control_demo_hardware) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "transmission_interface_DIR" to a directory\n'}
+[13.459422] (ros2_control_demo_hardware) StderrLine: {'line': b'  containing one of the above files.  If "transmission_interface" provides a\n'}
+[13.460031] (ros2_control_demo_hardware) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[13.460387] (ros2_control_demo_hardware) StderrLine: {'line': b'\n'}
+[13.460736] (ros2_control_demo_hardware) StderrLine: {'line': b'\x1b[0m\n'}
+[13.461048] (ros2_control_demo_hardware) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.461373] (ros2_control_demo_hardware) StdoutLine: {'line': b'See also "/home/pi/ros2_ws/build/ros2_control_demo_hardware/CMakeFiles/CMakeOutput.log".\n'}
+[13.495354] (ros2_control_demo_hardware) CommandEnded: {'returncode': 1}
+[13.539926] (-) TimerEvent: {}
+[13.594369] (ros2_control_demo_hardware) JobEnded: {'identifier': 'ros2_control_demo_hardware', 'rc': 1}
+[13.597790] (ros2_control_demo_bringup) JobSkipped: {'identifier': 'ros2_control_demo_bringup'}
+[13.597923] (ros2_control_demos) JobSkipped: {'identifier': 'ros2_control_demos'}
+[13.598000] (-) EventReactorShutdown: {}

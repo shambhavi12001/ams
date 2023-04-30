@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.002194] (ams_hardware) JobQueued: {'identifier': 'ams_hardware', 'dependencies': OrderedDict()}
+[0.002406] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.002503] (nmea_navsat_driver) JobQueued: {'identifier': 'nmea_navsat_driver', 'dependencies': OrderedDict()}
+[0.002592] (ros2_control_ams) JobQueued: {'identifier': 'ros2_control_ams', 'dependencies': OrderedDict()}
+[0.002714] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.007818] (ams_hardware) JobStarted: {'identifier': 'ams_hardware'}
+[0.092880] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.098822] (-) TimerEvent: {}
+[0.194419] (nmea_navsat_driver) JobStarted: {'identifier': 'nmea_navsat_driver'}
+[0.210789] (-) TimerEvent: {}
+[0.295643] (ros2_control_ams) JobStarted: {'identifier': 'ros2_control_ams'}
+[0.315815] (-) TimerEvent: {}
+[0.381492] (ams_hardware) JobProgress: {'identifier': 'ams_hardware', 'progress': 'cmake'}
+[0.383940] (ams_hardware) JobProgress: {'identifier': 'ams_hardware', 'progress': 'build'}
+[0.386329] (ams_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/ams_hardware', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/ams_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ams_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.416057] (-) TimerEvent: {}
+[0.516944] (-) TimerEvent: {}
+[0.617749] (-) TimerEvent: {}
+[0.718494] (-) TimerEvent: {}
+[0.819258] (-) TimerEvent: {}
+[0.919929] (-) TimerEvent: {}
+[1.020564] (-) TimerEvent: {}
+[1.121209] (-) TimerEvent: {}
+[1.221835] (-) TimerEvent: {}
+[1.322462] (-) TimerEvent: {}
+[1.423132] (-) TimerEvent: {}
+[1.523833] (-) TimerEvent: {}
+[1.624463] (-) TimerEvent: {}
+[1.725250] (-) TimerEvent: {}
+[1.831622] (-) TimerEvent: {}
+[1.942804] (-) TimerEvent: {}
+[2.043705] (-) TimerEvent: {}
+[2.144417] (-) TimerEvent: {}
+[2.245266] (-) TimerEvent: {}
+[2.345943] (-) TimerEvent: {}
+[2.446594] (-) TimerEvent: {}
+[2.547250] (-) TimerEvent: {}
+[2.647928] (-) TimerEvent: {}
+[2.748549] (-) TimerEvent: {}
+[2.849194] (-) TimerEvent: {}
+[2.949868] (-) TimerEvent: {}
+[3.050533] (-) TimerEvent: {}
+[3.151213] (-) TimerEvent: {}
+[3.252054] (-) TimerEvent: {}
+[3.352987] (-) TimerEvent: {}
+[3.368493] (ams_hardware) CommandEnded: {'returncode': 0}
+[3.376288] (ros2_control_ams) JobProgress: {'identifier': 'ros2_control_ams', 'progress': 'cmake'}
+[3.379146] (ros2_control_ams) JobProgress: {'identifier': 'ros2_control_ams', 'progress': 'build'}
+[3.380364] (ros2_control_ams) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/ros2_control_ams', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/ros2_control_ams', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ros2_control_ams'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[3.453346] (-) TimerEvent: {}
+[3.493797] (ams_hardware) JobProgress: {'identifier': 'ams_hardware', 'progress': 'install'}
+[3.511964] (ros2_control_ams) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.533432] (ams_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ams_ws/build/ams_hardware'], 'cwd': '/home/pi/ams_ws/build/ams_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ams_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[3.553566] (-) TimerEvent: {}
+[3.577889] (ams_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.578697] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ament_index/resource_index/package_run_dependencies/ams_hardware\n'}
+[3.579536] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ament_index/resource_index/parent_prefix_path/ams_hardware\n'}
+[3.580683] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/environment/ament_prefix_path.sh\n'}
+[3.581646] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/environment/ament_prefix_path.dsv\n'}
+[3.582586] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/environment/path.sh\n'}
+[3.583591] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/environment/path.dsv\n'}
+[3.584354] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/local_setup.bash\n'}
+[3.584934] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/local_setup.sh\n'}
+[3.585418] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/local_setup.zsh\n'}
+[3.603619] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/local_setup.dsv\n'}
+[3.604820] (ams_hardware) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.dsv\n'}
+[3.605921] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ament_index/resource_index/packages/ams_hardware\n'}
+[3.606930] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/cmake/ams_hardwareConfig.cmake\n'}
+[3.607775] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/cmake/ams_hardwareConfig-version.cmake\n'}
+[3.608866] (ams_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_hardware/share/ams_hardware/package.xml\n'}
+[3.609562] (ams_hardware) CommandEnded: {'returncode': 0}
+[3.655887] (-) TimerEvent: {}
+[3.759456] (-) TimerEvent: {}
+[3.861644] (-) TimerEvent: {}
+[3.966750] (-) TimerEvent: {}
+[4.061492] (ams_hardware) JobEnded: {'identifier': 'ams_hardware', 'rc': 0}
+[4.067199] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[4.068284] (-) TimerEvent: {}
+[4.170467] (-) TimerEvent: {}
+[4.187256] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[4.191330] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[4.192933] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[4.270768] (-) TimerEvent: {}
+[4.373041] (-) TimerEvent: {}
+[4.469375] (ros2_control_ams) StdoutLine: {'line': b'-- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[4.473227] (-) TimerEvent: {}
+[4.549184] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] Built target sllidar_node\n'}
+[4.573478] (-) TimerEvent: {}
+[4.596092] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[4.645583] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[4.673737] (-) TimerEvent: {}
+[4.696505] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.712596] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.749496] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.773943] (-) TimerEvent: {}
+[4.817474] (ros2_control_ams) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.874256] (-) TimerEvent: {}
+[4.911997] (ros2_control_ams) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.953590] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[4.960067] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ams_ws/build/sllidar_ros2'], 'cwd': '/home/pi/ams_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[4.974540] (-) TimerEvent: {}
+[4.995477] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.997502] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.000950] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[5.001840] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[5.003062] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[5.004278] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[5.005414] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[5.006548] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[5.007865] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[5.009098] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[5.010329] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[5.011663] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[5.012885] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[5.014021] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[5.015198] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[5.016463] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[5.018298] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[5.020345] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[5.021750] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[5.023953] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[5.025675] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[5.027220] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[5.028754] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[5.030402] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[5.032102] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[5.033658] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[5.035149] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[5.036717] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[5.038138] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[5.039263] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[5.074804] (-) TimerEvent: {}
+[5.081240] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[5.082350] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.083618] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.084747] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[5.085665] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[5.086809] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ams_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[5.094148] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.175200] (-) TimerEvent: {}
+[5.279018] (-) TimerEvent: {}
+[5.380708] (-) TimerEvent: {}
+[5.483175] (-) TimerEvent: {}
+[5.590408] (-) TimerEvent: {}
+[5.708304] (-) TimerEvent: {}
+[5.710582] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[5.808496] (-) TimerEvent: {}
+[5.909896] (-) TimerEvent: {}
+[6.012445] (-) TimerEvent: {}
+[6.116741] (-) TimerEvent: {}
+[6.136264] (bno055) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/pi/ams_ws/build/bno055/build', 'install', '--record', '/home/pi/ams_ws/build/bno055/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ams_ws/src/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.234 49300 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ams_ws/src/ams_description', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pi/ams_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/home/pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '31', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ams_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.234 49300 192.168.8.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description'}, 'shell': False}
+[6.192755] (nmea_navsat_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nmea_navsat_driver', 'build', '--build-base', '/home/pi/ams_ws/build/nmea_navsat_driver/build', 'install', '--record', '/home/pi/ams_ws/build/nmea_navsat_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ams_ws/src/nmea_navsat_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.234 49300 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ams_ws/src/ams_description', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pi/ams_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/home/pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '31', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ams_ws/build/nmea_navsat_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.234 49300 192.168.8.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description'}, 'shell': False}
+[6.216833] (-) TimerEvent: {}
+[6.318370] (-) TimerEvent: {}
+[6.420202] (-) TimerEvent: {}
+[6.522244] (-) TimerEvent: {}
+[6.624159] (-) TimerEvent: {}
+[6.725948] (-) TimerEvent: {}
+[6.827689] (-) TimerEvent: {}
+[6.929221] (-) TimerEvent: {}
+[7.031112] (-) TimerEvent: {}
+[7.140682] (-) TimerEvent: {}
+[7.242323] (-) TimerEvent: {}
+[7.344188] (-) TimerEvent: {}
+[7.445824] (-) TimerEvent: {}
+[7.547731] (-) TimerEvent: {}
+[7.649892] (-) TimerEvent: {}
+[7.751490] (-) TimerEvent: {}
+[7.797923] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[7.800660] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[7.801975] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[7.803057] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[7.804121] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[7.804980] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[7.817871] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[7.819758] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.820389] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[7.823252] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[7.824315] (bno055) StdoutLine: {'line': b'running build\n'}
+[7.824921] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[7.832699] (bno055) StdoutLine: {'line': b'running install\n'}
+[7.834281] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[7.845435] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[7.848974] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.851654] (-) TimerEvent: {}
+[7.855455] (nmea_navsat_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.857485] (bno055) StdoutLine: {'line': b"removing '/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info' (and everything under it)\n"}
+[7.858557] (nmea_navsat_driver) StdoutLine: {'line': b'writing ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO\n'}
+[7.859417] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info\n'}
+[7.860160] (nmea_navsat_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt\n'}
+[7.861113] (nmea_navsat_driver) StdoutLine: {'line': b'writing entry points to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt\n'}
+[7.861929] (nmea_navsat_driver) StdoutLine: {'line': b'writing requirements to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt\n'}
+[7.862859] (nmea_navsat_driver) StdoutLine: {'line': b'writing top-level names to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt\n'}
+[7.866576] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[7.873465] (nmea_navsat_driver) StdoutLine: {'line': b"reading manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[7.878841] (nmea_navsat_driver) StdoutLine: {'line': b"writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[7.879839] (nmea_navsat_driver) StdoutLine: {'line': b'running build\n'}
+[7.880536] (nmea_navsat_driver) StdoutLine: {'line': b'running build_py\n'}
+[7.885251] (nmea_navsat_driver) StdoutLine: {'line': b'running install\n'}
+[7.886692] (nmea_navsat_driver) StdoutLine: {'line': b'running install_lib\n'}
+[7.897746] (nmea_navsat_driver) StdoutLine: {'line': b'running install_data\n'}
+[7.902237] (nmea_navsat_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.909351] (nmea_navsat_driver) StdoutLine: {'line': b"removing '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.911422] (nmea_navsat_driver) StdoutLine: {'line': b'Copying ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.0-py3.10.egg-info\n'}
+[7.920468] (ros2_control_ams) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.921083] (nmea_navsat_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[7.928762] (ros2_control_ams) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.951830] (-) TimerEvent: {}
+[7.958679] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/pi/ams_ws/install/bno055/lib/bno055\n'}
+[7.962662] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ams_ws/build/bno055/install.log'\n"}
+[8.037177] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_serial_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[8.038962] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_socket_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[8.040877] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_tcpclient_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[8.043085] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[8.045418] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_serial_reader script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[8.050645] (nmea_navsat_driver) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ams_ws/build/nmea_navsat_driver/install.log'\n"}
+[8.052391] (-) TimerEvent: {}
+[8.164866] (bno055) CommandEnded: {'returncode': 0}
+[8.166840] (-) TimerEvent: {}
+[8.263230] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[8.288720] (-) TimerEvent: {}
+[8.289179] (nmea_navsat_driver) CommandEnded: {'returncode': 0}
+[8.349808] (nmea_navsat_driver) JobEnded: {'identifier': 'nmea_navsat_driver', 'rc': 0}
+[8.388926] (-) TimerEvent: {}
+[8.489649] (-) TimerEvent: {}
+[8.590314] (-) TimerEvent: {}
+[8.690978] (-) TimerEvent: {}
+[8.791669] (-) TimerEvent: {}
+[8.892332] (-) TimerEvent: {}
+[8.992986] (-) TimerEvent: {}
+[9.093627] (-) TimerEvent: {}
+[9.190302] (ros2_control_ams) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.193779] (-) TimerEvent: {}
+[9.294448] (-) TimerEvent: {}
+[9.395137] (-) TimerEvent: {}
+[9.495853] (-) TimerEvent: {}
+[9.596516] (-) TimerEvent: {}
+[9.697173] (-) TimerEvent: {}
+[9.797863] (-) TimerEvent: {}
+[9.898524] (-) TimerEvent: {}
+[9.956314] (ros2_control_ams) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[9.998675] (-) TimerEvent: {}
+[10.099420] (-) TimerEvent: {}
+[10.200251] (-) TimerEvent: {}
+[10.255949] (ros2_control_ams) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.300414] (-) TimerEvent: {}
+[10.401049] (-) TimerEvent: {}
+[10.407743] (ros2_control_ams) StdoutLine: {'line': b'-- Generating done\n'}
+[10.416484] (ros2_control_ams) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ams_ws/build/ros2_control_ams\n'}
+[10.501251] (-) TimerEvent: {}
+[10.531198] (ros2_control_ams) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_control_ams\x1b[0m\n'}
+[10.601461] (-) TimerEvent: {}
+[10.624464] (ros2_control_ams) StdoutLine: {'line': b'[100%] Built target ros2_control_ams\n'}
+[10.661682] (ros2_control_ams) CommandEnded: {'returncode': 0}
+[10.701652] (-) TimerEvent: {}
+[10.797505] (ros2_control_ams) JobProgress: {'identifier': 'ros2_control_ams', 'progress': 'install'}
+[10.798688] (ros2_control_ams) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ams_ws/build/ros2_control_ams'], 'cwd': '/home/pi/ams_ws/build/ros2_control_ams', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 49300 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ams_ws/install/ros2_control_ams/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/pi/ams_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ros2_control_ams'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 49300 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ams_ws/install/sllidar_ros2:/home/pi/ams_ws/install/ros2_control_ams:/home/pi/ams_ws/install/ams_hardware:/home/pi/ams_ws/install/ams_description:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[10.807642] (-) TimerEvent: {}
+[10.833589] (ros2_control_ams) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.834248] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control_ams.xml\n'}
+[10.834656] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams\n'}
+[10.835073] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams\n'}
+[10.835598] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/ams.hpp\n'}
+[10.835992] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/visibility_control.h\n'}
+[10.836354] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/ams_actuator.hpp\n'}
+[10.836751] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch\n'}
+[10.837101] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/display.launch.py\n'}
+[10.837512] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control\n'}
+[10.837859] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control/ams_hardware.ros2_control.xacro\n'}
+[10.838205] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control/ams_actuators.ros2_control.xacro\n'}
+[10.838590] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf\n'}
+[10.838936] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf/ams_description.urdf\n'}
+[10.839345] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf/ams_actuators.urdf.xacro\n'}
+[10.839667] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes\n'}
+[10.840075] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_6.STL\n'}
+[10.840422] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_5.STL\n'}
+[10.840857] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_2.STL\n'}
+[10.841261] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_3.STL\n'}
+[10.841737] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_4.STL\n'}
+[10.842142] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_3.STL\n'}
+[10.842530] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_4.STL\n'}
+[10.842968] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_4.STL\n'}
+[10.843415] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_6.STL\n'}
+[10.843839] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_5.STL\n'}
+[10.844258] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_2.STL\n'}
+[10.844677] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_1.STL\n'}
+[10.845064] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_1.STL\n'}
+[10.845483] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_6.STL\n'}
+[10.845932] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_5.STL\n'}
+[10.846233] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_1.STL\n'}
+[10.846488] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/base_link_ams_body.STL\n'}
+[10.846758] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_3.STL\n'}
+[10.847142] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_2.STL\n'}
+[10.847488] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz\n'}
+[10.847757] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz/ams.rviz\n'}
+[10.848034] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz/urdf_config.rviz\n'}
+[10.848393] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch\n'}
+[10.848709] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_actuators.launch.py\n'}
+[10.849105] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_base.launch.py\n'}
+[10.849458] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/.ams_base.launch.py.swp\n'}
+[10.849787] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/test_position_controllers.launch.py\n'}
+[10.850065] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_hardware.launch.py\n'}
+[10.850430] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_actuators.ros2_control.xacro\n'}
+[10.850731] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config\n'}
+[10.851019] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config/ams_actuators.yaml\n'}
+[10.851286] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config/ams_position_publisher.yaml\n'}
+[10.851648] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/lib/libros2_control_ams.so\n'}
+[10.852047] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/library_path.sh\n'}
+[10.852352] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/library_path.dsv\n'}
+[10.852634] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/package_run_dependencies/ros2_control_ams\n'}
+[10.852912] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/parent_prefix_path/ros2_control_ams\n'}
+[10.853318] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/ament_prefix_path.sh\n'}
+[10.853756] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/ament_prefix_path.dsv\n'}
+[10.854810] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/path.sh\n'}
+[10.855251] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/path.dsv\n'}
+[10.856474] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.bash\n'}
+[10.856930] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.sh\n'}
+[10.857303] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.zsh\n'}
+[10.857678] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.dsv\n'}
+[10.858579] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.dsv\n'}
+[10.859808] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/packages/ros2_control_ams\n'}
+[10.860276] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_ams\n'}
+[10.861024] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/export_ros2_control_amsExport.cmake\n'}
+[10.861492] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/export_ros2_control_amsExport-noconfig.cmake\n'}
+[10.861895] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.862251] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.862668] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ros2_control_amsConfig.cmake\n'}
+[10.863111] (ros2_control_ams) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ros2_control_amsConfig-version.cmake\n'}
+[10.863488] (ros2_control_ams) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.xml\n'}
+[10.869117] (ros2_control_ams) CommandEnded: {'returncode': 0}
+[10.912900] (-) TimerEvent: {}
+[11.019361] (-) TimerEvent: {}
+[11.128567] (-) TimerEvent: {}
+[11.228417] (ros2_control_ams) JobEnded: {'identifier': 'ros2_control_ams', 'rc': 0}
+[11.231664] (-) TimerEvent: {}
+[11.232008] (-) EventReactorShutdown: {}

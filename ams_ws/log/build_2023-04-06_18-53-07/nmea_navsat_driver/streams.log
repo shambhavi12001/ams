@@ -1,0 +1,75 @@
+[5.139s] Invoking command in '/home/pi/ams_ws/src/nmea_navsat_driver': PYTHONPATH=/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/pi/ams_ws/build/nmea_navsat_driver/build install --record /home/pi/ams_ws/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[6.613s] running egg_info
+[6.616s] creating ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info
+[6.617s] writing ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO
+[6.618s] writing dependency_links to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt
+[6.619s] writing entry points to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt
+[6.620s] writing requirements to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt
+[6.620s] writing top-level names to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt
+[6.622s] writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[6.630s] reading manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[6.634s] writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[6.635s] running build
+[6.636s] running build_py
+[6.637s] creating /home/pi/ams_ws/build/nmea_navsat_driver/build
+[6.638s] creating /home/pi/ams_ws/build/nmea_navsat_driver/build/lib
+[6.639s] creating /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[6.640s] copying src/libnmea_navsat_driver/checksum_utils.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[6.641s] copying src/libnmea_navsat_driver/driver.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[6.641s] copying src/libnmea_navsat_driver/parser.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[6.642s] copying src/libnmea_navsat_driver/__init__.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[6.643s] creating /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.644s] copying src/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.644s] copying src/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.645s] copying src/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.646s] copying src/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.647s] copying src/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.648s] copying src/libnmea_navsat_driver/nodes/__init__.py -> /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[6.650s] running install
+[6.651s] running install_lib
+[6.655s] creating /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[6.655s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/checksum_utils.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[6.656s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/driver.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[6.657s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/parser.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[6.658s] creating /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.659s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.660s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.661s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.662s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.662s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.663s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/__init__.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[6.664s] copying /home/pi/ams_ws/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/__init__.py -> /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[6.667s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/checksum_utils.py to checksum_utils.cpython-310.pyc
+[6.669s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/driver.py to driver.cpython-310.pyc
+[6.675s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/parser.py to parser.cpython-310.pyc
+[6.679s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_socket_driver.py to nmea_socket_driver.cpython-310.pyc
+[6.682s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py to nmea_tcpclient_driver.cpython-310.pyc
+[6.686s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py to nmea_topic_serial_reader.cpython-310.pyc
+[6.689s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_driver.py to nmea_topic_driver.cpython-310.pyc
+[6.692s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_serial_driver.py to nmea_serial_driver.cpython-310.pyc
+[6.696s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/__init__.py to __init__.cpython-310.pyc
+[6.698s] byte-compiling /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/__init__.py to __init__.cpython-310.pyc
+[6.700s] running install_data
+[6.705s] creating /home/pi/ams_ws/install/nmea_navsat_driver/share/ament_index
+[6.706s] creating /home/pi/ams_ws/install/nmea_navsat_driver/share/ament_index/resource_index
+[6.707s] creating /home/pi/ams_ws/install/nmea_navsat_driver/share/ament_index/resource_index/packages
+[6.711s] copying resource/nmea_navsat_driver -> /home/pi/ams_ws/install/nmea_navsat_driver/share/ament_index/resource_index/packages
+[6.712s] copying package.xml -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver
+[6.714s] creating /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[6.716s] copying launch/nmea_socket_driver.launch.py -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[6.717s] copying launch/nmea_tcpclient_driver.launch.py -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[6.719s] copying launch/nmea_serial_driver.launch.py -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[6.720s] creating /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[6.721s] copying config/nmea_tcpclient_driver.yaml -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[6.722s] copying config/nmea_serial_driver.yaml -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[6.723s] copying config/nmea_socket_driver.yaml -> /home/pi/ams_ws/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[6.724s] running install_egg_info
+[6.731s] Copying ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.0-py3.10.egg-info
+[6.743s] running install_scripts
+[6.854s] Installing nmea_serial_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[6.856s] Installing nmea_socket_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[6.858s] Installing nmea_tcpclient_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[6.859s] Installing nmea_topic_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[6.861s] Installing nmea_topic_serial_reader script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[6.862s] writing list of installed files to '/home/pi/ams_ws/build/nmea_navsat_driver/install.log'
+[7.003s] Invoked command in '/home/pi/ams_ws/src/nmea_navsat_driver' returned '0': PYTHONPATH=/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/pi/ams_ws/build/nmea_navsat_driver/build install --record /home/pi/ams_ws/build/nmea_navsat_driver/install.log --single-version-externally-managed

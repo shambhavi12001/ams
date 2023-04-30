@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/ams_ws/src/build/ncd_parser': /usr/bin/cmake /home/pi/ams_ws/src/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ncd_parser
+Invoked command in '/home/pi/ams_ws/src/build/ncd_parser' returned '1': /usr/bin/cmake /home/pi/ams_ws/src/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ncd_parser

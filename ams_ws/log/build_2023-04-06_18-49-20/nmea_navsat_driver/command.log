@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/ams_ws/build/nmea_navsat_driver': /usr/bin/cmake /home/pi/ams_ws/src/nmea_navsat_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/nmea_navsat_driver
+Invoked command in '/home/pi/ams_ws/build/nmea_navsat_driver' returned '1': /usr/bin/cmake /home/pi/ams_ws/src/nmea_navsat_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/nmea_navsat_driver

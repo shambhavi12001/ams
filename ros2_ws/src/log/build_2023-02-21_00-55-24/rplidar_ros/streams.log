@@ -1,0 +1,41 @@
+[0.112s] Invoking command in '/home/pi/ros2_ws/src/build/rplidar_ros': /usr/bin/cmake /home/pi/ros2_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/src/install/rplidar_ros
+[0.307s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.308s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.309s]   CMake.
+[0.309s] 
+[0.310s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.310s]   CMake that the project does not need compatibility with older versions.
+[0.310s] 
+[0.311s] [0m
+[1.183s] -- The C compiler identification is GNU 11.3.0
+[1.963s] -- The CXX compiler identification is GNU 11.3.0
+[2.010s] -- Detecting C compiler ABI info
+[2.368s] -- Detecting C compiler ABI info - done
+[2.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.401s] -- Detecting C compile features
+[2.403s] -- Detecting C compile features - done
+[2.421s] -- Detecting CXX compiler ABI info
+[2.773s] -- Detecting CXX compiler ABI info - done
+[2.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.804s] -- Detecting CXX compile features
+[2.806s] -- Detecting CXX compile features - done
+[3.012s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[3.012s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.012s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.013s]   CMake did not find one.
+[3.013s] 
+[3.013s]   Could not find a package configuration file provided by "catkin" with any
+[3.014s]   of the following names:
+[3.014s] 
+[3.014s]     catkinConfig.cmake
+[3.015s]     catkin-config.cmake
+[3.015s] 
+[3.016s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.016s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.017s]   provides a separate development package or SDK, be sure it has been
+[3.018s]   installed.
+[3.018s] 
+[3.018s] [0m
+[3.019s] -- Configuring incomplete, errors occurred!
+[3.019s] See also "/home/pi/ros2_ws/src/build/rplidar_ros/CMakeFiles/CMakeOutput.log".
+[3.022s] Invoked command in '/home/pi/ros2_ws/src/build/rplidar_ros' returned '1': /usr/bin/cmake /home/pi/ros2_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/src/install/rplidar_ros

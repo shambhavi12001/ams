@@ -1,0 +1,32 @@
+[0.285s] Invoking command in '/home/pi/ros2_ws/build/ros2_control_demo_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/ros2_control_demo_hardware
+[1.954s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.955s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.956s] -- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.957s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.958s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.960s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.151s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.158s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.211s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.032s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[6.032s]   By not providing "Findtransmission_interface.cmake" in CMAKE_MODULE_PATH
+[6.033s]   this project has asked CMake to find a package configuration file provided
+[6.033s]   by "transmission_interface", but CMake did not find one.
+[6.034s] 
+[6.034s]   Could not find a package configuration file provided by
+[6.034s]   "transmission_interface" with any of the following names:
+[6.035s] 
+[6.036s]     transmission_interfaceConfig.cmake
+[6.037s]     transmission_interface-config.cmake
+[6.038s] 
+[6.038s]   Add the installation prefix of "transmission_interface" to
+[6.039s]   CMAKE_PREFIX_PATH or set "transmission_interface_DIR" to a directory
+[6.039s]   containing one of the above files.  If "transmission_interface" provides a
+[6.040s]   separate development package or SDK, be sure it has been installed.
+[6.041s] 
+[6.042s] [0m
+[6.043s] -- Configuring incomplete, errors occurred!
+[6.044s] See also "/home/pi/ros2_ws/build/ros2_control_demo_hardware/CMakeFiles/CMakeOutput.log".
+[6.068s] Invoked command in '/home/pi/ros2_ws/build/ros2_control_demo_hardware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/ros2_control_demo_hardware

@@ -1,0 +1,28 @@
+[5.176s] Invoking command in '/home/pi/ros2_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/pi/ros2_ws/build/ros2_control_test_nodes/prefix_override:/home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ros2_control_test_nodes/build --no-deps install_data
+[7.005s] /home/pi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.006s]   warnings.warn(
+[7.298s] running develop
+[8.569s] running egg_info
+[8.569s] creating ros2_control_test_nodes.egg-info
+[8.570s] writing ros2_control_test_nodes.egg-info/PKG-INFO
+[8.571s] writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt
+[8.571s] writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt
+[8.572s] writing requirements to ros2_control_test_nodes.egg-info/requires.txt
+[8.573s] writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt
+[8.573s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[8.581s] reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[8.584s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[8.590s] running build_ext
+[8.591s] Creating /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[8.594s] Installing publisher_forward_position_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[8.595s] Installing publisher_joint_trajectory_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[8.596s] 
+[8.597s] Installed /home/pi/ros2_ws/build/ros2_control_test_nodes
+[8.598s] running install_data
+[8.598s] creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index
+[8.599s] creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index
+[8.599s] creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[8.600s] copying resource/ros2_control_test_nodes -> /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[8.601s] copying package.xml -> /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes
+[8.602s] creating /home/pi/ros2_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs
+[8.773s] Invoked command in '/home/pi/ros2_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/ros2_control_test_nodes/prefix_override:/home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ros2_control_test_nodes/build --no-deps install_data

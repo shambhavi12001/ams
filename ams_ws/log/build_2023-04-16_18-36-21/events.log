@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001502] (-) JobUnselected: {'identifier': 'ams_description'}
+[0.001625] (-) JobUnselected: {'identifier': 'ams_hardware'}
+[0.002135] (-) JobUnselected: {'identifier': 'bno055'}
+[0.003709] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.003844] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003973] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.004077] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.098977] (-) TimerEvent: {}
+[0.103159] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.104142] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ams_ws/src/rf2o_laser_odometry', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/rf2o_laser_odometry'], 'cwd': '/home/pi/ams_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.199192] (-) TimerEvent: {}
+[0.300148] (-) TimerEvent: {}
+[0.401010] (-) TimerEvent: {}
+[0.501854] (-) TimerEvent: {}
+[0.602714] (-) TimerEvent: {}
+[0.703712] (-) TimerEvent: {}
+[0.804612] (-) TimerEvent: {}
+[0.905502] (-) TimerEvent: {}
+[1.006282] (-) TimerEvent: {}
+[1.107249] (-) TimerEvent: {}
+[1.208181] (-) TimerEvent: {}
+[1.237640] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.308356] (-) TimerEvent: {}
+[1.409132] (-) TimerEvent: {}
+[1.510093] (-) TimerEvent: {}
+[1.611061] (-) TimerEvent: {}
+[1.711936] (-) TimerEvent: {}
+[1.812655] (-) TimerEvent: {}
+[1.913571] (-) TimerEvent: {}
+[1.981997] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.013744] (-) TimerEvent: {}
+[2.032566] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.114028] (-) TimerEvent: {}
+[2.215022] (-) TimerEvent: {}
+[2.315757] (-) TimerEvent: {}
+[2.393407] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.415901] (-) TimerEvent: {}
+[2.423802] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.425914] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.428764] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.445142] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.516115] (-) TimerEvent: {}
+[2.617263] (-) TimerEvent: {}
+[2.718118] (-) TimerEvent: {}
+[2.794956] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.818246] (-) TimerEvent: {}
+[2.826051] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.827049] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.828913] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.918420] (-) TimerEvent: {}
+[3.019124] (-) TimerEvent: {}
+[3.040158] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[3.041091] (rf2o_laser_odometry) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.041444] (rf2o_laser_odometry) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[3.041747] (rf2o_laser_odometry) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.042043] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[3.042343] (rf2o_laser_odometry) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[3.042657] (rf2o_laser_odometry) StderrLine: {'line': b'  of the following names:\n'}
+[3.043160] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[3.043572] (rf2o_laser_odometry) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[3.044005] (rf2o_laser_odometry) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[3.044438] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[3.044926] (rf2o_laser_odometry) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[3.045438] (rf2o_laser_odometry) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[3.046306] (rf2o_laser_odometry) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.047224] (rf2o_laser_odometry) StderrLine: {'line': b'  installed.\n'}
+[3.048119] (rf2o_laser_odometry) StderrLine: {'line': b'\n'}
+[3.049402] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[3.049926] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.050308] (rf2o_laser_odometry) StdoutLine: {'line': b'See also "/home/pi/ams_ws/build/rf2o_laser_odometry/CMakeFiles/CMakeOutput.log".\n'}
+[3.054875] (rf2o_laser_odometry) CommandEnded: {'returncode': 1}
+[3.119250] (-) TimerEvent: {}
+[3.194723] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 1}
+[3.206143] (-) EventReactorShutdown: {}

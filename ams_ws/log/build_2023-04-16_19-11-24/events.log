@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.002289] (-) JobUnselected: {'identifier': 'ams_description'}
+[0.002490] (-) JobUnselected: {'identifier': 'ams_hardware'}
+[0.002583] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002660] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.002733] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.002809] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002890] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict()}
+[0.003021] (ros2_laser_scan_matcher) JobStarted: {'identifier': 'ros2_laser_scan_matcher'}
+[0.085256] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'cmake'}
+[0.086164] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ams_ws/src/ros2_laser_scan_matcher', '-DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/ros2_laser_scan_matcher'], 'cwd': '/home/pi/ams_ws/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/ros2_laser_scan_matcher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100940] (-) TimerEvent: {}
+[0.202490] (-) TimerEvent: {}
+[0.303366] (-) TimerEvent: {}
+[0.343658] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.403566] (-) TimerEvent: {}
+[0.504420] (-) TimerEvent: {}
+[0.591777] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.604602] (-) TimerEvent: {}
+[0.623757] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.704791] (-) TimerEvent: {}
+[0.805543] (-) TimerEvent: {}
+[0.906369] (-) TimerEvent: {}
+[0.923702] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.949353] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.950129] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.951450] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962247] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.006576] (-) TimerEvent: {}
+[1.107337] (-) TimerEvent: {}
+[1.208148] (-) TimerEvent: {}
+[1.292613] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.308288] (-) TimerEvent: {}
+[1.320331] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.321290] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.322896] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.351039] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.408498] (-) TimerEvent: {}
+[1.509270] (-) TimerEvent: {}
+[1.609945] (-) TimerEvent: {}
+[1.710567] (-) TimerEvent: {}
+[1.811193] (-) TimerEvent: {}
+[1.912077] (-) TimerEvent: {}
+[2.012739] (-) TimerEvent: {}
+[2.113376] (-) TimerEvent: {}
+[2.205475] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.213615] (-) TimerEvent: {}
+[2.314355] (-) TimerEvent: {}
+[2.415002] (-) TimerEvent: {}
+[2.515633] (-) TimerEvent: {}
+[2.616266] (-) TimerEvent: {}
+[2.716883] (-) TimerEvent: {}
+[2.817520] (-) TimerEvent: {}
+[2.821102] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.917674] (-) TimerEvent: {}
+[3.018302] (-) TimerEvent: {}
+[3.118922] (-) TimerEvent: {}
+[3.159941] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.214399] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.219114] (-) TimerEvent: {}
+[3.282378] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.319272] (-) TimerEvent: {}
+[3.370463] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.419468] (-) TimerEvent: {}
+[3.498172] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.519612] (-) TimerEvent: {}
+[3.620276] (-) TimerEvent: {}
+[3.720907] (-) TimerEvent: {}
+[3.821552] (-) TimerEvent: {}
+[3.922230] (-) TimerEvent: {}
+[4.022877] (-) TimerEvent: {}
+[4.123530] (-) TimerEvent: {}
+[4.224210] (-) TimerEvent: {}
+[4.325142] (-) TimerEvent: {}
+[4.365032] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.425298] (-) TimerEvent: {}
+[4.525944] (-) TimerEvent: {}
+[4.626636] (-) TimerEvent: {}
+[4.727305] (-) TimerEvent: {}
+[4.740674] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.767896] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.827477] (-) TimerEvent: {}
+[4.928134] (-) TimerEvent: {}
+[5.028749] (-) TimerEvent: {}
+[5.129368] (-) TimerEvent: {}
+[5.230062] (-) TimerEvent: {}
+[5.330916] (-) TimerEvent: {}
+[5.406901] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.431088] (-) TimerEvent: {}
+[5.531737] (-) TimerEvent: {}
+[5.632413] (-) TimerEvent: {}
+[5.685102] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.732576] (-) TimerEvent: {}
+[5.833213] (-) TimerEvent: {}
+[5.933894] (-) TimerEvent: {}
+[6.034675] (-) TimerEvent: {}
+[6.135463] (-) TimerEvent: {}
+[6.156826] (ros2_laser_scan_matcher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.235619] (-) TimerEvent: {}
+[6.250659] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.335845] (-) TimerEvent: {}
+[6.436768] (-) TimerEvent: {}
+[6.537527] (-) TimerEvent: {}
+[6.572098] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.573178] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.637735] (-) TimerEvent: {}
+[6.738461] (-) TimerEvent: {}
+[6.839295] (-) TimerEvent: {}
+[6.892085] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.896441] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.939454] (-) TimerEvent: {}
+[7.040201] (-) TimerEvent: {}
+[7.140896] (-) TimerEvent: {}
+[7.241603] (-) TimerEvent: {}
+[7.342277] (-) TimerEvent: {}
+[7.442946] (-) TimerEvent: {}
+[7.447982] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[7.543123] (-) TimerEvent: {}
+[7.643835] (-) TimerEvent: {}
+[7.744552] (-) TimerEvent: {}
+[7.775860] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.844721] (-) TimerEvent: {}
+[7.945378] (-) TimerEvent: {}
+[8.046031] (-) TimerEvent: {}
+[8.146684] (-) TimerEvent: {}
+[8.247342] (-) TimerEvent: {}
+[8.347987] (-) TimerEvent: {}
+[8.448632] (-) TimerEvent: {}
+[8.549288] (-) TimerEvent: {}
+[8.649930] (-) TimerEvent: {}
+[8.750574] (-) TimerEvent: {}
+[8.851192] (-) TimerEvent: {}
+[8.951823] (-) TimerEvent: {}
+[9.052509] (-) TimerEvent: {}
+[9.153177] (-) TimerEvent: {}
+[9.253831] (-) TimerEvent: {}
+[9.303099] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.354009] (-) TimerEvent: {}
+[9.454664] (-) TimerEvent: {}
+[9.497577] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.502254] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.502831] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.547734] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[9.554830] (-) TimerEvent: {}
+[9.655579] (-) TimerEvent: {}
+[9.739235] (ros2_laser_scan_matcher) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[9.739977] (ros2_laser_scan_matcher) StderrLine: {'line': b'  By not providing "Findcsm.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[9.740366] (ros2_laser_scan_matcher) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "csm", but\n'}
+[9.740676] (ros2_laser_scan_matcher) StderrLine: {'line': b'  CMake did not find one.\n'}
+[9.740972] (ros2_laser_scan_matcher) StderrLine: {'line': b'\n'}
+[9.741285] (ros2_laser_scan_matcher) StderrLine: {'line': b'  Could not find a package configuration file provided by "csm" with any of\n'}
+[9.741551] (ros2_laser_scan_matcher) StderrLine: {'line': b'  the following names:\n'}
+[9.741823] (ros2_laser_scan_matcher) StderrLine: {'line': b'\n'}
+[9.742089] (ros2_laser_scan_matcher) StderrLine: {'line': b'    csmConfig.cmake\n'}
+[9.742361] (ros2_laser_scan_matcher) StderrLine: {'line': b'    csm-config.cmake\n'}
+[9.742640] (ros2_laser_scan_matcher) StderrLine: {'line': b'\n'}
+[9.742945] (ros2_laser_scan_matcher) StderrLine: {'line': b'  Add the installation prefix of "csm" to CMAKE_PREFIX_PATH or set "csm_DIR"\n'}
+[9.743281] (ros2_laser_scan_matcher) StderrLine: {'line': b'  to a directory containing one of the above files.  If "csm" provides a\n'}
+[9.743603] (ros2_laser_scan_matcher) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[9.743867] (ros2_laser_scan_matcher) StderrLine: {'line': b'\n'}
+[9.744263] (ros2_laser_scan_matcher) StderrLine: {'line': b'\x1b[0m\n'}
+[9.744767] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.745657] (ros2_laser_scan_matcher) StdoutLine: {'line': b'See also "/home/pi/ams_ws/build/ros2_laser_scan_matcher/CMakeFiles/CMakeOutput.log".\n'}
+[9.755868] (-) TimerEvent: {}
+[9.783137] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 1}
+[9.860449] (-) TimerEvent: {}
+[9.903030] (ros2_laser_scan_matcher) JobEnded: {'identifier': 'ros2_laser_scan_matcher', 'rc': 1}
+[9.906106] (-) EventReactorShutdown: {}

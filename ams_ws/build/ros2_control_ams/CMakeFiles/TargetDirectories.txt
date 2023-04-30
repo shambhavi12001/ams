@@ -1,0 +1,10 @@
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/uninstall.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/ros2_control_ams_uninstall.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/ros2_control_ams.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/test.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/edit_cache.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/rebuild_cache.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/list_install_components.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/install.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/install/local.dir
+/home/pi/ams_ws/build/ros2_control_ams/CMakeFiles/install/strip.dir

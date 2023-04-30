@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/ams_ws/build/ams_description
+-- Install configuration: ""
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description/ams_description.urdf
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/launch
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/launch/display.launch.py
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz/urdf_config.rviz
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_6.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_5.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_2.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_3.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_4.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_3.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_4.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_4.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_6.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_5.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_2.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_1.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_1.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_6.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_5.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_1.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/base_link_ams_body.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_3.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_2.STL
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/package_run_dependencies/ams_description
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/parent_prefix_path/ams_description
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.sh
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.sh
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.dsv
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.bash
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.sh
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.zsh
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.dsv
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.dsv
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/packages/ams_description
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig.cmake
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig-version.cmake
+-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.xml

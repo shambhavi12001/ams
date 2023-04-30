@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ams_description">
+  <link
+    name="base_link_ams_body">
+    <inertial>
+      <origin
+        xyz="-0.00366963087156155 0.000701995667722999 0.0763001812799515"
+        rpy="0 0 0" />
+      <mass
+        value="7.03949041087589" />
+      <inertia
+        ixx="0.0562823848431469"
+        ixy="6.52350823961147E-05"
+        ixz="0.00127272178126108"
+        iyy="0.0543806208699608"
+        iyz="-4.7551751161772E-05"
+        izz="0.0764997084464421" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/base_link_ams_body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.909803921568627 0.450980392156863 0.0274509803921569 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/base_link_ams_body.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="up_ro_base_1">
+    <inertial>
+      <origin
+        xyz="-0.0573934877580956 -0.0375907524080832 0.00171699442234455"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601157" />
+      <inertia
+        ixx="0.000797413109301369"
+        ixy="-0.000940315558269109"
+        ixz="-0.00021366432748281"
+        iyy="0.00168136597476317"
+        iyz="-0.0001356610908689"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_1"
+    type="continuous">
+    <origin
+      xyz="-0.140694633633681 -0.0951373324759484 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_1" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_1">
+    <inertial>
+      <origin
+        xyz="-0.0702704741671833 -0.0439317314896261 -0.000353407312746384"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000369565216261245"
+        ixy="-0.000435592786374811"
+        ixz="-3.31851606253388E-06"
+        iyy="0.000779048488450506"
+        iyz="-2.10701296942298E-06"
+        izz="0.00101474396918016" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_1"
+    type="continuous">
+    <origin
+      xyz="-0.110287681804008 -0.070024544570443 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_1" />
+    <child
+      link="up_leg_plate_1" />
+    <axis
+      xyz="-0.536011516920109 0.844210669044761 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_1">
+    <inertial>
+      <origin
+        xyz="0.000521031479391032 0.00539773009847189 -0.145039532705944"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186740680227" />
+      <inertia
+        ixx="0.000334506584215906"
+        ixy="-3.0904542921829E-06"
+        ixz="4.80486227611687E-06"
+        iyy="0.00033741429191893"
+        iyz="2.99063772289945E-06"
+        izz="6.79838224324178E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_1"
+    type="continuous">
+    <origin
+      xyz="-0.145202914725033 -0.0921931425849575 -0.000733495511015259"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_1" />
+    <child
+      link="lo_leg_plate_1" />
+    <axis
+      xyz="-0.53601151692011 0.844210669044761 0" />
+  </joint>
+  <link
+    name="up_ro_base_2">
+    <inertial>
+      <origin
+        xyz="0.000790438893464085 -0.0686035881714666 0.0017169944223446"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.00227838262269854"
+        ixy="-5.46758997147288E-06"
+        ixz="-6.65932117352787E-07"
+        iyy="0.000200396461366002"
+        iyz="-0.000253092735867381"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_2"
+    type="continuous">
+    <origin
+      xyz="-0.0125228738735832 -0.169137332475949 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_2">
+    <inertial>
+      <origin
+        xyz="0.0022037950568759 -0.0828778139602104 -6.18586351073119E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.00105561111978592"
+        ixy="-2.53285499092006E-06"
+        ixz="-1.81038313206717E-09"
+        iyy="9.29863349626008E-05"
+        iyz="-6.88050340152933E-07"
+        izz="0.00101476021914339" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_2"
+    type="continuous">
+    <origin
+      xyz="-0.000343735944726559 -0.130639547785501 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_2" />
+    <child
+      link="up_leg_plate_2" />
+    <axis
+      xyz="-0.999996538468321 0.0026311692033576 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_2">
+    <inertial>
+      <origin
+        xyz="-0.00126866461867856 0.00337578319896448 -0.145038623678139"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186740890811" />
+      <inertia
+        ixx="0.000339375731835337"
+        ixy="-1.91239377913789E-08"
+        ixz="6.58121676654046E-08"
+        iyy="0.000332542055803957"
+        iyz="5.73091091761492E-06"
+        izz="6.79869108596362E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_2"
+    type="continuous">
+    <origin
+      xyz="-0.000452560976900662 -0.171999356700101 -0.000128387357964194"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_2" />
+    <child
+      link="lo_leg_plate_2" />
+    <axis
+      xyz="-0.999996538468321 0.0026311692033576 0" />
+  </joint>
+  <link
+    name="up_ro_base_3">
+    <inertial>
+      <origin
+        xyz="0.0562682572378789 -0.0392550675844072 0.0017169944223446"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.000908404476783491"
+        ixy="0.000984878369543542"
+        ixz="0.000205501952030032"
+        iyy="0.00157037460728106"
+        iyz="-0.000147733964024078"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_3"
+    type="continuous">
+    <origin
+      xyz="0.153626283849091 -0.0759724321484452 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_3" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_3">
+    <inertial>
+      <origin
+        xyz="0.0670411128681085 -0.0487149516204006 -0.000497843422927649"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000420991855937563"
+        ixy="0.000456228289441604"
+        ixz="4.49615433097423E-06"
+        iyy="0.000727638351218307"
+        iyz="-3.23225495240932E-06"
+        izz="0.00101472746673604" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_3"
+    type="continuous">
+    <origin
+      xyz="0.106074486848602 -0.0762562314817997 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_3" />
+    <child
+      link="up_leg_plate_3" />
+    <axis
+      xyz="0.583712733326697 0.811960248381826 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_3">
+    <inertial>
+      <origin
+        xyz="-0.00366321057279761 -0.00140312268001164 -0.145061814968663"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186740979628" />
+      <inertia
+        ixx="0.000334922219936456"
+        ixy="3.20235775212423E-06"
+        ixz="-2.8208280943544E-06"
+        iyy="0.000337073119344979"
+        iyz="2.09036580027435E-06"
+        izz="6.79093559125571E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_3"
+    type="continuous">
+    <origin
+      xyz="0.139654642668825 -0.100396778483235 -0.00103327209917738"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_3" />
+    <child
+      link="lo_leg_plate_3" />
+    <axis
+      xyz="-0.583712733326696 -0.811960248381827 0" />
+  </joint>
+  <link
+    name="up_ro_base_4">
+    <inertial>
+      <origin
+        xyz="0.058377110050749 0.0360442800700365 0.00171699442234455"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601159" />
+      <inertia
+        ixx="0.000747827472536165"
+        ixy="-0.000915370552314847"
+        ixz="0.000217211784813457"
+        iyy="0.00173095161152838"
+        iyz="0.000129905415408956"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_4"
+    type="continuous">
+    <origin
+      xyz="0.153626283849091 0.0720275678515569 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_4" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_4">
+    <inertial>
+      <origin
+        xyz="0.0709020386190089 0.0428951269038922 0.000902320128256404"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075523" />
+      <inertia
+        ixx="0.000346663255288008"
+        ixy="-0.000423996481870186"
+        ixz="-8.61308247945563E-06"
+        iyy="0.00080204296476219"
+        iyz="-5.151129614842E-06"
+        izz="0.00101465145384171" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_4"
+    type="continuous">
+    <origin
+      xyz="0.112118782249763 0.0670536223244524 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_4" />
+    <child
+      link="up_leg_plate_4" />
+    <axis
+      xyz="0.513270225998563 -0.858227053350909 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_4">
+    <inertial>
+      <origin
+        xyz="0.00293667553207078 -0.00206266445868106 -0.145070463831007"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186741581664" />
+      <inertia
+        ixx="0.000334407650148194"
+        ixy="-2.97178679852776E-06"
+        ixz="2.62660251019913E-06"
+        iyy="0.000337598158525899"
+        iyz="1.62998776678254E-06"
+        izz="6.78988848877933E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_4"
+    type="continuous">
+    <origin
+      xyz="0.147606302899828 0.0882772456920327 0.00187276193701708"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_4" />
+    <child
+      link="lo_leg_plate_4" />
+    <axis
+      xyz="0.513270225998564 -0.858227053350909 0" />
+  </joint>
+  <link
+    name="up_ro_base_5">
+    <inertial>
+      <origin
+        xyz="-0.000369063086281568 0.0686071490158485 0.00171699442234458"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.00227823707104344"
+        ixy="-1.82298568254258E-05"
+        ixz="2.2204065050117E-06"
+        iyy="0.000200542013021105"
+        iyz="0.000253083871887114"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_5"
+    type="continuous">
+    <origin
+      xyz="-0.0130526234556848 0.170409338333852 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_5" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_5">
+    <inertial>
+      <origin
+        xyz="-0.000851049313727537 0.0828821540413857 -0.000204984515089518"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075524" />
+      <inertia
+        ixx="0.00105554369353764"
+        ixy="-8.44491598800797E-06"
+        ixz="2.00028804134891E-08"
+        iyy="9.30588873361509E-05"
+        iyz="2.2799457723244E-06"
+        izz="0.00101475509301811" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_5"
+    type="continuous">
+    <origin
+      xyz="0.00114611310640983 0.130634972441331 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_5" />
+    <child
+      link="up_leg_plate_5" />
+    <axis
+      xyz="-0.999961515931805 0.00877306419480895 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_5">
+    <inertial>
+      <origin
+        xyz="-0.000733048653271756 -0.00120402223647867 -0.145072777383635"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186741222674" />
+      <inertia
+        ixx="0.000339375266762038"
+        ixy="-5.93548372607366E-08"
+        ixz="-6.64112116703939E-08"
+        iyy="0.000332654579632198"
+        iyz="-1.78551867279917E-06"
+        izz="6.78748460943056E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_5"
+    type="continuous">
+    <origin
+      xyz="0.0015089624253615 0.171992854587968 -0.000425444568414618"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_5" />
+    <child
+      link="lo_leg_plate_5" />
+    <axis
+      xyz="0.999961515931805 -0.00877306419480861 0" />
+  </joint>
+  <link
+    name="up_ro_base_6">
+    <inertial>
+      <origin
+        xyz="-0.0541593048502493 0.0421170606973261 0.00171699442234463"
+        rpy="0 0 0" />
+      <mass
+        value="0.792220921601158" />
+      <inertia
+        ixx="0.00101207704925374"
+        ixy="0.00101383704156008"
+        ixz="-0.000197573447380024"
+        iyy="0.00146670203481081"
+        iyz="0.00015818062240614"
+        izz="0.00219264789755939" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_ro_base_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_rotator_base_6"
+    type="continuous">
+    <origin
+      xyz="-0.141224383215782 0.0964093383338535 -0.0244486337866378"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_ams_body" />
+    <child
+      link="up_ro_base_6" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="up_leg_plate_6">
+    <inertial>
+      <origin
+        xyz="-0.0656652337083589 0.0505510671672107 -0.00169836757168164"
+        rpy="0 0 0" />
+      <mass
+        value="0.530232120075524" />
+      <inertia
+        ixx="0.000469232078759905"
+        ixy="0.000469470250599268"
+        ixz="-1.47437978146024E-05"
+        iyy="0.000679752011598165"
+        iyz="1.18041323157065E-05"
+        izz="0.00101437358353384" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/up_leg_plate_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_leg_plate_6"
+    type="continuous">
+    <origin
+      xyz="-0.101982009604865 0.0816485108067083 -0.0275513662133623"
+      rpy="0 0 0" />
+    <parent
+      link="up_ro_base_6" />
+    <child
+      link="up_leg_plate_6" />
+    <axis
+      xyz="-0.624988600786193 -0.780633876338528 0" />
+  </joint>
+  <link
+    name="lo_leg_plate_6">
+    <inertial>
+      <origin
+        xyz="-0.00182898460184813 0.000538840415119382 -0.145067095630318"
+        rpy="0 0 0" />
+      <mass
+        value="0.247186741594841" />
+      <inertia
+        ixx="0.000335255782102311"
+        ixy="3.29789269319951E-06"
+        ixz="-2.87601564281665E-06"
+        iyy="0.000336735963262999"
+        iyz="2.23758607529635E-06"
+        izz="6.79129490144783E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 1 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ams_description/meshes/lo_leg_plate_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_leg_plate_6"
+    type="continuous">
+    <origin
+      xyz="-0.134240827205126 0.107475462321507 -0.00352495532761297"
+      rpy="0 0 0" />
+    <parent
+      link="up_leg_plate_6" />
+    <child
+      link="lo_leg_plate_6" />
+    <axis
+      xyz="0.624988600786193 0.780633876338528 0" />
+  </joint>
+</robot>

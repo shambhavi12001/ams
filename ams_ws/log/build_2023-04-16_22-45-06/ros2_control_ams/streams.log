@@ -1,0 +1,5 @@
+[0.109s] Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[0.187s] [0mCMake Error: The source directory "/home/pi/ams_ws/src/ams_description" does not exist.
+[0.188s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.191s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.196s] Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/nmea_navsat_driver:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4

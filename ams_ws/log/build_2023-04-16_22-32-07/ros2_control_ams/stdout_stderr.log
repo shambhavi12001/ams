@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_ams[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o[0m
+[01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros2_control_ams/rrbot_actuator.hpp: No such file or directory
+    2 | #include [01;31m[K"ros2_control_ams/rrbot_actuator.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros2_control_ams.dir/build.make:76: CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_ams.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

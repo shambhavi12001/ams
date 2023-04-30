@@ -1,0 +1,1 @@
+Invoking command in '/home/pi/ros2_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/pi/ros2_ws/build/ros2_control_test_nodes/prefix_override:/home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ros2_control_test_nodes/build --no-deps install_data

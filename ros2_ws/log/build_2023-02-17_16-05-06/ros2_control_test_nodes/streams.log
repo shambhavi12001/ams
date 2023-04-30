@@ -1,0 +1,19 @@
+[3.992s] Invoking command in '/home/pi/ros2_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/pi/ros2_ws/build/ros2_control_test_nodes/prefix_override:/home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ros2_control_test_nodes/build --no-deps install_data
+[5.152s] /home/pi/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.153s]   warnings.warn(
+[5.359s] running develop
+[6.361s] running egg_info
+[6.362s] writing ros2_control_test_nodes.egg-info/PKG-INFO
+[6.363s] writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt
+[6.364s] writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt
+[6.364s] writing requirements to ros2_control_test_nodes.egg-info/requires.txt
+[6.365s] writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt
+[6.373s] reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[6.376s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[6.381s] running build_ext
+[6.382s] Creating /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/python3.10/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[6.385s] Installing publisher_forward_position_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[6.386s] Installing publisher_joint_trajectory_controller script to /home/pi/ros2_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[6.387s] 
+[6.388s] Installed /home/pi/ros2_ws/build/ros2_control_test_nodes
+[6.388s] running install_data

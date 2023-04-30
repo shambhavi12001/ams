@@ -1,0 +1,13 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 2
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    position_controllers:
+      type: position_controllers/JointGroupPositionController
+position_controllers:
+  ros__parameters:
+    joints:
+      - upper_rotator_base_1
+      - upper_rotator_base_2
+    interface_name: position

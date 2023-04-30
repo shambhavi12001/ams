@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="ams_actuators" params="name prefix slowdown:=2.0">
+    <ros2_control name="AMSPositionHardware1" type="actuator">
+      <hardware>
+        <plugin>ros2_control_ams/AMSPositionHardware</plugin>
+      </hardware>
+      <joint name="${prefix}upper_rotator_base_1">
+        <command_interface name="position">
+          <param name="min">-100</param>
+          <param name="max">100</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+    </ros2_control>
+    <ros2_control name="AMSPositionHardware2" type="actuator">
+      <hardware>
+        <plugin>ros2_control_ams/AMSPositionHardware</plugin>
+      </hardware>
+      <joint name="${prefix}upper_rotator_base_2">
+        <command_interface name="position">
+          <param name="min">-100</param>
+          <param name="max">100</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+    </ros2_control>
+  </xacro:macro>
+</robot>

@@ -1,0 +1,52 @@
+[0.282s] Invoking command in '/home/pi/ros2_ws/build/ros2_control_demo_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/ros2_control_demo_hardware
+[1.955s] -- The C compiler identification is GNU 11.3.0
+[2.138s] -- The CXX compiler identification is GNU 11.3.0
+[2.191s] -- Detecting C compiler ABI info
+[2.648s] -- Detecting C compiler ABI info - done
+[2.681s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.684s] -- Detecting C compile features
+[2.686s] -- Detecting C compile features - done
+[2.702s] -- Detecting CXX compiler ABI info
+[3.151s] -- Detecting CXX compiler ABI info - done
+[3.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.181s] -- Detecting CXX compile features
+[3.183s] -- Detecting CXX compile features - done
+[3.215s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.544s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.984s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.437s] -- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.952s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.021s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.126s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.153s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.187s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.915s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.190s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.772s] -- Looking for pthread.h
+[12.126s] -- Looking for pthread.h - found
+[12.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.459s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.464s] -- Found Threads: TRUE  
+[13.365s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[13.366s]   By not providing "Findtransmission_interface.cmake" in CMAKE_MODULE_PATH
+[13.366s]   this project has asked CMake to find a package configuration file provided
+[13.366s]   by "transmission_interface", but CMake did not find one.
+[13.367s] 
+[13.367s]   Could not find a package configuration file provided by
+[13.367s]   "transmission_interface" with any of the following names:
+[13.367s] 
+[13.368s]     transmission_interfaceConfig.cmake
+[13.368s]     transmission_interface-config.cmake
+[13.368s] 
+[13.369s]   Add the installation prefix of "transmission_interface" to
+[13.370s]   CMAKE_PREFIX_PATH or set "transmission_interface_DIR" to a directory
+[13.370s]   containing one of the above files.  If "transmission_interface" provides a
+[13.371s]   separate development package or SDK, be sure it has been installed.
+[13.371s] 
+[13.371s] [0m
+[13.372s] -- Configuring incomplete, errors occurred!
+[13.372s] See also "/home/pi/ros2_ws/build/ros2_control_demo_hardware/CMakeFiles/CMakeOutput.log".
+[13.406s] Invoked command in '/home/pi/ros2_ws/build/ros2_control_demo_hardware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/ros2_control_demo_hardware

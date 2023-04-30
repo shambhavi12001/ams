@@ -1,0 +1,47 @@
+[0.202s] Invoking command in '/home/pi/ams_ws/build/ams_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_description -- -j4 -l4
+[1.679s] Invoked command in '/home/pi/ams_ws/build/ams_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ams_description -- -j4 -l4
+[1.813s] Invoking command in '/home/pi/ams_ws/build/ams_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_description
+[1.837s] -- Install configuration: ""
+[1.838s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src
+[1.839s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description
+[1.839s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description/ams_description.urdf
+[1.840s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/launch
+[1.841s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/launch/display.launch.py
+[1.842s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz
+[1.843s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz/urdf_config.rviz
+[1.843s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes
+[1.844s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_6.STL
+[1.845s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_5.STL
+[1.846s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_2.STL
+[1.846s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_3.STL
+[1.847s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_4.STL
+[1.848s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_3.STL
+[1.849s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_4.STL
+[1.849s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_4.STL
+[1.850s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_6.STL
+[1.850s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_5.STL
+[1.851s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_2.STL
+[1.851s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_1.STL
+[1.852s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_1.STL
+[1.853s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_6.STL
+[1.854s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_5.STL
+[1.854s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_1.STL
+[1.855s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/base_link_ams_body.STL
+[1.856s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_3.STL
+[1.858s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_2.STL
+[1.864s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/package_run_dependencies/ams_description
+[1.864s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/parent_prefix_path/ams_description
+[1.865s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.sh
+[1.866s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.dsv
+[1.867s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.sh
+[1.867s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.dsv
+[1.868s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.bash
+[1.868s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.sh
+[1.869s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.zsh
+[1.870s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.dsv
+[1.870s] -- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.dsv
+[1.871s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/packages/ams_description
+[1.875s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig.cmake
+[1.876s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig-version.cmake
+[1.876s] -- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/package.xml
+[1.877s] Invoked command in '/home/pi/ams_ws/build/ams_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ams_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ams_description

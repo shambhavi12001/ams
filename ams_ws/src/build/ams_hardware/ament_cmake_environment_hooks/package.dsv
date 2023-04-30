@@ -1,0 +1,4 @@
+source;share/ams_hardware/local_setup.bash
+source;share/ams_hardware/local_setup.dsv
+source;share/ams_hardware/local_setup.sh
+source;share/ams_hardware/local_setup.zsh

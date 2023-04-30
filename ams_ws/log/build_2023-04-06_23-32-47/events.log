@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.002229] (ams_description) JobQueued: {'identifier': 'ams_description', 'dependencies': OrderedDict()}
+[0.002775] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.002864] (nmea_navsat_driver) JobQueued: {'identifier': 'nmea_navsat_driver', 'dependencies': OrderedDict()}
+[0.002943] (ams_description) JobStarted: {'identifier': 'ams_description'}
+[0.094160] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.100273] (-) TimerEvent: {}
+[0.187266] (nmea_navsat_driver) JobStarted: {'identifier': 'nmea_navsat_driver'}
+[0.205517] (-) TimerEvent: {}
+[0.281966] (ams_description) JobProgress: {'identifier': 'ams_description', 'progress': 'cmake'}
+[0.286110] (ams_description) JobProgress: {'identifier': 'ams_description', 'progress': 'build'}
+[0.288542] (ams_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/ams_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/ams_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ams_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 60124 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.307850] (-) TimerEvent: {}
+[0.409192] (-) TimerEvent: {}
+[0.509863] (-) TimerEvent: {}
+[0.611246] (-) TimerEvent: {}
+[0.712380] (-) TimerEvent: {}
+[0.813041] (-) TimerEvent: {}
+[0.913677] (-) TimerEvent: {}
+[1.014596] (-) TimerEvent: {}
+[1.115221] (-) TimerEvent: {}
+[1.215838] (-) TimerEvent: {}
+[1.316492] (-) TimerEvent: {}
+[1.417154] (-) TimerEvent: {}
+[1.517834] (-) TimerEvent: {}
+[1.618466] (-) TimerEvent: {}
+[1.724259] (-) TimerEvent: {}
+[1.778723] (ams_description) CommandEnded: {'returncode': 0}
+[1.824487] (-) TimerEvent: {}
+[1.925472] (-) TimerEvent: {}
+[2.026244] (-) TimerEvent: {}
+[2.126899] (-) TimerEvent: {}
+[2.227522] (-) TimerEvent: {}
+[2.328190] (-) TimerEvent: {}
+[2.428832] (-) TimerEvent: {}
+[2.529506] (-) TimerEvent: {}
+[2.630121] (-) TimerEvent: {}
+[2.730736] (-) TimerEvent: {}
+[2.831416] (-) TimerEvent: {}
+[2.932071] (-) TimerEvent: {}
+[3.032698] (-) TimerEvent: {}
+[3.133607] (-) TimerEvent: {}
+[3.234764] (-) TimerEvent: {}
+[3.243290] (ams_description) JobProgress: {'identifier': 'ams_description', 'progress': 'install'}
+[3.278810] (ams_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ams_ws/build/ams_description'], 'cwd': '/home/pi/ams_ws/build/ams_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.234 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ams_ws/build/ams_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.234 60124 192.168.8.236 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.314491] (ams_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.316153] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src\n'}
+[3.317839] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description\n'}
+[3.319956] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/src/description/ams_description.urdf\n'}
+[3.321053] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/launch\n'}
+[3.321900] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/launch/display.launch.py\n'}
+[3.322397] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz\n'}
+[3.322975] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/rviz/urdf_config.rviz\n'}
+[3.323599] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes\n'}
+[3.324763] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_6.STL\n'}
+[3.325589] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_5.STL\n'}
+[3.326290] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_2.STL\n'}
+[3.326955] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_3.STL\n'}
+[3.327490] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_4.STL\n'}
+[3.329486] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_3.STL\n'}
+[3.330160] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_4.STL\n'}
+[3.330700] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_4.STL\n'}
+[3.331982] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_6.STL\n'}
+[3.333401] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_5.STL\n'}
+[3.334332] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_2.STL\n'}
+[3.335427] (-) TimerEvent: {}
+[3.336442] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_ro_base_1.STL\n'}
+[3.337401] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_1.STL\n'}
+[3.338078] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_6.STL\n'}
+[3.339008] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_5.STL\n'}
+[3.339625] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_1.STL\n'}
+[3.340339] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/base_link_ams_body.STL\n'}
+[3.340840] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/lo_leg_plate_3.STL\n'}
+[3.341375] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/meshes/up_leg_plate_2.STL\n'}
+[3.341824] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/package_run_dependencies/ams_description\n'}
+[3.342261] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/parent_prefix_path/ams_description\n'}
+[3.342681] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.sh\n'}
+[3.343267] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/ament_prefix_path.dsv\n'}
+[3.344029] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.sh\n'}
+[3.344717] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/environment/path.dsv\n'}
+[3.345756] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.bash\n'}
+[3.346578] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.sh\n'}
+[3.347070] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.zsh\n'}
+[3.347609] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/local_setup.dsv\n'}
+[3.348009] (ams_description) StdoutLine: {'line': b'-- Installing: /home/pi/ams_ws/install/ams_description/share/ams_description/package.dsv\n'}
+[3.348435] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ament_index/resource_index/packages/ams_description\n'}
+[3.348955] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig.cmake\n'}
+[3.349468] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/cmake/ams_descriptionConfig-version.cmake\n'}
+[3.350344] (ams_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/ams_ws/install/ams_description/share/ams_description/package.xml\n'}
+[3.357427] (ams_description) CommandEnded: {'returncode': 0}
+[3.440752] (-) TimerEvent: {}
+[3.548956] (-) TimerEvent: {}
+[3.655000] (-) TimerEvent: {}
+[3.743599] (ams_description) JobEnded: {'identifier': 'ams_description', 'rc': 0}
+[3.755163] (-) TimerEvent: {}
+[3.856347] (-) TimerEvent: {}
+[3.957051] (-) TimerEvent: {}
+[4.057760] (-) TimerEvent: {}
+[4.158435] (-) TimerEvent: {}
+[4.259120] (-) TimerEvent: {}
+[4.359819] (-) TimerEvent: {}
+[4.460557] (-) TimerEvent: {}
+[4.561301] (-) TimerEvent: {}
+[4.661940] (-) TimerEvent: {}
+[4.762647] (-) TimerEvent: {}
+[4.863290] (-) TimerEvent: {}
+[4.963967] (-) TimerEvent: {}
+[5.064745] (-) TimerEvent: {}
+[5.165436] (-) TimerEvent: {}
+[5.266228] (-) TimerEvent: {}
+[5.367207] (-) TimerEvent: {}
+[5.469252] (-) TimerEvent: {}
+[5.538210] (nmea_navsat_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nmea_navsat_driver', 'build', '--build-base', '/home/pi/ams_ws/build/nmea_navsat_driver/build', 'install', '--record', '/home/pi/ams_ws/build/nmea_navsat_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ams_ws/src/nmea_navsat_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.234 60124 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ams_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/home/pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ams_ws/build/nmea_navsat_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.234 60124 192.168.8.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ams_ws/build/nmea_navsat_driver/prefix_override:/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.557225] (bno055) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/pi/ams_ws/build/bno055/build', 'install', '--record', '/home/pi/ams_ws/build/bno055/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ams_ws/src/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.234 60124 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ams_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/home/pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ams_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.234 60124 192.168.8.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.569464] (-) TimerEvent: {}
+[5.670275] (-) TimerEvent: {}
+[5.770942] (-) TimerEvent: {}
+[5.871642] (-) TimerEvent: {}
+[5.972806] (-) TimerEvent: {}
+[6.073949] (-) TimerEvent: {}
+[6.174885] (-) TimerEvent: {}
+[6.275670] (-) TimerEvent: {}
+[6.376473] (-) TimerEvent: {}
+[6.477313] (-) TimerEvent: {}
+[6.578078] (-) TimerEvent: {}
+[6.678906] (-) TimerEvent: {}
+[6.779635] (-) TimerEvent: {}
+[6.880337] (-) TimerEvent: {}
+[6.981078] (-) TimerEvent: {}
+[7.017292] (nmea_navsat_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.019309] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[7.020872] (nmea_navsat_driver) StdoutLine: {'line': b'writing ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO\n'}
+[7.021965] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[7.022987] (nmea_navsat_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt\n'}
+[7.023981] (nmea_navsat_driver) StdoutLine: {'line': b'writing entry points to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt\n'}
+[7.025058] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[7.026009] (nmea_navsat_driver) StdoutLine: {'line': b'writing requirements to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt\n'}
+[7.026925] (nmea_navsat_driver) StdoutLine: {'line': b'writing top-level names to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt\n'}
+[7.027470] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[7.027959] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[7.028518] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[7.037627] (nmea_navsat_driver) StdoutLine: {'line': b"reading manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[7.039142] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[7.041566] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.042207] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[7.043248] (nmea_navsat_driver) StdoutLine: {'line': b"writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[7.044070] (nmea_navsat_driver) StdoutLine: {'line': b'running build\n'}
+[7.044810] (nmea_navsat_driver) StdoutLine: {'line': b'running build_py\n'}
+[7.045595] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[7.045923] (bno055) StdoutLine: {'line': b'running build\n'}
+[7.046215] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[7.051972] (nmea_navsat_driver) StdoutLine: {'line': b'running install\n'}
+[7.053367] (nmea_navsat_driver) StdoutLine: {'line': b'running install_lib\n'}
+[7.057955] (bno055) StdoutLine: {'line': b'running install\n'}
+[7.059287] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[7.065151] (nmea_navsat_driver) StdoutLine: {'line': b'running install_data\n'}
+[7.071224] (nmea_navsat_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.075138] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[7.078201] (nmea_navsat_driver) StdoutLine: {'line': b"removing '/home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.080006] (nmea_navsat_driver) StdoutLine: {'line': b'Copying ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/pi/ams_ws/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.0-py3.10.egg-info\n'}
+[7.081201] (-) TimerEvent: {}
+[7.082229] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.087384] (nmea_navsat_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[7.088586] (bno055) StdoutLine: {'line': b"removing '/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info' (and everything under it)\n"}
+[7.090434] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info\n'}
+[7.097349] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[7.171185] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_serial_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[7.173166] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_socket_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[7.174202] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_tcpclient_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[7.175173] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_driver script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[7.176165] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_serial_reader script to /home/pi/ams_ws/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[7.178955] (nmea_navsat_driver) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ams_ws/build/nmea_navsat_driver/install.log'\n"}
+[7.181483] (-) TimerEvent: {}
+[7.184144] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/pi/ams_ws/install/bno055/lib/bno055\n'}
+[7.191808] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ams_ws/build/bno055/install.log'\n"}
+[7.281906] (-) TimerEvent: {}
+[7.375182] (nmea_navsat_driver) CommandEnded: {'returncode': 0}
+[7.394448] (-) TimerEvent: {}
+[7.456831] (nmea_navsat_driver) JobEnded: {'identifier': 'nmea_navsat_driver', 'rc': 0}
+[7.475200] (bno055) CommandEnded: {'returncode': 0}
+[7.499727] (-) TimerEvent: {}
+[7.545494] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[7.548302] (-) EventReactorShutdown: {}

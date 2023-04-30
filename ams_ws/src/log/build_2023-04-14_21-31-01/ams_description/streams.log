@@ -1,0 +1,39 @@
+[0.412s] Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ams_description
+[2.316s] -- The C compiler identification is GNU 11.3.0
+[2.319s] -- The CXX compiler identification is GNU 11.3.0
+[2.325s] -- Detecting C compiler ABI info
+[2.724s] -- Detecting C compiler ABI info - done
+[2.761s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.762s] -- Detecting C compile features
+[2.765s] -- Detecting C compile features - done
+[2.781s] -- Detecting CXX compiler ABI info
+[3.166s] -- Detecting CXX compiler ABI info - done
+[3.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.194s] -- Detecting CXX compile features
+[3.195s] -- Detecting CXX compile features - done
+[3.233s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.377s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.272s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.968s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.969s] -- Configured cppcheck include dirs: 
+[5.970s] -- Configured cppcheck exclude dirs and/or files: 
+[5.975s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.985s] -- Added test 'lint_cmake' to check CMake code style
+[5.991s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.030s] -- Added test 'uncrustify' to check C / C++ code style
+[6.037s] -- Configured uncrustify additional arguments: 
+[6.038s] -- Added test 'xmllint' to check XML markup files
+[6.041s] -- Configuring done
+[6.070s] -- Generating done
+[6.078s] -- Build files have been written to: /home/pi/ams_ws/src/build/ams_description
+[6.107s] Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ams_description
+[6.111s] Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/src/build/ams_description -- -j4 -l4
+[6.306s] Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/src/build/ams_description -- -j4 -l4
+[6.451s] Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/src/build/ams_description
+[6.496s] -- Install configuration: ""
+[6.498s] [31mCMake Error at cmake_install.cmake:46 (file):
+[6.499s]   file INSTALL cannot find "/home/pi/ams_ws/src/ams_description/src": No such
+[6.506s]   file or directory.
+[6.507s] 
+[6.507s] [0m
+[6.637s] Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/src/build/ams_description

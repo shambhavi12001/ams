@@ -1,0 +1,1080 @@
+[0.000000] (-) TimerEvent: {}
+[0.001515] (-) JobUnselected: {'identifier': 'ams_description'}
+[0.002999] (-) JobUnselected: {'identifier': 'ams_hardware'}
+[0.003128] (-) JobUnselected: {'identifier': 'bno055'}
+[0.003206] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.003281] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003365] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.003449] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.085059] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.087907] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ams_ws/src/rf2o_laser_odometry', '-DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/rf2o_laser_odometry'], 'cwd': '/home/pi/ams_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102305] (-) TimerEvent: {}
+[0.169249] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.202542] (-) TimerEvent: {}
+[0.303199] (-) TimerEvent: {}
+[0.403935] (-) TimerEvent: {}
+[0.504604] (-) TimerEvent: {}
+[0.605325] (-) TimerEvent: {}
+[0.706159] (-) TimerEvent: {}
+[0.807067] (-) TimerEvent: {}
+[0.908071] (-) TimerEvent: {}
+[1.009139] (-) TimerEvent: {}
+[1.041708] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.109295] (-) TimerEvent: {}
+[1.210056] (-) TimerEvent: {}
+[1.311296] (-) TimerEvent: {}
+[1.412365] (-) TimerEvent: {}
+[1.513021] (-) TimerEvent: {}
+[1.613662] (-) TimerEvent: {}
+[1.714368] (-) TimerEvent: {}
+[1.757886] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.814537] (-) TimerEvent: {}
+[1.915189] (-) TimerEvent: {}
+[2.015944] (-) TimerEvent: {}
+[2.116579] (-) TimerEvent: {}
+[2.217238] (-) TimerEvent: {}
+[2.317939] (-) TimerEvent: {}
+[2.322641] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.387949] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.418113] (-) TimerEvent: {}
+[2.474540] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.518279] (-) TimerEvent: {}
+[2.586278] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.618493] (-) TimerEvent: {}
+[2.719152] (-) TimerEvent: {}
+[2.743634] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.819310] (-) TimerEvent: {}
+[2.919995] (-) TimerEvent: {}
+[3.020648] (-) TimerEvent: {}
+[3.121324] (-) TimerEvent: {}
+[3.191231] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.221488] (-) TimerEvent: {}
+[3.226534] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.321658] (-) TimerEvent: {}
+[3.422325] (-) TimerEvent: {}
+[3.523028] (-) TimerEvent: {}
+[3.623698] (-) TimerEvent: {}
+[3.724393] (-) TimerEvent: {}
+[3.825210] (-) TimerEvent: {}
+[3.926012] (-) TimerEvent: {}
+[3.959642] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.026182] (-) TimerEvent: {}
+[4.126911] (-) TimerEvent: {}
+[4.227642] (-) TimerEvent: {}
+[4.264555] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.327820] (-) TimerEvent: {}
+[4.428502] (-) TimerEvent: {}
+[4.529173] (-) TimerEvent: {}
+[4.629821] (-) TimerEvent: {}
+[4.730479] (-) TimerEvent: {}
+[4.738994] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.830737] (-) TimerEvent: {}
+[4.854630] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.930892] (-) TimerEvent: {}
+[5.031674] (-) TimerEvent: {}
+[5.132454] (-) TimerEvent: {}
+[5.212331] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.213654] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.232614] (-) TimerEvent: {}
+[5.333268] (-) TimerEvent: {}
+[5.433959] (-) TimerEvent: {}
+[5.534786] (-) TimerEvent: {}
+[5.546709] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.550916] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.634970] (-) TimerEvent: {}
+[5.735669] (-) TimerEvent: {}
+[5.836376] (-) TimerEvent: {}
+[5.937041] (-) TimerEvent: {}
+[6.037679] (-) TimerEvent: {}
+[6.138338] (-) TimerEvent: {}
+[6.239052] (-) TimerEvent: {}
+[6.308562] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.339230] (-) TimerEvent: {}
+[6.439932] (-) TimerEvent: {}
+[6.509006] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.540104] (-) TimerEvent: {}
+[6.640749] (-) TimerEvent: {}
+[6.741387] (-) TimerEvent: {}
+[6.747464] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.753941] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.754690] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.841543] (-) TimerEvent: {}
+[6.942184] (-) TimerEvent: {}
+[7.042856] (-) TimerEvent: {}
+[7.143517] (-) TimerEvent: {}
+[7.244204] (-) TimerEvent: {}
+[7.344922] (-) TimerEvent: {}
+[7.445578] (-) TimerEvent: {}
+[7.546237] (-) TimerEvent: {}
+[7.646919] (-) TimerEvent: {}
+[7.747608] (-) TimerEvent: {}
+[7.848257] (-) TimerEvent: {}
+[7.948886] (-) TimerEvent: {}
+[8.049534] (-) TimerEvent: {}
+[8.150207] (-) TimerEvent: {}
+[8.250890] (-) TimerEvent: {}
+[8.351602] (-) TimerEvent: {}
+[8.452256] (-) TimerEvent: {}
+[8.519268] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.552414] (-) TimerEvent: {}
+[8.653043] (-) TimerEvent: {}
+[8.753717] (-) TimerEvent: {}
+[8.854385] (-) TimerEvent: {}
+[8.861199] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.954573] (-) TimerEvent: {}
+[9.055248] (-) TimerEvent: {}
+[9.155938] (-) TimerEvent: {}
+[9.256624] (-) TimerEvent: {}
+[9.315735] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[9.356892] (-) TimerEvent: {}
+[9.457806] (-) TimerEvent: {}
+[9.558500] (-) TimerEvent: {}
+[9.639994] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.658659] (-) TimerEvent: {}
+[9.735903] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[9.743202] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ams_ws/build/rf2o_laser_odometry\n'}
+[9.758945] (-) TimerEvent: {}
+[9.779444] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[9.781303] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[9.783737] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 51475 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.859146] (-) TimerEvent: {}
+[9.959918] (-) TimerEvent: {}
+[9.994792] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[9.995815] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[9.997579] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[10.060119] (-) TimerEvent: {}
+[10.160800] (-) TimerEvent: {}
+[10.261508] (-) TimerEvent: {}
+[10.363263] (-) TimerEvent: {}
+[10.464517] (-) TimerEvent: {}
+[10.565651] (-) TimerEvent: {}
+[10.666498] (-) TimerEvent: {}
+[10.767268] (-) TimerEvent: {}
+[10.868869] (-) TimerEvent: {}
+[10.971065] (-) TimerEvent: {}
+[11.072563] (-) TimerEvent: {}
+[11.173371] (-) TimerEvent: {}
+[11.274149] (-) TimerEvent: {}
+[11.375043] (-) TimerEvent: {}
+[11.476651] (-) TimerEvent: {}
+[11.577384] (-) TimerEvent: {}
+[11.678202] (-) TimerEvent: {}
+[11.778988] (-) TimerEvent: {}
+[11.879900] (-) TimerEvent: {}
+[11.980628] (-) TimerEvent: {}
+[12.081426] (-) TimerEvent: {}
+[12.182391] (-) TimerEvent: {}
+[12.283862] (-) TimerEvent: {}
+[12.390189] (-) TimerEvent: {}
+[12.491008] (-) TimerEvent: {}
+[12.591974] (-) TimerEvent: {}
+[12.692901] (-) TimerEvent: {}
+[12.793927] (-) TimerEvent: {}
+[12.894853] (-) TimerEvent: {}
+[12.997305] (-) TimerEvent: {}
+[13.099391] (-) TimerEvent: {}
+[13.202327] (-) TimerEvent: {}
+[13.304689] (-) TimerEvent: {}
+[13.409046] (-) TimerEvent: {}
+[13.510209] (-) TimerEvent: {}
+[13.611233] (-) TimerEvent: {}
+[13.679526] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9\x1b[m\x1b[K,\n'}
+[13.680740] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:18\x1b[m\x1b[K:\n'}
+[13.681853] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.682986] (rf2o_laser_odometry) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[13.684270] (rf2o_laser_odometry) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.711808] (-) TimerEvent: {}
+[13.813884] (-) TimerEvent: {}
+[13.914929] (-) TimerEvent: {}
+[14.017021] (-) TimerEvent: {}
+[14.120126] (-) TimerEvent: {}
+[14.223020] (-) TimerEvent: {}
+[14.325401] (-) TimerEvent: {}
+[14.445944] (-) TimerEvent: {}
+[14.548126] (-) TimerEvent: {}
+[14.651271] (-) TimerEvent: {}
+[14.753171] (-) TimerEvent: {}
+[14.856490] (-) TimerEvent: {}
+[14.958609] (-) TimerEvent: {}
+[15.061012] (-) TimerEvent: {}
+[15.163795] (-) TimerEvent: {}
+[15.266450] (-) TimerEvent: {}
+[15.368740] (-) TimerEvent: {}
+[15.471477] (-) TimerEvent: {}
+[15.573703] (-) TimerEvent: {}
+[15.678193] (-) TimerEvent: {}
+[15.780853] (-) TimerEvent: {}
+[15.883180] (-) TimerEvent: {}
+[15.985766] (-) TimerEvent: {}
+[16.087858] (-) TimerEvent: {}
+[16.191153] (-) TimerEvent: {}
+[16.293392] (-) TimerEvent: {}
+[16.395430] (-) TimerEvent: {}
+[16.497782] (-) TimerEvent: {}
+[16.600147] (-) TimerEvent: {}
+[16.702245] (-) TimerEvent: {}
+[16.804324] (-) TimerEvent: {}
+[16.906995] (-) TimerEvent: {}
+[17.010205] (-) TimerEvent: {}
+[17.112637] (-) TimerEvent: {}
+[17.215769] (-) TimerEvent: {}
+[17.317877] (-) TimerEvent: {}
+[17.421241] (-) TimerEvent: {}
+[17.523432] (-) TimerEvent: {}
+[17.625735] (-) TimerEvent: {}
+[17.728627] (-) TimerEvent: {}
+[17.831033] (-) TimerEvent: {}
+[17.934087] (-) TimerEvent: {}
+[18.036084] (-) TimerEvent: {}
+[18.138167] (-) TimerEvent: {}
+[18.240272] (-) TimerEvent: {}
+[18.342314] (-) TimerEvent: {}
+[18.444619] (-) TimerEvent: {}
+[18.546755] (-) TimerEvent: {}
+[18.648918] (-) TimerEvent: {}
+[18.751144] (-) TimerEvent: {}
+[18.853192] (-) TimerEvent: {}
+[18.956179] (-) TimerEvent: {}
+[19.058947] (-) TimerEvent: {}
+[19.161131] (-) TimerEvent: {}
+[19.263179] (-) TimerEvent: {}
+[19.365366] (-) TimerEvent: {}
+[19.472714] (-) TimerEvent: {}
+[19.574827] (-) TimerEvent: {}
+[19.677122] (-) TimerEvent: {}
+[19.779186] (-) TimerEvent: {}
+[19.881431] (-) TimerEvent: {}
+[19.983750] (-) TimerEvent: {}
+[20.085908] (-) TimerEvent: {}
+[20.188190] (-) TimerEvent: {}
+[20.291084] (-) TimerEvent: {}
+[20.393497] (-) TimerEvent: {}
+[20.496084] (-) TimerEvent: {}
+[20.598677] (-) TimerEvent: {}
+[20.702083] (-) TimerEvent: {}
+[20.804458] (-) TimerEvent: {}
+[20.906606] (-) TimerEvent: {}
+[21.009047] (-) TimerEvent: {}
+[21.111256] (-) TimerEvent: {}
+[21.213893] (-) TimerEvent: {}
+[21.316292] (-) TimerEvent: {}
+[21.418445] (-) TimerEvent: {}
+[21.520775] (-) TimerEvent: {}
+[21.623209] (-) TimerEvent: {}
+[21.725445] (-) TimerEvent: {}
+[21.827671] (-) TimerEvent: {}
+[21.929928] (-) TimerEvent: {}
+[22.032737] (-) TimerEvent: {}
+[22.134929] (-) TimerEvent: {}
+[22.237290] (-) TimerEvent: {}
+[22.339446] (-) TimerEvent: {}
+[22.441607] (-) TimerEvent: {}
+[22.543761] (-) TimerEvent: {}
+[22.646171] (-) TimerEvent: {}
+[22.748816] (-) TimerEvent: {}
+[22.851455] (-) TimerEvent: {}
+[22.953660] (-) TimerEvent: {}
+[23.055736] (-) TimerEvent: {}
+[23.158107] (-) TimerEvent: {}
+[23.260727] (-) TimerEvent: {}
+[23.362905] (-) TimerEvent: {}
+[23.464964] (-) TimerEvent: {}
+[23.567737] (-) TimerEvent: {}
+[23.669922] (-) TimerEvent: {}
+[23.772144] (-) TimerEvent: {}
+[23.874242] (-) TimerEvent: {}
+[23.976375] (-) TimerEvent: {}
+[24.078491] (-) TimerEvent: {}
+[24.180672] (-) TimerEvent: {}
+[24.282675] (-) TimerEvent: {}
+[24.384815] (-) TimerEvent: {}
+[24.489563] (-) TimerEvent: {}
+[24.591680] (-) TimerEvent: {}
+[24.693885] (-) TimerEvent: {}
+[24.795939] (-) TimerEvent: {}
+[24.897999] (-) TimerEvent: {}
+[25.000037] (-) TimerEvent: {}
+[25.101990] (-) TimerEvent: {}
+[25.203945] (-) TimerEvent: {}
+[25.305988] (-) TimerEvent: {}
+[25.407993] (-) TimerEvent: {}
+[25.510032] (-) TimerEvent: {}
+[25.612393] (-) TimerEvent: {}
+[25.714765] (-) TimerEvent: {}
+[25.817272] (-) TimerEvent: {}
+[25.920035] (-) TimerEvent: {}
+[26.022074] (-) TimerEvent: {}
+[26.124485] (-) TimerEvent: {}
+[26.227263] (-) TimerEvent: {}
+[26.330058] (-) TimerEvent: {}
+[26.432717] (-) TimerEvent: {}
+[26.535793] (-) TimerEvent: {}
+[26.638461] (-) TimerEvent: {}
+[26.740980] (-) TimerEvent: {}
+[26.843409] (-) TimerEvent: {}
+[26.945619] (-) TimerEvent: {}
+[27.047764] (-) TimerEvent: {}
+[27.150341] (-) TimerEvent: {}
+[27.252970] (-) TimerEvent: {}
+[27.355647] (-) TimerEvent: {}
+[27.458739] (-) TimerEvent: {}
+[27.561382] (-) TimerEvent: {}
+[27.664194] (-) TimerEvent: {}
+[27.766602] (-) TimerEvent: {}
+[27.869275] (-) TimerEvent: {}
+[27.972231] (-) TimerEvent: {}
+[28.074866] (-) TimerEvent: {}
+[28.178091] (-) TimerEvent: {}
+[28.280683] (-) TimerEvent: {}
+[28.382821] (-) TimerEvent: {}
+[28.485141] (-) TimerEvent: {}
+[28.587762] (-) TimerEvent: {}
+[28.690015] (-) TimerEvent: {}
+[28.792281] (-) TimerEvent: {}
+[28.895689] (-) TimerEvent: {}
+[28.998116] (-) TimerEvent: {}
+[29.100424] (-) TimerEvent: {}
+[29.202921] (-) TimerEvent: {}
+[29.305100] (-) TimerEvent: {}
+[29.407681] (-) TimerEvent: {}
+[29.512482] (-) TimerEvent: {}
+[29.614742] (-) TimerEvent: {}
+[29.717043] (-) TimerEvent: {}
+[29.819149] (-) TimerEvent: {}
+[29.921841] (-) TimerEvent: {}
+[30.026247] (-) TimerEvent: {}
+[30.127916] (-) TimerEvent: {}
+[30.229967] (-) TimerEvent: {}
+[30.332455] (-) TimerEvent: {}
+[30.434516] (-) TimerEvent: {}
+[30.536634] (-) TimerEvent: {}
+[30.639120] (-) TimerEvent: {}
+[30.741620] (-) TimerEvent: {}
+[30.843705] (-) TimerEvent: {}
+[30.946318] (-) TimerEvent: {}
+[31.048566] (-) TimerEvent: {}
+[31.150663] (-) TimerEvent: {}
+[31.219489] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.221900] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[31.222736] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[31.223647] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.226796] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.227512] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.228382] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.229379] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.230282] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.231112] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[31.231923] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.232570] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.233173] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.233801] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.234466] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.235193] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.238216] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.238995] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.239882] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.240676] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.241507] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[31.242256] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.242965] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.243861] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.244808] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.245633] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.246428] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[31.247205] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.248191] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.249279] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.250097] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.251315] (-) TimerEvent: {}
+[31.253420] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[31.254456] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.255344] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.256272] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.257129] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.258583] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.259294] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.260269] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[31.261197] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[31.262036] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.263261] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.264056] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.264816] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.265574] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.266361] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.267619] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[31.268431] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.269211] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.269966] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.270725] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.271690] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.272639] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.273674] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.274466] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.275860] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.277567] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.279037] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[31.280802] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.282377] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.283497] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.284378] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.285144] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.285918] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[31.286620] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.287758] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.288586] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.289330] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.290178] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[31.290900] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.291619] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.292356] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.293050] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[31.293784] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[31.294472] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[31.295224] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[31.296163] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[31.296850] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.297577] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.298241] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.298965] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.299894] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.300901] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[31.301643] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.302311] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.302990] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.303746] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.304438] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.305016] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.305668] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.306318] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.306920] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.307639] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.308350] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[31.308978] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.309547] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.310099] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.310985] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.311868] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.312570] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[31.313472] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[31.314254] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[31.314943] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.315705] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.316509] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.317347] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.318120] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.318893] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[31.319737] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.320625] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.321504] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.322377] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.323144] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.324210] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[31.325433] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.326325] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.327122] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.328088] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.329127] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[31.330123] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.331025] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[31.332063] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.333014] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.333905] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.334477] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.335228] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[31.335843] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.336660] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.337599] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.338463] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.339211] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.340077] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.340997] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[31.341830] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[31.342602] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[31.343399] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[31.344306] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.344982] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[31.345649] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.346455] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.347237] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.348182] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.349281] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.350247] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.351005] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[31.351866] (-) TimerEvent: {}
+[31.352572] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.452113] (-) TimerEvent: {}
+[31.553217] (-) TimerEvent: {}
+[31.654373] (-) TimerEvent: {}
+[31.756991] (-) TimerEvent: {}
+[31.859311] (-) TimerEvent: {}
+[31.961719] (-) TimerEvent: {}
+[32.064184] (-) TimerEvent: {}
+[32.166288] (-) TimerEvent: {}
+[32.268514] (-) TimerEvent: {}
+[32.370983] (-) TimerEvent: {}
+[32.473095] (-) TimerEvent: {}
+[32.575229] (-) TimerEvent: {}
+[32.677853] (-) TimerEvent: {}
+[32.780208] (-) TimerEvent: {}
+[32.880093] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[32.881629] (-) TimerEvent: {}
+[32.884908] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[32.886383] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[32.887886] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[32.888825] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.889730] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[32.890642] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[32.891577] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[32.892484] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.893291] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[32.894200] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.895054] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[32.896495] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[32.897387] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[32.898247] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[32.899037] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[32.900662] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[32.901496] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[32.902404] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.903238] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[32.904044] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[32.904858] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[32.905759] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.906537] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[32.907369] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.908662] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[32.909536] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[32.910398] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[32.982218] (-) TimerEvent: {}
+[33.084503] (-) TimerEvent: {}
+[33.186554] (-) TimerEvent: {}
+[33.289201] (-) TimerEvent: {}
+[33.391313] (-) TimerEvent: {}
+[33.493398] (-) TimerEvent: {}
+[33.595634] (-) TimerEvent: {}
+[33.698524] (-) TimerEvent: {}
+[33.801003] (-) TimerEvent: {}
+[33.903417] (-) TimerEvent: {}
+[34.005525] (-) TimerEvent: {}
+[34.107618] (-) TimerEvent: {}
+[34.209683] (-) TimerEvent: {}
+[34.312249] (-) TimerEvent: {}
+[34.414416] (-) TimerEvent: {}
+[34.519909] (-) TimerEvent: {}
+[34.621958] (-) TimerEvent: {}
+[34.724047] (-) TimerEvent: {}
+[34.826063] (-) TimerEvent: {}
+[34.928537] (-) TimerEvent: {}
+[35.030998] (-) TimerEvent: {}
+[35.133136] (-) TimerEvent: {}
+[35.235595] (-) TimerEvent: {}
+[35.337817] (-) TimerEvent: {}
+[35.440051] (-) TimerEvent: {}
+[35.542303] (-) TimerEvent: {}
+[35.644499] (-) TimerEvent: {}
+[35.746815] (-) TimerEvent: {}
+[35.849007] (-) TimerEvent: {}
+[35.951276] (-) TimerEvent: {}
+[36.053457] (-) TimerEvent: {}
+[36.155585] (-) TimerEvent: {}
+[36.257715] (-) TimerEvent: {}
+[36.359949] (-) TimerEvent: {}
+[36.462056] (-) TimerEvent: {}
+[36.564381] (-) TimerEvent: {}
+[36.666860] (-) TimerEvent: {}
+[36.768808] (-) TimerEvent: {}
+[36.870971] (-) TimerEvent: {}
+[36.973099] (-) TimerEvent: {}
+[37.075404] (-) TimerEvent: {}
+[37.177428] (-) TimerEvent: {}
+[37.279719] (-) TimerEvent: {}
+[37.381980] (-) TimerEvent: {}
+[37.484140] (-) TimerEvent: {}
+[37.586146] (-) TimerEvent: {}
+[37.688819] (-) TimerEvent: {}
+[37.791330] (-) TimerEvent: {}
+[37.893363] (-) TimerEvent: {}
+[37.995805] (-) TimerEvent: {}
+[38.098315] (-) TimerEvent: {}
+[38.200627] (-) TimerEvent: {}
+[38.302937] (-) TimerEvent: {}
+[38.405186] (-) TimerEvent: {}
+[38.507247] (-) TimerEvent: {}
+[38.609900] (-) TimerEvent: {}
+[38.712013] (-) TimerEvent: {}
+[38.814027] (-) TimerEvent: {}
+[38.916283] (-) TimerEvent: {}
+[39.018714] (-) TimerEvent: {}
+[39.120870] (-) TimerEvent: {}
+[39.222852] (-) TimerEvent: {}
+[39.325092] (-) TimerEvent: {}
+[39.427481] (-) TimerEvent: {}
+[39.533924] (-) TimerEvent: {}
+[39.636350] (-) TimerEvent: {}
+[39.738557] (-) TimerEvent: {}
+[39.841062] (-) TimerEvent: {}
+[39.943040] (-) TimerEvent: {}
+[40.045313] (-) TimerEvent: {}
+[40.147510] (-) TimerEvent: {}
+[40.249704] (-) TimerEvent: {}
+[40.351845] (-) TimerEvent: {}
+[40.454048] (-) TimerEvent: {}
+[40.556270] (-) TimerEvent: {}
+[40.659040] (-) TimerEvent: {}
+[40.761392] (-) TimerEvent: {}
+[40.863831] (-) TimerEvent: {}
+[40.966205] (-) TimerEvent: {}
+[41.068333] (-) TimerEvent: {}
+[41.170413] (-) TimerEvent: {}
+[41.272453] (-) TimerEvent: {}
+[41.374936] (-) TimerEvent: {}
+[41.477186] (-) TimerEvent: {}
+[41.579252] (-) TimerEvent: {}
+[41.681525] (-) TimerEvent: {}
+[41.784013] (-) TimerEvent: {}
+[41.886249] (-) TimerEvent: {}
+[41.989155] (-) TimerEvent: {}
+[42.091342] (-) TimerEvent: {}
+[42.195228] (-) TimerEvent: {}
+[42.297751] (-) TimerEvent: {}
+[42.400128] (-) TimerEvent: {}
+[42.502671] (-) TimerEvent: {}
+[42.605258] (-) TimerEvent: {}
+[42.707775] (-) TimerEvent: {}
+[42.810548] (-) TimerEvent: {}
+[42.913140] (-) TimerEvent: {}
+[43.017088] (-) TimerEvent: {}
+[43.119612] (-) TimerEvent: {}
+[43.222174] (-) TimerEvent: {}
+[43.324840] (-) TimerEvent: {}
+[43.427745] (-) TimerEvent: {}
+[43.530472] (-) TimerEvent: {}
+[43.633462] (-) TimerEvent: {}
+[43.736741] (-) TimerEvent: {}
+[43.840032] (-) TimerEvent: {}
+[43.943088] (-) TimerEvent: {}
+[44.045736] (-) TimerEvent: {}
+[44.148583] (-) TimerEvent: {}
+[44.252073] (-) TimerEvent: {}
+[44.354773] (-) TimerEvent: {}
+[44.457620] (-) TimerEvent: {}
+[44.563741] (-) TimerEvent: {}
+[44.666811] (-) TimerEvent: {}
+[44.769617] (-) TimerEvent: {}
+[44.873996] (-) TimerEvent: {}
+[44.977056] (-) TimerEvent: {}
+[45.079320] (-) TimerEvent: {}
+[45.181899] (-) TimerEvent: {}
+[45.284136] (-) TimerEvent: {}
+[45.386422] (-) TimerEvent: {}
+[45.489398] (-) TimerEvent: {}
+[45.591673] (-) TimerEvent: {}
+[45.694061] (-) TimerEvent: {}
+[45.798280] (-) TimerEvent: {}
+[45.900368] (-) TimerEvent: {}
+[46.002810] (-) TimerEvent: {}
+[46.106161] (-) TimerEvent: {}
+[46.208342] (-) TimerEvent: {}
+[46.311008] (-) TimerEvent: {}
+[46.413362] (-) TimerEvent: {}
+[46.515752] (-) TimerEvent: {}
+[46.620358] (-) TimerEvent: {}
+[46.722630] (-) TimerEvent: {}
+[46.824892] (-) TimerEvent: {}
+[46.927362] (-) TimerEvent: {}
+[47.029585] (-) TimerEvent: {}
+[47.131953] (-) TimerEvent: {}
+[47.234394] (-) TimerEvent: {}
+[47.336543] (-) TimerEvent: {}
+[47.438802] (-) TimerEvent: {}
+[47.541105] (-) TimerEvent: {}
+[47.643609] (-) TimerEvent: {}
+[47.748135] (-) TimerEvent: {}
+[47.851485] (-) TimerEvent: {}
+[47.953703] (-) TimerEvent: {}
+[48.056730] (-) TimerEvent: {}
+[48.159308] (-) TimerEvent: {}
+[48.261581] (-) TimerEvent: {}
+[48.363741] (-) TimerEvent: {}
+[48.465712] (-) TimerEvent: {}
+[48.568047] (-) TimerEvent: {}
+[48.671176] (-) TimerEvent: {}
+[48.773932] (-) TimerEvent: {}
+[48.876798] (-) TimerEvent: {}
+[48.979218] (-) TimerEvent: {}
+[49.081749] (-) TimerEvent: {}
+[49.184642] (-) TimerEvent: {}
+[49.286766] (-) TimerEvent: {}
+[49.388840] (-) TimerEvent: {}
+[49.491735] (-) TimerEvent: {}
+[49.596911] (-) TimerEvent: {}
+[49.698974] (-) TimerEvent: {}
+[49.801170] (-) TimerEvent: {}
+[49.903407] (-) TimerEvent: {}
+[50.005649] (-) TimerEvent: {}
+[50.107799] (-) TimerEvent: {}
+[50.209954] (-) TimerEvent: {}
+[50.312943] (-) TimerEvent: {}
+[50.417573] (-) TimerEvent: {}
+[50.519949] (-) TimerEvent: {}
+[50.622163] (-) TimerEvent: {}
+[50.724473] (-) TimerEvent: {}
+[50.826469] (-) TimerEvent: {}
+[50.928948] (-) TimerEvent: {}
+[51.031059] (-) TimerEvent: {}
+[51.133215] (-) TimerEvent: {}
+[51.235188] (-) TimerEvent: {}
+[51.337205] (-) TimerEvent: {}
+[51.439364] (-) TimerEvent: {}
+[51.541309] (-) TimerEvent: {}
+[51.643445] (-) TimerEvent: {}
+[51.745672] (-) TimerEvent: {}
+[51.848087] (-) TimerEvent: {}
+[51.950514] (-) TimerEvent: {}
+[52.052900] (-) TimerEvent: {}
+[52.155265] (-) TimerEvent: {}
+[52.257888] (-) TimerEvent: {}
+[52.360293] (-) TimerEvent: {}
+[52.462328] (-) TimerEvent: {}
+[52.564406] (-) TimerEvent: {}
+[52.666651] (-) TimerEvent: {}
+[52.770390] (-) TimerEvent: {}
+[52.872845] (-) TimerEvent: {}
+[52.976945] (-) TimerEvent: {}
+[53.081002] (-) TimerEvent: {}
+[53.184805] (-) TimerEvent: {}
+[53.287436] (-) TimerEvent: {}
+[53.389936] (-) TimerEvent: {}
+[53.492047] (-) TimerEvent: {}
+[53.594755] (-) TimerEvent: {}
+[53.697110] (-) TimerEvent: {}
+[53.799696] (-) TimerEvent: {}
+[53.903139] (-) TimerEvent: {}
+[54.005207] (-) TimerEvent: {}
+[54.107623] (-) TimerEvent: {}
+[54.210630] (-) TimerEvent: {}
+[54.314517] (-) TimerEvent: {}
+[54.419217] (-) TimerEvent: {}
+[54.523342] (-) TimerEvent: {}
+[54.631500] (-) TimerEvent: {}
+[54.734725] (-) TimerEvent: {}
+[54.838616] (-) TimerEvent: {}
+[54.941731] (-) TimerEvent: {}
+[55.044403] (-) TimerEvent: {}
+[55.146800] (-) TimerEvent: {}
+[55.249509] (-) TimerEvent: {}
+[55.352301] (-) TimerEvent: {}
+[55.454449] (-) TimerEvent: {}
+[55.556546] (-) TimerEvent: {}
+[55.659753] (-) TimerEvent: {}
+[55.761977] (-) TimerEvent: {}
+[55.864431] (-) TimerEvent: {}
+[55.966612] (-) TimerEvent: {}
+[56.069250] (-) TimerEvent: {}
+[56.171681] (-) TimerEvent: {}
+[56.274009] (-) TimerEvent: {}
+[56.376063] (-) TimerEvent: {}
+[56.478501] (-) TimerEvent: {}
+[56.580773] (-) TimerEvent: {}
+[56.682808] (-) TimerEvent: {}
+[56.784906] (-) TimerEvent: {}
+[56.887612] (-) TimerEvent: {}
+[56.989833] (-) TimerEvent: {}
+[57.091986] (-) TimerEvent: {}
+[57.194655] (-) TimerEvent: {}
+[57.296765] (-) TimerEvent: {}
+[57.399734] (-) TimerEvent: {}
+[57.502146] (-) TimerEvent: {}
+[57.604250] (-) TimerEvent: {}
+[57.706604] (-) TimerEvent: {}
+[57.809067] (-) TimerEvent: {}
+[57.911373] (-) TimerEvent: {}
+[58.013366] (-) TimerEvent: {}
+[58.115652] (-) TimerEvent: {}
+[58.217664] (-) TimerEvent: {}
+[58.319796] (-) TimerEvent: {}
+[58.421838] (-) TimerEvent: {}
+[58.523819] (-) TimerEvent: {}
+[58.626431] (-) TimerEvent: {}
+[58.728724] (-) TimerEvent: {}
+[58.831049] (-) TimerEvent: {}
+[58.933862] (-) TimerEvent: {}
+[59.036209] (-) TimerEvent: {}
+[59.138482] (-) TimerEvent: {}
+[59.241073] (-) TimerEvent: {}
+[59.343083] (-) TimerEvent: {}
+[59.445860] (-) TimerEvent: {}
+[59.547855] (-) TimerEvent: {}
+[59.650340] (-) TimerEvent: {}
+[59.752983] (-) TimerEvent: {}
+[59.855492] (-) TimerEvent: {}
+[59.957858] (-) TimerEvent: {}
+[60.059929] (-) TimerEvent: {}
+[60.161701] (-) TimerEvent: {}
+[60.263896] (-) TimerEvent: {}
+[60.365995] (-) TimerEvent: {}
+[60.468444] (-) TimerEvent: {}
+[60.570736] (-) TimerEvent: {}
+[60.672997] (-) TimerEvent: {}
+[60.775634] (-) TimerEvent: {}
+[60.878281] (-) TimerEvent: {}
+[60.980593] (-) TimerEvent: {}
+[61.082867] (-) TimerEvent: {}
+[61.185254] (-) TimerEvent: {}
+[61.287790] (-) TimerEvent: {}
+[61.389829] (-) TimerEvent: {}
+[61.492527] (-) TimerEvent: {}
+[61.594544] (-) TimerEvent: {}
+[61.696703] (-) TimerEvent: {}
+[61.798987] (-) TimerEvent: {}
+[61.901481] (-) TimerEvent: {}
+[62.003375] (-) TimerEvent: {}
+[62.105645] (-) TimerEvent: {}
+[62.207771] (-) TimerEvent: {}
+[62.310199] (-) TimerEvent: {}
+[62.413003] (-) TimerEvent: {}
+[62.515185] (-) TimerEvent: {}
+[62.617381] (-) TimerEvent: {}
+[62.720231] (-) TimerEvent: {}
+[62.822281] (-) TimerEvent: {}
+[62.924470] (-) TimerEvent: {}
+[63.026671] (-) TimerEvent: {}
+[63.129139] (-) TimerEvent: {}
+[63.231350] (-) TimerEvent: {}
+[63.333756] (-) TimerEvent: {}
+[63.436060] (-) TimerEvent: {}
+[63.538004] (-) TimerEvent: {}
+[63.640094] (-) TimerEvent: {}
+[63.742179] (-) TimerEvent: {}
+[63.844207] (-) TimerEvent: {}
+[63.946725] (-) TimerEvent: {}
+[64.048836] (-) TimerEvent: {}
+[64.151213] (-) TimerEvent: {}
+[64.253447] (-) TimerEvent: {}
+[64.356245] (-) TimerEvent: {}
+[64.458878] (-) TimerEvent: {}
+[64.561543] (-) TimerEvent: {}
+[64.663773] (-) TimerEvent: {}
+[64.766483] (-) TimerEvent: {}
+[64.869287] (-) TimerEvent: {}
+[64.971403] (-) TimerEvent: {}
+[65.073526] (-) TimerEvent: {}
+[65.175741] (-) TimerEvent: {}
+[65.278028] (-) TimerEvent: {}
+[65.380648] (-) TimerEvent: {}
+[65.483372] (-) TimerEvent: {}
+[65.586083] (-) TimerEvent: {}
+[65.688306] (-) TimerEvent: {}
+[65.790948] (-) TimerEvent: {}
+[65.893486] (-) TimerEvent: {}
+[65.996171] (-) TimerEvent: {}
+[66.099144] (-) TimerEvent: {}
+[66.201494] (-) TimerEvent: {}
+[66.304341] (-) TimerEvent: {}
+[66.406583] (-) TimerEvent: {}
+[66.509224] (-) TimerEvent: {}
+[66.611258] (-) TimerEvent: {}
+[66.713399] (-) TimerEvent: {}
+[66.815633] (-) TimerEvent: {}
+[66.918367] (-) TimerEvent: {}
+[67.020957] (-) TimerEvent: {}
+[67.123745] (-) TimerEvent: {}
+[67.225816] (-) TimerEvent: {}
+[67.328037] (-) TimerEvent: {}
+[67.430599] (-) TimerEvent: {}
+[67.532736] (-) TimerEvent: {}
+[67.634976] (-) TimerEvent: {}
+[67.737566] (-) TimerEvent: {}
+[67.839879] (-) TimerEvent: {}
+[67.941939] (-) TimerEvent: {}
+[68.044387] (-) TimerEvent: {}
+[68.146645] (-) TimerEvent: {}
+[68.248712] (-) TimerEvent: {}
+[68.351108] (-) TimerEvent: {}
+[68.453624] (-) TimerEvent: {}
+[68.556068] (-) TimerEvent: {}
+[68.658235] (-) TimerEvent: {}
+[68.760323] (-) TimerEvent: {}
+[68.862861] (-) TimerEvent: {}
+[68.965015] (-) TimerEvent: {}
+[69.067540] (-) TimerEvent: {}
+[69.169921] (-) TimerEvent: {}
+[69.272077] (-) TimerEvent: {}
+[69.374093] (-) TimerEvent: {}
+[69.476621] (-) TimerEvent: {}
+[69.578959] (-) TimerEvent: {}
+[69.681225] (-) TimerEvent: {}
+[69.783680] (-) TimerEvent: {}
+[69.885711] (-) TimerEvent: {}
+[69.987948] (-) TimerEvent: {}
+[70.090625] (-) TimerEvent: {}
+[70.193180] (-) TimerEvent: {}
+[70.295735] (-) TimerEvent: {}
+[70.398473] (-) TimerEvent: {}
+[70.500624] (-) TimerEvent: {}
+[70.602761] (-) TimerEvent: {}
+[70.705185] (-) TimerEvent: {}
+[70.807371] (-) TimerEvent: {}
+[70.910319] (-) TimerEvent: {}
+[71.012791] (-) TimerEvent: {}
+[71.114970] (-) TimerEvent: {}
+[71.217795] (-) TimerEvent: {}
+[71.320114] (-) TimerEvent: {}
+[71.422809] (-) TimerEvent: {}
+[71.524964] (-) TimerEvent: {}
+[71.627082] (-) TimerEvent: {}
+[71.729629] (-) TimerEvent: {}
+[71.831811] (-) TimerEvent: {}
+[71.934177] (-) TimerEvent: {}
+[72.036906] (-) TimerEvent: {}
+[72.139451] (-) TimerEvent: {}
+[72.241571] (-) TimerEvent: {}
+[72.343708] (-) TimerEvent: {}
+[72.446039] (-) TimerEvent: {}
+[72.548921] (-) TimerEvent: {}
+[72.651298] (-) TimerEvent: {}
+[72.753478] (-) TimerEvent: {}
+[72.855710] (-) TimerEvent: {}
+[72.958088] (-) TimerEvent: {}
+[73.060805] (-) TimerEvent: {}
+[73.163260] (-) TimerEvent: {}
+[73.265843] (-) TimerEvent: {}
+[73.368679] (-) TimerEvent: {}
+[73.470675] (-) TimerEvent: {}
+[73.572682] (-) TimerEvent: {}
+[73.674986] (-) TimerEvent: {}
+[73.777883] (-) TimerEvent: {}
+[73.880442] (-) TimerEvent: {}
+[73.983243] (-) TimerEvent: {}
+[74.085703] (-) TimerEvent: {}
+[74.187922] (-) TimerEvent: {}
+[74.290521] (-) TimerEvent: {}
+[74.392744] (-) TimerEvent: {}
+[74.494861] (-) TimerEvent: {}
+[74.597140] (-) TimerEvent: {}
+[74.699954] (-) TimerEvent: {}
+[74.802060] (-) TimerEvent: {}
+[74.904516] (-) TimerEvent: {}
+[75.007122] (-) TimerEvent: {}
+[75.109364] (-) TimerEvent: {}
+[75.211971] (-) TimerEvent: {}
+[75.313978] (-) TimerEvent: {}
+[75.416099] (-) TimerEvent: {}
+[75.518164] (-) TimerEvent: {}
+[75.620730] (-) TimerEvent: {}
+[75.722931] (-) TimerEvent: {}
+[75.825075] (-) TimerEvent: {}
+[75.927124] (-) TimerEvent: {}
+[76.029511] (-) TimerEvent: {}
+[76.131776] (-) TimerEvent: {}
+[76.234476] (-) TimerEvent: {}
+[76.336587] (-) TimerEvent: {}
+[76.438772] (-) TimerEvent: {}
+[76.541161] (-) TimerEvent: {}
+[76.643394] (-) TimerEvent: {}
+[76.745581] (-) TimerEvent: {}
+[76.847799] (-) TimerEvent: {}
+[76.949944] (-) TimerEvent: {}
+[77.052002] (-) TimerEvent: {}
+[77.154540] (-) TimerEvent: {}
+[77.256780] (-) TimerEvent: {}
+[77.358959] (-) TimerEvent: {}
+[77.461876] (-) TimerEvent: {}
+[77.564822] (-) TimerEvent: {}
+[77.667230] (-) TimerEvent: {}
+[77.769621] (-) TimerEvent: {}
+[77.871642] (-) TimerEvent: {}
+[77.973925] (-) TimerEvent: {}
+[78.075853] (-) TimerEvent: {}
+[78.178040] (-) TimerEvent: {}
+[78.281073] (-) TimerEvent: {}
+[78.383823] (-) TimerEvent: {}
+[78.486178] (-) TimerEvent: {}
+[78.588685] (-) TimerEvent: {}
+[78.691038] (-) TimerEvent: {}
+[78.795631] (-) TimerEvent: {}
+[78.898142] (-) TimerEvent: {}
+[79.000657] (-) TimerEvent: {}
+[79.103295] (-) TimerEvent: {}
+[79.206022] (-) TimerEvent: {}
+[79.308631] (-) TimerEvent: {}
+[79.411426] (-) TimerEvent: {}
+[79.514077] (-) TimerEvent: {}
+[79.616651] (-) TimerEvent: {}
+[79.719358] (-) TimerEvent: {}
+[79.821919] (-) TimerEvent: {}
+[79.924458] (-) TimerEvent: {}
+[80.027116] (-) TimerEvent: {}
+[80.129632] (-) TimerEvent: {}
+[80.232459] (-) TimerEvent: {}
+[80.334948] (-) TimerEvent: {}
+[80.437529] (-) TimerEvent: {}
+[80.541380] (-) TimerEvent: {}
+[80.643427] (-) TimerEvent: {}
+[80.745614] (-) TimerEvent: {}
+[80.847721] (-) TimerEvent: {}
+[80.950731] (-) TimerEvent: {}
+[81.053251] (-) TimerEvent: {}
+[81.156142] (-) TimerEvent: {}
+[81.258497] (-) TimerEvent: {}
+[81.360927] (-) TimerEvent: {}
+[81.463897] (-) TimerEvent: {}
+[81.566469] (-) TimerEvent: {}
+[81.669384] (-) TimerEvent: {}
+[81.772290] (-) TimerEvent: {}
+[81.875084] (-) TimerEvent: {}
+[81.977294] (-) TimerEvent: {}
+[82.079630] (-) TimerEvent: {}
+[82.181889] (-) TimerEvent: {}
+[82.284307] (-) TimerEvent: {}
+[82.387771] (-) TimerEvent: {}
+[82.490082] (-) TimerEvent: {}
+[82.592159] (-) TimerEvent: {}
+[82.694144] (-) TimerEvent: {}
+[82.796303] (-) TimerEvent: {}
+[82.898251] (-) TimerEvent: {}
+[83.000299] (-) TimerEvent: {}
+[83.102335] (-) TimerEvent: {}
+[83.204799] (-) TimerEvent: {}
+[83.307997] (-) TimerEvent: {}
+[83.409642] (-) TimerEvent: {}
+[83.511279] (-) TimerEvent: {}
+[83.613190] (-) TimerEvent: {}
+[83.715794] (-) TimerEvent: {}
+[83.818202] (-) TimerEvent: {}
+[83.920403] (-) TimerEvent: {}
+[84.022516] (-) TimerEvent: {}
+[84.124616] (-) TimerEvent: {}
+[84.226781] (-) TimerEvent: {}
+[84.328776] (-) TimerEvent: {}
+[84.430837] (-) TimerEvent: {}
+[84.532901] (-) TimerEvent: {}
+[84.638555] (-) TimerEvent: {}
+[84.740580] (-) TimerEvent: {}
+[84.842725] (-) TimerEvent: {}
+[84.945363] (-) TimerEvent: {}
+[85.049300] (-) TimerEvent: {}
+[85.151832] (-) TimerEvent: {}
+[85.255043] (-) TimerEvent: {}
+[85.360094] (-) TimerEvent: {}
+[85.462913] (-) TimerEvent: {}
+[85.513293] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rf2o_laser_odometry.dir/build.make:76: CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o] Error 1\n'}
+[85.514743] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rf2o_laser_odometry.dir/all] Error 2\n'}
+[85.515423] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[85.526245] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rf2o_laser_odometry_node.dir/build.make:90: CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o] Error 1\n'}
+[85.526843] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[85.563100] (-) TimerEvent: {}
+[85.664013] (-) TimerEvent: {}
+[85.764923] (-) TimerEvent: {}
+[85.865978] (-) TimerEvent: {}
+[85.967367] (-) TimerEvent: {}
+[86.068647] (-) TimerEvent: {}
+[86.169479] (-) TimerEvent: {}
+[86.263317] (rf2o_laser_odometry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rf2o_laser_odometry_node.dir/all] Error 2\n'}
+[86.264082] (rf2o_laser_odometry) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[86.269506] (rf2o_laser_odometry) CommandEnded: {'returncode': 2}
+[86.270703] (-) TimerEvent: {}
+[86.371334] (-) TimerEvent: {}
+[86.472067] (-) TimerEvent: {}
+[86.517795] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 2}
+[86.529238] (-) EventReactorShutdown: {}

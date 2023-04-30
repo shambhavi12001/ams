@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ams_description
+Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ams_ws/src/ams_description -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ams_description
+Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/src/build/ams_description -- -j4 -l4
+Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/src/build/ams_description -- -j4 -l4
+Invoking command in '/home/pi/ams_ws/src/build/ams_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/src/build/ams_description
+Invoked command in '/home/pi/ams_ws/src/build/ams_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/src/build/ams_description

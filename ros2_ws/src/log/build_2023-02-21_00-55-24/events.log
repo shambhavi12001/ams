@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.001608] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002195] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.098940] (-) TimerEvent: {}
+[0.102084] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.102932] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ros2_ws/src/rplidar_ros', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/src/install/rplidar_ros'], 'cwd': '/home/pi/ros2_ws/src/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::147b:bc1e:506c:2197%wlan0 59920 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ros2_ws'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.15'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXPtRyTY/agent.1880'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ros2_ws/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::147b:bc1e:506c:2197%wlan0 59920 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.199219] (-) TimerEvent: {}
+[0.300303] (-) TimerEvent: {}
+[0.309981] (rplidar_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.311281] (rplidar_ros) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.311931] (rplidar_ros) StderrLine: {'line': b'  CMake.\n'}
+[0.312569] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.312986] (rplidar_ros) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.313393] (rplidar_ros) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.313862] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.314337] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400499] (-) TimerEvent: {}
+[0.501250] (-) TimerEvent: {}
+[0.602244] (-) TimerEvent: {}
+[0.703242] (-) TimerEvent: {}
+[0.804168] (-) TimerEvent: {}
+[0.905125] (-) TimerEvent: {}
+[1.006140] (-) TimerEvent: {}
+[1.107121] (-) TimerEvent: {}
+[1.186609] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.207295] (-) TimerEvent: {}
+[1.308056] (-) TimerEvent: {}
+[1.409159] (-) TimerEvent: {}
+[1.510550] (-) TimerEvent: {}
+[1.611682] (-) TimerEvent: {}
+[1.712632] (-) TimerEvent: {}
+[1.813675] (-) TimerEvent: {}
+[1.914675] (-) TimerEvent: {}
+[1.966540] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.013528] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.014838] (-) TimerEvent: {}
+[2.115514] (-) TimerEvent: {}
+[2.216209] (-) TimerEvent: {}
+[2.317112] (-) TimerEvent: {}
+[2.371820] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.401966] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.404026] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.406858] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.417237] (-) TimerEvent: {}
+[2.424290] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.517521] (-) TimerEvent: {}
+[2.618300] (-) TimerEvent: {}
+[2.719216] (-) TimerEvent: {}
+[2.776138] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.806989] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.807935] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.809715] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.819350] (-) TimerEvent: {}
+[2.919966] (-) TimerEvent: {}
+[3.014888] (rplidar_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[3.015695] (rplidar_ros) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.016033] (rplidar_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[3.016332] (rplidar_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.016623] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.016914] (rplidar_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[3.017223] (rplidar_ros) StderrLine: {'line': b'  of the following names:\n'}
+[3.017544] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.017861] (rplidar_ros) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[3.018237] (rplidar_ros) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[3.018690] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.019417] (rplidar_ros) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[3.019948] (rplidar_ros) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[3.020354] (-) TimerEvent: {}
+[3.020748] (rplidar_ros) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.021218] (rplidar_ros) StderrLine: {'line': b'  installed.\n'}
+[3.021599] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.021927] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[3.022274] (rplidar_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.022655] (rplidar_ros) StdoutLine: {'line': b'See also "/home/pi/ros2_ws/src/build/rplidar_ros/CMakeFiles/CMakeOutput.log".\n'}
+[3.025460] (rplidar_ros) CommandEnded: {'returncode': 1}
+[3.121054] (-) TimerEvent: {}
+[3.161216] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 1}
+[3.172566] (-) EventReactorShutdown: {}

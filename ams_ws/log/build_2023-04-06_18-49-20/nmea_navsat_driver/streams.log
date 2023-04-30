@@ -1,0 +1,33 @@
+[1.674s] Invoking command in '/home/pi/ams_ws/build/nmea_navsat_driver': /usr/bin/cmake /home/pi/ams_ws/src/nmea_navsat_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/nmea_navsat_driver
+[2.692s] -- The C compiler identification is GNU 11.3.0
+[3.498s] -- The CXX compiler identification is GNU 11.3.0
+[3.586s] -- Detecting C compiler ABI info
+[3.925s] -- Detecting C compiler ABI info - done
+[3.955s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.957s] -- Detecting C compile features
+[3.960s] -- Detecting C compile features - done
+[3.988s] -- Detecting CXX compiler ABI info
+[4.381s] -- Detecting CXX compiler ABI info - done
+[4.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.413s] -- Detecting CXX compile features
+[4.415s] -- Detecting CXX compile features - done
+[4.626s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[4.626s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.627s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.627s]   CMake did not find one.
+[4.628s] 
+[4.628s]   Could not find a package configuration file provided by "catkin" with any
+[4.629s]   of the following names:
+[4.629s] 
+[4.630s]     catkinConfig.cmake
+[4.631s]     catkin-config.cmake
+[4.633s] 
+[4.634s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.635s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.636s]   provides a separate development package or SDK, be sure it has been
+[4.636s]   installed.
+[4.637s] 
+[4.637s] [0m
+[4.638s] -- Configuring incomplete, errors occurred!
+[4.638s] See also "/home/pi/ams_ws/build/nmea_navsat_driver/CMakeFiles/CMakeOutput.log".
+[4.641s] Invoked command in '/home/pi/ams_ws/build/nmea_navsat_driver' returned '1': /usr/bin/cmake /home/pi/ams_ws/src/nmea_navsat_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/nmea_navsat_driver

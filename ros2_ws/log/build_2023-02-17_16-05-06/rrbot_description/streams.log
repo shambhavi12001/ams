@@ -1,0 +1,42 @@
+[1.802s] Invoking command in '/home/pi/ros2_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/rrbot_description -- -j4 -l4
+[1.985s] Invoked command in '/home/pi/ros2_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/rrbot_description -- -j4 -l4
+[2.238s] Invoking command in '/home/pi/ros2_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/rrbot_description
+[2.275s] -- Install configuration: ""
+[2.277s] -- Execute custom install script
+[2.279s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[2.282s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[2.283s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[2.285s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[2.286s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[2.288s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/external_rrbot_force_torque_sensor.ros2_control.xacro
+[2.289s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[2.290s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+[2.291s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[2.292s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[2.294s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[2.295s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_transmissions_system_position_only.ros2_control.xacro
+[2.298s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[2.298s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[2.299s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_modular_actuators.urdf.xacro
+[2.300s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro
+[2.302s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro
+[2.302s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_external_sensor.urdf.xacro
+[2.303s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro
+[2.304s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_transmissions_system_position_only.urdf.xacro
+[2.307s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[2.307s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[2.311s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[2.312s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[2.312s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[2.315s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[2.316s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[2.317s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[2.318s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[2.318s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[2.319s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[2.325s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[2.360s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[2.361s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[2.362s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[2.363s] -- Up-to-date symlink: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.xml
+[2.478s] Invoked command in '/home/pi/ros2_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/rrbot_description

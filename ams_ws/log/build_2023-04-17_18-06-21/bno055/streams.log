@@ -1,0 +1,23 @@
+[5.705s] Invoking command in '/home/pi/ams_ws/src/bno055': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed
+[7.192s] running egg_info
+[7.195s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[7.197s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[7.198s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[7.199s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[7.200s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[7.211s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[7.213s] adding license file 'LICENSE'
+[7.214s] adding license file 'AUTHORS'
+[7.216s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[7.217s] running build
+[7.218s] running build_py
+[7.226s] running install
+[7.227s] running install_lib
+[7.238s] running install_data
+[7.242s] running install_egg_info
+[7.249s] removing '/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info' (and everything under it)
+[7.250s] Copying ../../build/bno055/bno055.egg-info to /home/pi/ams_ws/install/bno055/lib/python3.10/site-packages/bno055-0.4.1-py3.10.egg-info
+[7.256s] running install_scripts
+[7.340s] Installing bno055 script to /home/pi/ams_ws/install/bno055/lib/bno055
+[7.344s] writing list of installed files to '/home/pi/ams_ws/build/bno055/install.log'
+[7.547s] Invoked command in '/home/pi/ams_ws/src/bno055' returned '0': PYTHONPATH=/home/pi/ams_ws/build/bno055/prefix_override:/home/pi/ams_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/pi/ams_ws/build/bno055/build install --record /home/pi/ams_ws/build/bno055/install.log --single-version-externally-managed

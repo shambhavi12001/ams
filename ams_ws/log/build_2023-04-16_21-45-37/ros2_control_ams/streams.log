@@ -1,0 +1,138 @@
+[0.096s] Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_ams[0m
+[0.349s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o[0m
+[1.386s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:13[m[K,
+[1.387s]                  from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[1.387s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/visibility_control.h:17:2:[m[K [01;31m[Kerror: [m[K#else after #else
+[1.387s]    17 | #[01;31m[Kelse[m[K
+[1.388s]       |  [01;31m[K^~~~[m[K
+[1.388s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/visibility_control.h:12:[m[K [01;31m[Kerror: [m[Kthe conditional began here
+[1.388s]    12 | #ifdef ROS2_CONTROL_AMS_BUILDING_DLL
+[1.388s]       | 
+[1.389s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/visibility_control.h:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[1.389s]     1 | #ifndef ROS2_CONTROL_AMS__VISIBILITY_CONTROL_H_
+[1.389s]       | 
+[3.943s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[3.943s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.943s]    20 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.944s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.944s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[3.953s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.954s]    24 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.954s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.954s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[3.964s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:27:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.964s]    27 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.965s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.965s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[3.975s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:30:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.975s]    30 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.975s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.976s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[3.985s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.986s]    34 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.986s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.986s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[3.996s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[3.996s]    38 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[3.997s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.997s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[4.007s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:42:25:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2_CONTROL_AMS_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KROS2_CONTROL_AMS_HPP_[m[K’?
+[4.007s]    42 |                         [01;31m[KROS2_CONTROL_AMS_PUBLIC[m[K
+[4.007s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.008s]       |                         [32m[KROS2_CONTROL_AMS_HPP_[m[K
+[10.091s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:14:44:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[10.092s]    14 |         hardware_interface::CallbackReturn [01;31m[KAMSPositionHardware[m[K::on_init(
+[10.092s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.092s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:14:44:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[10.093s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.094s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.094s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.094s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.095s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:67:44:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[10.095s]    67 |         hardware_interface::CallbackReturn [01;31m[KAMSPositionHardware[m[K::on_configure(
+[10.095s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.096s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:67:44:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[10.096s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.096s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.097s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.097s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.097s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:76:9:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<hardware_interface::StateInterface> ros2_control_ams::AMSPositionHardware::export_state_interfaces()[m[K’
+[10.098s]    76 |         [01;31m[KAMSPositionHardware[m[K::export_state_interfaces()
+[10.098s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.098s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:76:9:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<hardware_interface::StateInterface> ros2_control_ams::AMSPositionHardware::export_state_interfaces()[m[K’
+[10.099s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.099s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.100s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.100s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.100s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:87:9:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<hardware_interface::CommandInterface> ros2_control_ams::AMSPositionHardware::export_command_interfaces()[m[K’
+[10.101s]    87 |         [01;31m[KAMSPositionHardware[m[K::export_command_interfaces()
+[10.101s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.101s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:87:9:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<hardware_interface::CommandInterface> ros2_control_ams::AMSPositionHardware::export_command_interfaces()[m[K’
+[10.102s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.102s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.102s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.103s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.103s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:97:41:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[10.104s]    97 |         hardware_interface::return_type [01;31m[KAMSPositionHardware[m[K::on_activate(
+[10.104s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.104s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:97:41:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[10.105s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.105s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.105s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.106s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.106s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:109:41:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[10.106s]   109 |         hardware_interface::return_type [01;31m[KAMSPositionHardware[m[K::on_deactivate(
+[10.107s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.107s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:109:41:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[10.107s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.108s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.108s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.108s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.109s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:115:41:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[10.109s]   115 |         hardware_interface::return_type [01;31m[KAMSPositionHardware[m[K::read(
+[10.109s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.110s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:115:41:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[10.110s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.110s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.111s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.111s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.111s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:121:41:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[10.112s]   121 |         hardware_interface::return_type [01;31m[KAMSPositionHardware[m[K::write(
+[10.112s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.112s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:121:41:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[10.113s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[10.113s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ros2_control_ams::AMSPositionHardware[m[K’ defined here
+[10.113s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[10.114s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.674s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[11.675s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[11.675s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[11.676s]                  from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:127[m[K:
+[11.676s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_ams::AMSPositionHardware; B = hardware_interface::ActuatorInterface][m[K’:
+[11.676s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[11.677s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_ams::AMSPositionHardware[m[K’
+[11.677s]   218 |     return [01;31m[Knew C[m[K;
+[11.677s]       |            [01;31m[K^~~~~[m[K
+[11.678s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[11.678s] [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:16:15:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_ams::AMSPositionHardware[m[K’:
+[11.678s]    16 |         class [01;36m[KAMSPositionHardware[m[K : public hardware_interface::ActuatorInterface
+[11.679s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.679s] In file included from [01m[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:3[m[K,
+[11.680s]                  from [01m[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1[m[K:
+[11.680s] [01m[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:110:39:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::ActuatorInterface::export_state_interfaces()[m[K’
+[11.680s]   110 |   virtual std::vector<StateInterface> [01;36m[Kexport_state_interfaces[m[K() = 0;
+[11.681s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.681s] [01m[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:121:41:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::ActuatorInterface::export_command_interfaces()[m[K’
+[11.682s]   121 |   virtual std::vector<CommandInterface> [01;36m[Kexport_command_interfaces[m[K() = 0;
+[11.682s]       |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.683s] [01m[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:172:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[11.683s]   172 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[11.684s]       |                       [01;36m[K^~~~[m[K
+[11.684s] [01m[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:183:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[11.684s]   183 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[11.685s]       |                       [01;36m[K^~~~~[m[K
+[11.892s] gmake[2]: *** [CMakeFiles/ros2_control_ams.dir/build.make:76: CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o] Error 1
+[11.893s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_ams.dir/all] Error 2
+[11.894s] gmake: *** [Makefile:146: all] Error 2
+[11.900s] Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4

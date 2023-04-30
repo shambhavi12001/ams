@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.001539] (-) JobUnselected: {'identifier': 'ams_hardware'}
+[0.003012] (-) JobUnselected: {'identifier': 'bno055'}
+[0.003142] (-) JobUnselected: {'identifier': 'ncd_parser'}
+[0.003220] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.003297] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.003373] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.003446] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003526] (ros2_control_ams) JobQueued: {'identifier': 'ros2_control_ams', 'dependencies': OrderedDict()}
+[0.003609] (ros2_control_ams) JobStarted: {'identifier': 'ros2_control_ams'}
+[0.084686] (ros2_control_ams) JobProgress: {'identifier': 'ros2_control_ams', 'progress': 'cmake'}
+[0.085601] (ros2_control_ams) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/ams_ws/src/ams_description', '-DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/install/ros2_control_ams'], 'cwd': '/home/pi/ams_ws/build/ros2_control_ams', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 52093 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description/bringup/launch'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/ros2_control_ams'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 52093 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099078] (-) TimerEvent: {}
+[0.201416] (-) TimerEvent: {}
+[0.302309] (-) TimerEvent: {}
+[0.373400] (ros2_control_ams) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.402484] (-) TimerEvent: {}
+[0.404088] (ros2_control_ams) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502718] (-) TimerEvent: {}
+[0.603514] (-) TimerEvent: {}
+[0.704238] (-) TimerEvent: {}
+[0.733420] (ros2_control_ams) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.761419] (ros2_control_ams) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.762218] (ros2_control_ams) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.763763] (ros2_control_ams) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.791663] (ros2_control_ams) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.804377] (-) TimerEvent: {}
+[0.904940] (-) TimerEvent: {}
+[1.005615] (-) TimerEvent: {}
+[1.106355] (-) TimerEvent: {}
+[1.207212] (-) TimerEvent: {}
+[1.308115] (-) TimerEvent: {}
+[1.408982] (-) TimerEvent: {}
+[1.509690] (-) TimerEvent: {}
+[1.610317] (-) TimerEvent: {}
+[1.651530] (ros2_control_ams) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.710468] (-) TimerEvent: {}
+[1.811078] (-) TimerEvent: {}
+[1.911882] (-) TimerEvent: {}
+[2.012977] (-) TimerEvent: {}
+[2.113627] (-) TimerEvent: {}
+[2.214274] (-) TimerEvent: {}
+[2.275261] (ros2_control_ams) StdoutLine: {'line': b'-- Found hardware_interface: 2.20.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[2.314449] (-) TimerEvent: {}
+[2.415080] (-) TimerEvent: {}
+[2.515726] (-) TimerEvent: {}
+[2.616374] (-) TimerEvent: {}
+[2.686236] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.716539] (-) TimerEvent: {}
+[2.741353] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.809875] (ros2_control_ams) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.816659] (-) TimerEvent: {}
+[2.899599] (ros2_control_ams) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.916812] (-) TimerEvent: {}
+[3.017449] (-) TimerEvent: {}
+[3.028954] (ros2_control_ams) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.117613] (-) TimerEvent: {}
+[3.218268] (-) TimerEvent: {}
+[3.318920] (-) TimerEvent: {}
+[3.419607] (-) TimerEvent: {}
+[3.520250] (-) TimerEvent: {}
+[3.620899] (-) TimerEvent: {}
+[3.721583] (-) TimerEvent: {}
+[3.822234] (-) TimerEvent: {}
+[3.922878] (-) TimerEvent: {}
+[4.023547] (-) TimerEvent: {}
+[4.124210] (-) TimerEvent: {}
+[4.224837] (-) TimerEvent: {}
+[4.325524] (-) TimerEvent: {}
+[4.426193] (-) TimerEvent: {}
+[4.526862] (-) TimerEvent: {}
+[4.627545] (-) TimerEvent: {}
+[4.728233] (-) TimerEvent: {}
+[4.828957] (-) TimerEvent: {}
+[4.929645] (-) TimerEvent: {}
+[5.030314] (-) TimerEvent: {}
+[5.130982] (-) TimerEvent: {}
+[5.231638] (-) TimerEvent: {}
+[5.332268] (-) TimerEvent: {}
+[5.432899] (-) TimerEvent: {}
+[5.533548] (-) TimerEvent: {}
+[5.634177] (-) TimerEvent: {}
+[5.734847] (-) TimerEvent: {}
+[5.835468] (-) TimerEvent: {}
+[5.936095] (-) TimerEvent: {}
+[6.036732] (-) TimerEvent: {}
+[6.137381] (-) TimerEvent: {}
+[6.164458] (ros2_control_ams) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.192781] (ros2_control_ams) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.237537] (-) TimerEvent: {}
+[6.338165] (-) TimerEvent: {}
+[6.438794] (-) TimerEvent: {}
+[6.539430] (-) TimerEvent: {}
+[6.640152] (-) TimerEvent: {}
+[6.740987] (-) TimerEvent: {}
+[6.841844] (-) TimerEvent: {}
+[6.853332] (ros2_control_ams) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.942017] (-) TimerEvent: {}
+[7.042685] (-) TimerEvent: {}
+[7.142556] (ros2_control_ams) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.143105] (-) TimerEvent: {}
+[7.243689] (-) TimerEvent: {}
+[7.344341] (-) TimerEvent: {}
+[7.444971] (-) TimerEvent: {}
+[7.545606] (-) TimerEvent: {}
+[7.635089] (ros2_control_ams) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.645765] (-) TimerEvent: {}
+[7.734128] (ros2_control_ams) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[7.745927] (-) TimerEvent: {}
+[7.846637] (-) TimerEvent: {}
+[7.947326] (-) TimerEvent: {}
+[8.048096] (-) TimerEvent: {}
+[8.105366] (ros2_control_ams) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[8.106391] (ros2_control_ams) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.148288] (-) TimerEvent: {}
+[8.249035] (-) TimerEvent: {}
+[8.349810] (-) TimerEvent: {}
+[8.450561] (-) TimerEvent: {}
+[8.476164] (ros2_control_ams) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.482527] (ros2_control_ams) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.550743] (-) TimerEvent: {}
+[8.651455] (-) TimerEvent: {}
+[8.752129] (-) TimerEvent: {}
+[8.852813] (-) TimerEvent: {}
+[8.953514] (-) TimerEvent: {}
+[9.054176] (-) TimerEvent: {}
+[9.154818] (-) TimerEvent: {}
+[9.255514] (-) TimerEvent: {}
+[9.356436] (-) TimerEvent: {}
+[9.357953] (ros2_control_ams) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[9.456624] (-) TimerEvent: {}
+[9.557361] (-) TimerEvent: {}
+[9.657983] (-) TimerEvent: {}
+[9.667522] (ros2_control_ams) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.758176] (-) TimerEvent: {}
+[9.858995] (-) TimerEvent: {}
+[9.932441] (ros2_control_ams) StdoutLine: {'line': b'-- Generating done\n'}
+[9.939183] (ros2_control_ams) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/ams_ws/build/ros2_control_ams\n'}
+[9.959318] (-) TimerEvent: {}
+[9.977271] (ros2_control_ams) CommandEnded: {'returncode': 0}
+[9.978951] (ros2_control_ams) JobProgress: {'identifier': 'ros2_control_ams', 'progress': 'build'}
+[9.981314] (ros2_control_ams) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ams_ws/build/ros2_control_ams', '--', '-j4', '-l4'], 'cwd': '/home/pi/ams_ws/build/ros2_control_ams', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', 'fe80::876:cb5b:e90c:afe8%wlan0 52093 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/ams_ws/src/ams_description/bringup/launch'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.19'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/home/pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/pi/ams_ws/build/ros2_control_ams'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::876:cb5b:e90c:afe8%wlan0 52093 fe80::e65f:1ff:fecd:85c0%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.059484] (-) TimerEvent: {}
+[10.160200] (-) TimerEvent: {}
+[10.191012] (ros2_control_ams) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o\x1b[0m\n'}
+[10.260486] (-) TimerEvent: {}
+[10.361248] (-) TimerEvent: {}
+[10.461909] (-) TimerEvent: {}
+[10.562568] (-) TimerEvent: {}
+[10.663208] (-) TimerEvent: {}
+[10.763887] (-) TimerEvent: {}
+[10.864532] (-) TimerEvent: {}
+[10.965237] (-) TimerEvent: {}
+[11.065892] (-) TimerEvent: {}
+[11.166524] (-) TimerEvent: {}
+[11.267160] (-) TimerEvent: {}
+[11.367808] (-) TimerEvent: {}
+[11.468525] (-) TimerEvent: {}
+[11.569210] (-) TimerEvent: {}
+[11.669837] (-) TimerEvent: {}
+[11.770575] (-) TimerEvent: {}
+[11.871439] (-) TimerEvent: {}
+[11.972142] (-) TimerEvent: {}
+[12.072792] (-) TimerEvent: {}
+[12.173549] (-) TimerEvent: {}
+[12.274287] (-) TimerEvent: {}
+[12.374987] (-) TimerEvent: {}
+[12.475699] (-) TimerEvent: {}
+[12.576409] (-) TimerEvent: {}
+[12.677213] (-) TimerEvent: {}
+[12.777894] (-) TimerEvent: {}
+[12.878608] (-) TimerEvent: {}
+[12.979326] (-) TimerEvent: {}
+[13.080026] (-) TimerEvent: {}
+[13.180750] (-) TimerEvent: {}
+[13.281493] (-) TimerEvent: {}
+[13.382175] (-) TimerEvent: {}
+[13.482886] (-) TimerEvent: {}
+[13.583632] (-) TimerEvent: {}
+[13.684356] (-) TimerEvent: {}
+[13.785066] (-) TimerEvent: {}
+[13.840460] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[13.841176] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:19:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.841520] (ros2_control_ams) StderrLine: {'line': b'   19 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.841775] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.842022] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.851100] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:23:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.851731] (ros2_control_ams) StderrLine: {'line': b'   23 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.852025] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.852270] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.861773] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:26:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.862410] (ros2_control_ams) StderrLine: {'line': b'   26 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.862725] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.862969] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.872428] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:29:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.873008] (ros2_control_ams) StderrLine: {'line': b'   29 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.873378] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.873630] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.883043] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:33:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.883628] (ros2_control_ams) StderrLine: {'line': b'   33 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.883989] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.884234] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.885161] (-) TimerEvent: {}
+[13.893822] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:37:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.894435] (ros2_control_ams) StderrLine: {'line': b'   37 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.894744] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.894992] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.904439] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:41:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.905013] (ros2_control_ams) StderrLine: {'line': b'   41 |                         \x1b[01;31m\x1b[KROS2_CONTROL_AMS_PUBLIC\x1b[m\x1b[K\n'}
+[13.905429] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.905767] (ros2_control_ams) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KROS2_CONTROL_AMS_HPP_\x1b[m\x1b[K\n'}
+[13.985355] (-) TimerEvent: {}
+[14.086041] (-) TimerEvent: {}
+[14.186786] (-) TimerEvent: {}
+[14.287543] (-) TimerEvent: {}
+[14.400467] (-) TimerEvent: {}
+[14.501235] (-) TimerEvent: {}
+[14.602101] (-) TimerEvent: {}
+[14.702807] (-) TimerEvent: {}
+[14.803545] (-) TimerEvent: {}
+[14.904265] (-) TimerEvent: {}
+[15.005050] (-) TimerEvent: {}
+[15.105816] (-) TimerEvent: {}
+[15.206529] (-) TimerEvent: {}
+[15.307229] (-) TimerEvent: {}
+[15.407945] (-) TimerEvent: {}
+[15.508640] (-) TimerEvent: {}
+[15.609380] (-) TimerEvent: {}
+[15.710053] (-) TimerEvent: {}
+[15.810775] (-) TimerEvent: {}
+[15.911502] (-) TimerEvent: {}
+[16.012189] (-) TimerEvent: {}
+[16.112899] (-) TimerEvent: {}
+[16.213650] (-) TimerEvent: {}
+[16.314348] (-) TimerEvent: {}
+[16.415035] (-) TimerEvent: {}
+[16.515736] (-) TimerEvent: {}
+[16.616428] (-) TimerEvent: {}
+[16.717176] (-) TimerEvent: {}
+[16.817847] (-) TimerEvent: {}
+[16.918554] (-) TimerEvent: {}
+[17.019256] (-) TimerEvent: {}
+[17.119951] (-) TimerEvent: {}
+[17.220691] (-) TimerEvent: {}
+[17.321423] (-) TimerEvent: {}
+[17.422127] (-) TimerEvent: {}
+[17.522836] (-) TimerEvent: {}
+[17.623548] (-) TimerEvent: {}
+[17.724294] (-) TimerEvent: {}
+[17.825067] (-) TimerEvent: {}
+[17.925827] (-) TimerEvent: {}
+[18.026550] (-) TimerEvent: {}
+[18.127265] (-) TimerEvent: {}
+[18.228020] (-) TimerEvent: {}
+[18.328753] (-) TimerEvent: {}
+[18.429510] (-) TimerEvent: {}
+[18.530209] (-) TimerEvent: {}
+[18.630993] (-) TimerEvent: {}
+[18.732145] (-) TimerEvent: {}
+[18.832839] (-) TimerEvent: {}
+[18.933578] (-) TimerEvent: {}
+[19.034292] (-) TimerEvent: {}
+[19.135017] (-) TimerEvent: {}
+[19.235801] (-) TimerEvent: {}
+[19.336510] (-) TimerEvent: {}
+[19.437373] (-) TimerEvent: {}
+[19.538087] (-) TimerEvent: {}
+[19.638811] (-) TimerEvent: {}
+[19.739559] (-) TimerEvent: {}
+[19.840264] (-) TimerEvent: {}
+[19.940973] (-) TimerEvent: {}
+[19.967626] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:14:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.969071] (ros2_control_ams) StderrLine: {'line': b'   14 |         hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::on_init(\n'}
+[19.969941] (ros2_control_ams) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.970339] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:14:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.970961] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.971462] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.971882] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.972213] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.972540] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:67:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.972894] (ros2_control_ams) StderrLine: {'line': b'   67 |         hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::on_configure(\n'}
+[19.973285] (ros2_control_ams) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.973650] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:67:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn ros2_control_ams::AMSPositionHardware::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.974047] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.974384] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.974728] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.975040] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.975363] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:76:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::StateInterface> ros2_control_ams::AMSPositionHardware::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.975684] (ros2_control_ams) StderrLine: {'line': b'   76 |         \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::export_state_interfaces()\n'}
+[19.976010] (ros2_control_ams) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.976324] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::StateInterface> ros2_control_ams::AMSPositionHardware::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.976703] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.977035] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.977481] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.977851] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.978243] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:87:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::CommandInterface> ros2_control_ams::AMSPositionHardware::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.978607] (ros2_control_ams) StderrLine: {'line': b'   87 |         \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::export_command_interfaces()\n'}
+[19.978927] (ros2_control_ams) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.979259] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:87:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::CommandInterface> ros2_control_ams::AMSPositionHardware::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.979597] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.979923] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.980233] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.980556] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.980872] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:97:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.981409] (ros2_control_ams) StderrLine: {'line': b'   97 |         hardware_interface::return_type \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::on_activate(\n'}
+[19.981775] (ros2_control_ams) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.982085] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:97:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.982421] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.982738] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.983104] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.983463] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.983778] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:109:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.984166] (ros2_control_ams) StderrLine: {'line': b'  109 |         hardware_interface::return_type \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::on_deactivate(\n'}
+[19.984487] (ros2_control_ams) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.984792] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:109:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.985160] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.985521] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.985842] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.986157] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.986485] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:115:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.986866] (ros2_control_ams) StderrLine: {'line': b'  115 |         hardware_interface::return_type \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::read(\n'}
+[19.987181] (ros2_control_ams) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.987489] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:115:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.987801] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.988110] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.988429] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.988723] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.989012] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:121:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.989419] (ros2_control_ams) StderrLine: {'line': b'  121 |         hardware_interface::return_type \x1b[01;31m\x1b[KAMSPositionHardware\x1b[m\x1b[K::write(\n'}
+[19.989756] (ros2_control_ams) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.990124] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:121:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type ros2_control_ams::AMSPositionHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.990517] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[19.990844] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[19.991173] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[19.991521] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.041224] (-) TimerEvent: {}
+[20.141938] (-) TimerEvent: {}
+[20.242654] (-) TimerEvent: {}
+[20.343345] (-) TimerEvent: {}
+[20.444047] (-) TimerEvent: {}
+[20.544781] (-) TimerEvent: {}
+[20.645522] (-) TimerEvent: {}
+[20.746211] (-) TimerEvent: {}
+[20.846907] (-) TimerEvent: {}
+[20.947614] (-) TimerEvent: {}
+[21.048344] (-) TimerEvent: {}
+[21.149056] (-) TimerEvent: {}
+[21.249794] (-) TimerEvent: {}
+[21.350496] (-) TimerEvent: {}
+[21.451197] (-) TimerEvent: {}
+[21.546871] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[21.547836] (ros2_control_ams) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[21.548232] (ros2_control_ams) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[21.548579] (ros2_control_ams) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:127\x1b[m\x1b[K:\n'}
+[21.548923] (ros2_control_ams) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_ams::AMSPositionHardware; B = hardware_interface::ActuatorInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.549368] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[21.549737] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.550094] (ros2_control_ams) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[21.550449] (ros2_control_ams) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.550796] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[21.551140] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:15:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kros2_control_ams::AMSPositionHardware\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.551455] (-) TimerEvent: {}
+[21.551842] (ros2_control_ams) StderrLine: {'line': b'   15 |         class \x1b[01;36m\x1b[KAMSPositionHardware\x1b[m\x1b[K : public hardware_interface::ActuatorInterface\n'}
+[21.552457] (ros2_control_ams) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.552852] (ros2_control_ams) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/include/ros2_control_ams/ams_actuator.hpp:3\x1b[m\x1b[K,\n'}
+[21.553269] (ros2_control_ams) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/ams_ws/src/ams_description/hardware/ams_actuator.cpp:1\x1b[m\x1b[K:\n'}
+[21.553695] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:110:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::ActuatorInterface::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.554082] (ros2_control_ams) StderrLine: {'line': b'  110 |   virtual std::vector<StateInterface> \x1b[01;36m\x1b[Kexport_state_interfaces\x1b[m\x1b[K() = 0;\n'}
+[21.554435] (ros2_control_ams) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.554771] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:121:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::ActuatorInterface::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.555119] (ros2_control_ams) StderrLine: {'line': b'  121 |   virtual std::vector<CommandInterface> \x1b[01;36m\x1b[Kexport_command_interfaces\x1b[m\x1b[K() = 0;\n'}
+[21.555479] (ros2_control_ams) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.555811] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:172:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.556169] (ros2_control_ams) StderrLine: {'line': b'  172 |   virtual return_type \x1b[01;36m\x1b[Kread\x1b[m\x1b[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;\n'}
+[21.556553] (ros2_control_ams) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[21.556906] (ros2_control_ams) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/actuator_interface.hpp:183:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.557449] (ros2_control_ams) StderrLine: {'line': b'  183 |   virtual return_type \x1b[01;36m\x1b[Kwrite\x1b[m\x1b[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;\n'}
+[21.557866] (ros2_control_ams) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.651662] (-) TimerEvent: {}
+[21.752382] (-) TimerEvent: {}
+[21.765701] (ros2_control_ams) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_control_ams.dir/build.make:76: CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o] Error 1\n'}
+[21.766470] (ros2_control_ams) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_ams.dir/all] Error 2\n'}
+[21.767285] (ros2_control_ams) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.773260] (ros2_control_ams) CommandEnded: {'returncode': 2}
+[21.852557] (-) TimerEvent: {}
+[21.954347] (-) TimerEvent: {}
+[21.997657] (ros2_control_ams) JobEnded: {'identifier': 'ros2_control_ams', 'rc': 2}
+[22.009576] (-) EventReactorShutdown: {}

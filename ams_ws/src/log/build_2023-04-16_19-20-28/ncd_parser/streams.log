@@ -1,0 +1,41 @@
+[0.092s] Invoking command in '/home/pi/ams_ws/src/build/ncd_parser': /usr/bin/cmake /home/pi/ams_ws/src/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ncd_parser
+[0.120s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.120s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.120s]   CMake.
+[0.121s] 
+[0.121s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.121s]   CMake that the project does not need compatibility with older versions.
+[0.122s] 
+[0.122s] [0m
+[0.350s] -- The C compiler identification is GNU 11.3.0
+[0.608s] -- The CXX compiler identification is GNU 11.3.0
+[0.640s] -- Detecting C compiler ABI info
+[0.943s] -- Detecting C compiler ABI info - done
+[0.972s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.973s] -- Detecting C compile features
+[0.975s] -- Detecting C compile features - done
+[0.987s] -- Detecting CXX compiler ABI info
+[1.323s] -- Detecting CXX compiler ABI info - done
+[1.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.353s] -- Detecting CXX compile features
+[1.355s] -- Detecting CXX compile features - done
+[1.554s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.554s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.554s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.555s]   CMake did not find one.
+[1.555s] 
+[1.555s]   Could not find a package configuration file provided by "catkin" with any
+[1.556s]   of the following names:
+[1.556s] 
+[1.556s]     catkinConfig.cmake
+[1.557s]     catkin-config.cmake
+[1.557s] 
+[1.558s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.559s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.560s]   provides a separate development package or SDK, be sure it has been
+[1.561s]   installed.
+[1.562s] 
+[1.563s] [0m
+[1.563s] -- Configuring incomplete, errors occurred!
+[1.563s] See also "/home/pi/ams_ws/src/build/ncd_parser/CMakeFiles/CMakeOutput.log".
+[1.568s] Invoked command in '/home/pi/ams_ws/src/build/ncd_parser' returned '1': /usr/bin/cmake /home/pi/ams_ws/src/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/ams_ws/src/install/ncd_parser

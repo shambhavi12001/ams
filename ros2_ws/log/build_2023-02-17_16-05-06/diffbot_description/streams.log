@@ -1,0 +1,31 @@
+[0.345s] Invoking command in '/home/pi/ros2_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/diffbot_description -- -j4 -l4
+[2.047s] Invoked command in '/home/pi/ros2_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/diffbot_description -- -j4 -l4
+[2.211s] Invoking command in '/home/pi/ros2_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/diffbot_description
+[2.251s] -- Install configuration: ""
+[2.255s] -- Execute custom install script
+[2.259s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[2.261s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/config/diffbot_view.rviz
+[2.265s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[2.267s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[2.270s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/launch/view_robot.launch.py
+[2.273s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot.ros2_control.xacro
+[2.276s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[2.278s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[2.281s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_description.urdf.xacro
+[2.283s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[2.285s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[2.288s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[2.290s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[2.292s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[2.295s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+[2.296s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[2.297s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+[2.299s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+[2.301s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[2.303s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[2.304s] -- Symlinking: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/package.dsv
+[2.341s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[2.342s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[2.343s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[2.344s] -- Up-to-date symlink: /home/pi/ros2_ws/install/diffbot_description/share/diffbot_description/package.xml
+[2.356s] Invoked command in '/home/pi/ros2_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/diffbot_description

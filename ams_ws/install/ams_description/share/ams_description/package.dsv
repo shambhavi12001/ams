@@ -1,0 +1,8 @@
+source;share/ams_description/hook/cmake_prefix_path.ps1
+source;share/ams_description/hook/cmake_prefix_path.dsv
+source;share/ams_description/hook/cmake_prefix_path.sh
+source;share/ams_description/local_setup.bash
+source;share/ams_description/local_setup.dsv
+source;share/ams_description/local_setup.ps1
+source;share/ams_description/local_setup.sh
+source;share/ams_description/local_setup.zsh

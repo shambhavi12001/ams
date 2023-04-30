@@ -1,0 +1,133 @@
+2023-03-30 21:20:52,047 - gsmHat.gsmHat - INFO - Serial connection to /dev/ttyS0 established
+2023-03-30 21:20:52,048 - gsmHat.gsmHat - INFO - Worker started
+2023-03-30 21:20:52,049 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:20:52,151 - gsmHat.gsmHat - DEBUG - Received Data: AT+CMGF=1
+2023-03-30 21:20:52,152 - gsmHat.gsmHat - DEBUG - Received Data: ERROR
+2023-03-30 21:20:52,260 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042052.000,3213.872749,N,11057.419097,W,1,3,1.75,740.233,M,-27.655,M,,*7A
+2023-03-30 21:20:52,265 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,2,32,02,10,,,,,,,,,,2.02,1.75,1.00*03
+2023-03-30 21:20:52,268 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,2,,,,,,,,,,,,,2.02,1.75,1.00*1D
+2023-03-30 21:20:52,271 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,17,51,52,173,,10,50,286,20,02,33,110,23*7C
+2023-03-30 21:20:52,275 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,22,15,27,045,15,32,27,202,23,29,16,161,18*7A
+2023-03-30 21:20:52,278 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:52,279 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,27*7F
+2023-03-30 21:20:52,280 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:52,283 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042052.000,A,3213.872749,N,11057.419097,W,1.95,135.27,310323,,,A*68
+2023-03-30 21:20:52,285 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,135.27,T,,M,1.95,N,3.62,K,A*2B
+2023-03-30 21:20:52,286 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,15.1*3D
+2023-03-30 21:20:53,197 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042053.000,3213.872315,N,11057.419133,W,1,3,1.75,740.413,M,-27.655,M,,*7D
+2023-03-30 21:20:53,200 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,2,32,02,10,,,,,,,,,,2.02,1.75,1.00*03
+2023-03-30 21:20:53,203 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,2,,,,,,,,,,,,,2.02,1.75,1.00*1D
+2023-03-30 21:20:53,207 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,15,51,52,173,,10,50,286,19,02,33,110,22*75
+2023-03-30 21:20:53,211 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,21,15,27,045,14,32,27,202,22,29,16,161,18*79
+2023-03-30 21:20:53,214 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:53,215 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,27*7F
+2023-03-30 21:20:53,216 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:53,323 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042053.000,A,3213.872315,N,11057.419133,W,1.93,180.39,310323,,,A*6C
+2023-03-30 21:20:53,329 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,180.39,T,,M,1.93,N,3.58,K,A*25
+2023-03-30 21:20:53,332 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,15.2*3E
+2023-03-30 21:20:54,243 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042054.000,3213.872379,N,11057.418995,W,1,3,1.75,740.565,M,-27.655,M,,*75
+2023-03-30 21:20:54,248 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,2,32,02,10,,,,,,,,,,2.01,1.75,1.00*00
+2023-03-30 21:20:54,250 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,2,,,,,,,,,,,,,2.01,1.75,1.00*1E
+2023-03-30 21:20:54,253 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,15,51,52,173,,10,50,286,18,02,33,110,21*77
+2023-03-30 21:20:54,257 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,21,15,27,045,,32,27,202,22,29,16,161,18*7C
+2023-03-30 21:20:54,259 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:54,261 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,27*7F
+2023-03-30 21:20:54,262 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:54,265 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042054.000,A,3213.872379,N,11057.418995,W,1.39,157.49,310323,,,A*69
+2023-03-30 21:20:54,267 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,157.49,T,,M,1.39,N,2.57,K,A*26
+2023-03-30 21:20:54,268 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,15.3*3F
+2023-03-30 21:20:55,278 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042055.000,3213.873133,N,11057.419326,W,1,4,1.56,741.099,M,-27.655,M,,*7B
+2023-03-30 21:20:55,283 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,3,32,02,10,18,,,,,,,,,1.85,1.56,0.99*07
+2023-03-30 21:20:55,285 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,3,,,,,,,,,,,,,1.85,1.56,0.99*10
+2023-03-30 21:20:55,288 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,15,51,52,173,,10,50,286,18,02,33,110,20*76
+2023-03-30 21:20:55,291 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,21,15,27,045,,32,27,202,22,29,16,161,18*7C
+2023-03-30 21:20:55,294 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:55,295 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,27*7F
+2023-03-30 21:20:55,296 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:55,300 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042055.000,A,3213.873133,N,11057.419326,W,1.09,311.46,310323,,,A*6A
+2023-03-30 21:20:55,302 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,311.46,T,,M,1.09,N,2.02,K,A*2A
+2023-03-30 21:20:55,303 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,14.9*34
+2023-03-30 21:20:56,212 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042056.000,3213.873521,N,11057.419354,W,1,4,1.56,741.274,M,-27.655,M,,*7B
+2023-03-30 21:20:56,216 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,3,32,02,10,18,,,,,,,,,1.85,1.56,0.99*07
+2023-03-30 21:20:56,219 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,3,,,,,,,,,,,,,1.85,1.56,0.99*10
+2023-03-30 21:20:56,223 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,15,51,52,173,,10,50,286,17,02,33,110,21*78
+2023-03-30 21:20:56,226 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,21,15,27,045,,32,27,202,23,29,16,161,18*7D
+2023-03-30 21:20:56,229 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:56,231 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,28*70
+2023-03-30 21:20:56,231 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:56,235 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042056.000,A,3213.873521,N,11057.419354,W,0.81,2.65,310323,,,A*6A
+2023-03-30 21:20:56,237 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,2.65,T,,M,0.81,N,1.49,K,A*27
+2023-03-30 21:20:56,238 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,15.3*3F
+2023-03-30 21:20:57,249 - gsmHat.gsmHat - DEBUG - Received Data: $GNGGA,042057.000,3213.873920,N,11057.419680,W,1,4,1.56,741.456,M,-27.655,M,,*7D
+2023-03-30 21:20:57,256 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSA,A,3,32,02,10,18,,,,,,,,,1.85,1.56,0.99*07
+2023-03-30 21:20:57,258 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSA,A,3,,,,,,,,,,,,,1.85,1.56,0.99*10
+2023-03-30 21:20:57,261 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,1,13,18,64,066,15,10,50,286,17,48,45,217,,02,33,110,21*77
+2023-03-30 21:20:57,264 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,2,13,27,31,310,22,15,27,045,,32,27,202,23,29,16,161,18*7E
+2023-03-30 21:20:57,267 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,3,13,16,10,270,,26,04,239,,08,03,324,,13,03,035,*7E
+2023-03-30 21:20:57,268 - gsmHat.gsmHat - DEBUG - Received Data: $GPGSV,4,4,13,23,,,28*70
+2023-03-30 21:20:57,269 - gsmHat.gsmHat - DEBUG - Received Data: $GLGSV,1,1,00*65
+2023-03-30 21:20:57,272 - gsmHat.gsmHat - DEBUG - Received Data: $GNRMC,042057.000,A,3213.873920,N,11057.419680,W,0.80,299.12,310323,,,A*6B
+2023-03-30 21:20:57,274 - gsmHat.gsmHat - DEBUG - Received Data: $GNVTG,299.12,T,,M,0.80,N,1.48,K,A*27
+2023-03-30 21:20:57,275 - gsmHat.gsmHat - DEBUG - Received Data: $GPACCURACY,15.8*34
+2023-03-30 21:20:57,576 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:20:57,576 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:20:57,577 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:20:57,577 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:22:06,506 - gsmHat.gsmHat - INFO - Serial connection to /dev/ttyS0 established
+2023-03-30 21:22:06,507 - gsmHat.gsmHat - INFO - Worker started
+2023-03-30 21:22:06,508 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:22:06,610 - gsmHat.gsmHat - DEBUG - Received Data: AT+CMGF=1
+2023-03-30 21:22:06,611 - gsmHat.gsmHat - DEBUG - Received Data: ERROR
+2023-03-30 21:22:12,526 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:22:12,527 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:22:12,527 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:22:12,527 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:22:26,645 - gsmHat.gsmHat - DEBUG - Received Data: NORMAL POWER DOWN
+2023-03-30 21:22:26,646 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:22:32,561 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:22:32,561 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:22:32,561 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:22:32,562 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:22:46,677 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:22:46,778 - gsmHat.gsmHat - DEBUG - Received Data: AT+CMGF=1
+2023-03-30 21:22:46,779 - gsmHat.gsmHat - DEBUG - Received Data: ERROR
+2023-03-30 21:22:52,594 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:22:52,596 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:22:52,596 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:22:52,596 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:38:34,876 - gsmHat.gsmHat - INFO - Serial connection to /dev/ttyS0 established
+2023-03-30 21:38:34,877 - gsmHat.gsmHat - INFO - Worker started
+2023-03-30 21:38:34,878 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:38:34,980 - gsmHat.gsmHat - DEBUG - Received Data: AT+CMGF=1
+2023-03-30 21:38:34,982 - gsmHat.gsmHat - DEBUG - Received Data: ERROR
+2023-03-30 21:38:40,596 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:38:40,597 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:38:40,597 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:38:40,597 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:38:54,715 - gsmHat.gsmHat - DEBUG - Received Data: NORMAL POWER DOWN
+2023-03-30 21:38:54,716 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:39:00,531 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:39:00,532 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:39:00,532 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:39:00,532 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:39:14,648 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:39:14,750 - gsmHat.gsmHat - DEBUG - Received Data: AT+CMGF=1
+2023-03-30 21:39:14,751 - gsmHat.gsmHat - DEBUG - Received Data: ERROR
+2023-03-30 21:39:20,566 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:39:20,567 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:39:20,567 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:39:20,568 - gsmHat.gsmHat - ERROR - Try to restart gsm module
+2023-03-30 21:39:34,686 - gsmHat.gsmHat - DEBUG - Received Data: NORMAL POWER DOWN
+2023-03-30 21:39:34,686 - gsmHat.gsmHat - DEBUG - Sent to hat: AT+CMGF=1
+
+2023-03-30 21:39:40,501 - gsmHat.gsmHat - ERROR - Timeout during data reception
+2023-03-30 21:39:40,502 - gsmHat.gsmHat - INFO - Command sent: AT+CMGF=1
+2023-03-30 21:39:40,502 - gsmHat.gsmHat - INFO - Actual state of programme: 2
+2023-03-30 21:39:40,502 - gsmHat.gsmHat - ERROR - Try to restart gsm module

@@ -1,0 +1,62 @@
+[1.788s] Invoking command in '/home/pi/ros2_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rrbot_description
+[2.118s] -- The C compiler identification is GNU 11.3.0
+[2.450s] -- The CXX compiler identification is GNU 11.3.0
+[2.488s] -- Detecting C compiler ABI info
+[2.856s] -- Detecting C compiler ABI info - done
+[2.894s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.897s] -- Detecting C compile features
+[2.902s] -- Detecting C compile features - done
+[2.925s] -- Detecting CXX compiler ABI info
+[3.408s] -- Detecting CXX compiler ABI info - done
+[3.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.441s] -- Detecting CXX compile features
+[3.443s] -- Detecting CXX compile features - done
+[3.478s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.713s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.933s] -- Configuring done
+[5.956s] -- Generating done
+[5.962s] -- Build files have been written to: /home/pi/ros2_ws/build/rrbot_description
+[5.993s] Invoked command in '/home/pi/ros2_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rrbot_description
+[5.995s] Invoking command in '/home/pi/ros2_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/rrbot_description -- -j4 -l4
+[6.184s] Invoked command in '/home/pi/ros2_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/rrbot_description -- -j4 -l4
+[6.330s] Invoking command in '/home/pi/ros2_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/rrbot_description
+[6.365s] -- Install configuration: ""
+[6.368s] -- Execute custom install script
+[6.372s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[6.422s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[6.470s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[6.509s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[6.549s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[6.589s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/external_rrbot_force_torque_sensor.ros2_control.xacro
+[6.629s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[6.669s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+[6.709s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[6.750s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[6.788s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[6.822s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_transmissions_system_position_only.ros2_control.xacro
+[6.859s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[6.895s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[6.938s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_modular_actuators.urdf.xacro
+[6.977s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro
+[7.017s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro
+[7.055s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_external_sensor.urdf.xacro
+[7.091s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro
+[7.130s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_transmissions_system_position_only.urdf.xacro
+[7.172s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[7.218s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[7.279s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[7.298s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[7.334s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[7.370s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[7.407s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[7.442s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[7.483s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[7.517s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[7.558s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[7.597s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[7.631s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[7.667s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[7.701s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[7.736s] -- Symlinking: /home/pi/ros2_ws/install/rrbot_description/share/rrbot_description/package.xml
+[7.785s] Invoked command in '/home/pi/ros2_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/rrbot_description

@@ -1,0 +1,78 @@
+[0.096s] Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[0.329s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_ams.dir/hardware/ams_actuator.cpp.o[0m
+[13.668s] [100%] [32m[1mLinking CXX shared library libros2_control_ams.so[0m
+[14.592s] [100%] Built target ros2_control_ams
+[14.628s] Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ams_ws/build/ros2_control_ams -- -j4 -l4
+[14.795s] Invoking command in '/home/pi/ams_ws/build/ros2_control_ams': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ros2_control_ams
+[14.823s] -- Install configuration: ""
+[14.823s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control_ams.xml
+[14.825s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams
+[14.826s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams
+[14.826s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/ams.hpp
+[14.828s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/visibility_control.h
+[14.829s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/include/ros2_control_ams/ros2_control_ams/ams_actuator.hpp
+[14.830s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch
+[14.830s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/display.launch.py
+[14.831s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control
+[14.832s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control/ams_hardware.ros2_control.xacro
+[14.834s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/ros2_control/ams_actuators.ros2_control.xacro
+[14.835s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf
+[14.836s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf/ams_description.urdf
+[14.837s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf/.ams_description.urdf.swp
+[14.838s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/urdf/ams_actuators.urdf.xacro
+[14.839s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes
+[14.841s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_6.STL
+[14.847s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_5.STL
+[14.851s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_2.STL
+[14.858s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_3.STL
+[14.861s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_4.STL
+[14.865s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_3.STL
+[14.869s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_4.STL
+[14.877s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_4.STL
+[14.881s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_6.STL
+[14.885s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_5.STL
+[14.887s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_2.STL
+[14.891s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_ro_base_1.STL
+[14.895s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_1.STL
+[14.897s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_6.STL
+[14.900s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_5.STL
+[14.908s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_1.STL
+[14.916s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/base_link_ams_body.STL
+[14.919s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/lo_leg_plate_3.STL
+[14.927s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/meshes/up_leg_plate_2.STL
+[14.930s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz
+[14.931s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz/ams.rviz
+[14.932s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/rviz/urdf_config.rviz
+[14.934s] -- Up-to-date: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch
+[14.934s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_actuators.launch.py
+[14.936s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_base.launch.py
+[14.937s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/test_position_controllers.launch.py
+[14.938s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/launch/ams_hardware.launch.py
+[14.939s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config
+[14.940s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config/ams_actuators.yaml
+[14.941s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/config/ams_position_publisher.yaml
+[14.943s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/lib/libros2_control_ams.so
+[14.950s] -- Set runtime path of "/home/pi/ams_ws/install/ros2_control_ams/lib/libros2_control_ams.so" to ""
+[14.950s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/library_path.sh
+[14.952s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/library_path.dsv
+[14.953s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/package_run_dependencies/ros2_control_ams
+[14.955s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/parent_prefix_path/ros2_control_ams
+[14.956s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/ament_prefix_path.sh
+[14.957s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/ament_prefix_path.dsv
+[14.958s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/path.sh
+[14.959s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/environment/path.dsv
+[14.960s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.bash
+[14.961s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.sh
+[14.962s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.zsh
+[14.963s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/local_setup.dsv
+[14.964s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.dsv
+[14.966s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/packages/ros2_control_ams
+[14.967s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_ams
+[14.969s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/export_ros2_control_amsExport.cmake
+[14.970s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/export_ros2_control_amsExport-noconfig.cmake
+[14.972s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ament_cmake_export_targets-extras.cmake
+[14.973s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.974s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ros2_control_amsConfig.cmake
+[14.975s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/cmake/ros2_control_amsConfig-version.cmake
+[14.976s] -- Installing: /home/pi/ams_ws/install/ros2_control_ams/share/ros2_control_ams/package.xml
+[14.986s] Invoked command in '/home/pi/ams_ws/build/ros2_control_ams' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ams_ws/build/ros2_control_ams
