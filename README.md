@@ -62,5 +62,35 @@ Source setup files-
 . install/setup.bash
 ```
 
+## Visual Simulation
+```bash
+ros2 launch ros2_control_demo_example_1 view_display.launch.py
+```
+
+## First Terminal (source files first)
+```bash
+ros2 launch ros2_control_demo_example_1 rrbot.launch.py
+```
+New terminal (source files first)- To move the actuators (ros2_control_demos/example_1/bringup/launch/rrbot.launch.py)
+```bash
+ros2 launch ros2_control_demo_example_1 test_forward_position_controller.launch.py
+```
+New terminal (source files first)- To move the center body (ros2_control_demos/example_1/src/state_subscriber.py)
+```bash
+ros2 run ros2_control_demo_example_1 state_subscriber
+```
+
+## Links
+[ROS2 Tutorials](https://docs.ros.org/en/humble/Tutorials.html)<br />
+[Writing a simple Subscriber and Publisher](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html)<br />
+[ROS2 Control](https://control.ros.org/master/index.html)<br />
+[PID ROS2](https://github.com/ros-controls/control_toolbox/tree/ros2-master/src)<br />
+
+## Important Files
+Inverse Kinematics for physical movement (To be integrated into ROS2)
+```bash
+vi /home/pi/adc_motor_test.py
+```
+
 
 
