@@ -85,6 +85,7 @@ ros2 run ros2_control_demo_example_1 state_subscriber
 [Writing a simple Subscriber and Publisher](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html)<br />
 [ROS2 Control](https://control.ros.org/master/index.html)<br />
 [PID ROS2](https://github.com/ros-controls/control_toolbox/tree/ros2-master/src)<br />
+[ROS2 Control Demos](https://github.com/ros-controls/ros2_control_demos)<br />
 
 ## Important Files
 Inverse Kinematics for physical movement (To be integrated into ROS2)
