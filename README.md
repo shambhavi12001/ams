@@ -1,10 +1,10 @@
 # AMS (Autonomous Mechanical Spider)
 
 ## Installation
-[Ubuntu 22.04.01 Installation on Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi)
-[ROS2 Humble Intsallation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+[Ubuntu 22.04.01 Installation on Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi)<br />
+[ROS2 Humble Intsallation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)<br />
 
-##Dependencies
+## Dependencies
 Install colcon
 ```bash
 sudo apt install python3-colcon-common-extensions
@@ -34,7 +34,7 @@ rosdep update
 rosdep install -i --from-path src --rosdistro humble -y
 ```
 
-##ROS Drivers
+## ROS Drivers
 [LiDAR](https://github.com/Slamtec/sllidar_ros2)
 ```bash
 ros2 launch sllidar_ros2 sllidar_launch.py
@@ -48,7 +48,7 @@ ros2 launch nmea_navsat_driver nmea_serial_driver.launch.py
 ros2 launch bno055 bno055.launch.py
 ```
 
-##Build (ROS2 Packages)
+## Build (ROS2 Packages)
 Resolving dependencies-
 ```bash
 rosdep install -i --from-path src --rosdistro humble -y
