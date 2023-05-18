@@ -92,6 +92,7 @@ Inverse Kinematics for physical movement (To be integrated into ROS2)
 ```bash
 vi /home/pi/adc_motor_test.py
 ```
+## Simulation Video
 [Simulation Link](https://www.youtube.com/watch?v=_vCqwwgBM8k)
 
 
